@@ -26,7 +26,7 @@ for deb_file in packages/*.deb; do
     fi
 
     # Convert the control file to json and output to packageinfo directory
-    ./control-to-json.sh temp_dir/control > packageinfo/"$package".json
+    ./bin/control-to-json.sh temp_dir/control > packageinfo/"$package".json
 
     # Clean up the extracted control file
     rm -f temp_dir/control
