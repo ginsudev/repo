@@ -1,4 +1,117 @@
 * {
-  background-color: black;
+  background-color: var(--bg-color);
   box-sizing: border-box;
+  color: var(--txt-color);
+}
+:root {
+  --txt-color: white;
+  --bg-color: #353231;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  color: var(--txt-color);
+}
+.icon {
+  width: 10vh;
+  height: 10vh;
+  border-radius: 50vh;
+  border: var(--txt-color) solid 0.3vh;
+  margin-right: 2vh;
+}
+
+h1 {
+  display: inline-block;
+  font-size: 48px;
+}
+
+h2 {
+  margin-bottom: 1%;
+  font-size: 32px;
+}
+
+p {
+  font-size: 22px;
+}
+
+/* About Me*/
+.about-me {
+  margin-bottom: 20px;
+  padding: 20px;
+  /*height: 450px;*/
+  color: var(--txt-color);
+  display: flex;
+  flex-direction: row;
+}
+
+.bio-column {
+  display: inline-block;
+  width: 20vw;
+}
+
+/* Contact Me*/
+.contact-me {
+  margin-bottom: 20px;
+  padding: 5%;
+  height: 30vh;
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+/* My Projects*/
+.my-projects {
+  padding: 20px;
+  margin-bottom: 20px;
+  height: 100%;
+
+  background-color: var(--bg-color);
+  color: var(--txt-color);
+}
+
+.layout-container {
+  display: none;
+  /*display: flex;*/
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.card-frame {
+  flex: 0 1 30%;
+  border: 2px dashed #683a96;
+  min-height: 200px;
+  margin-bottom: 45px;
+  flex-basis: 50vh;
+}
+
+.card-title {
+  position: relative;
+  color: #683a96;
+  font-size: 22px;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  margin-right: 1%;
+}
+
+/*responsive design*/
+@media screen and (max-width: 756px) {
+  header {
+    text-align: center;
+    height: 140px;
+  }
+
+  .bio-column {
+    width: 100%;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .about-me {
+    flex-direction: column;
+  }
 }
