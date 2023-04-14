@@ -1,12 +1,11 @@
 #!/bin/bash
 
-PACKAGE_INFO_DIR="packageinfo"
+PACKAGE_INFO_DIR=packageinfo
+CONTROL_FILE_NAME=control
+DISPLAY_FILE_NAME=display
+SCREENSHOT_DIR_NAME=screenshots
 
-if [ -d "$PACKAGE_INFO_DIR" ]; then
-    rm -rf $PACKAGE_INFO_DIR
-fi
-
-mkdir -p $PACKAGE_INFO_DIR
+mkdir -p "$PACKAGE_INFO_DIR"
 mkdir -p temp_dir
 
 # Loop over each deb file in the packages directory
@@ -15,18 +14,31 @@ for deb_file in packages/*.deb; do
     controlFile=temp_dir/control
     dpkg -e $deb_file temp_dir/
 
-    package=$(grep -i "^Package:" $controlFile | cut -d " " -f 2)
-    architecture=$(grep -i "^Architecture:" $controlFile | cut -d " " -f 2)
+    PACKAGE_IDENTIFIER=$(grep -i "^Package:" $controlFile | cut -d " " -f 2)
+    PACKAGE_ARCHITECTURE=$(grep -i "^Architecture:" $controlFile | cut -d " " -f 2)
 
     # Check if Architecture is iphoneos-arm64
-    if [ "$architecture" = "iphoneos-arm64" ]; then
+    if [ "$PACKAGE_ARCHITECTURE" = "iphoneos-arm64" ]; then
         echo "Skipping $deb_file: Architecture is iphoneos-arm64"
         rm -f temp_dir/control
         continue
     fi
+    
+    PACKAGE_DIR=$PACKAGE_INFO_DIR/$PACKAGE_IDENTIFIER
+    mkdir -p $PACKAGE_DIR
+    
+    if [ -f "$PACKAGE_DIR/$CONTROL_FILE_NAME.json" ]; then
+        rm -f "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
+    fi
 
     # Convert the control file to json and output to packageinfo directory
-    ./bin/control-to-json.sh temp_dir/control > packageinfo/"$package".json
+    ./bin/control-to-json.sh temp_dir/control > "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
+    # Populate needed contents
+    mkdir -p "$PACKAGE_DIR/$SCREENSHOT_DIR_NAME"
+    
+    if [ ! -f "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json" ]; then
+        ./bin/generate-display.sh > "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json"
+    fi
 
     # Clean up the extracted control file
     rm -f temp_dir/control
