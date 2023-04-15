@@ -1,0 +1,1 @@
+{ "contact": { "twitter": "your_twitter_handle", "discord": "your_discord_handle" }, "information": { "source_code_link": "your_source_code_link" }, "changelog": [ { "date": "2023-04-14", "version_number": "1.0.0", "changes": "Initial release" } ] }
