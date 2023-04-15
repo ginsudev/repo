@@ -30,47 +30,67 @@ h1 {
 
 h2 {
   margin-bottom: 1%;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 p {
-  font-size: 22px;
+  font-size: 2vw;
 }
 
+section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 /* About Me*/
-.about-me {
+#about-me {
   margin-bottom: 20px;
   padding: 20px;
   /*height: 450px;*/
   color: var(--txt-color);
-  display: flex;
-  flex-direction: row;
 }
 
 .bio-column {
-  display: inline-block;
+  display: block;
   width: 20vw;
 }
 
 /* Contact Me*/
-.contact-me {
-  margin-bottom: 20px;
+#contact-me {
+  display: flex;
+  justify-content: center;
   padding: 5%;
-  height: 30vh;
+  height: 15vh;
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
 
+.github {
+  width: 5vh;
+  height: 5vh;
+  margin-right: 2vh;
+}
+.twitter {
+  width: 4.5vh;
+  height: 4.5vh;
+}
 /* My Projects*/
-.my-projects {
+#projects {
   padding: 20px;
-  margin-bottom: 20px;
-  height: 100%;
 
+  height: 100%;
   background-color: var(--bg-color);
   color: var(--txt-color);
 }
 
+button {
+  font-size: 3vh;
+  border-radius: 0.5vh;
+  padding: 2vh;
+}
+a:hover {
+  color: aliceblue;
+}
 .layout-container {
   display: none;
   /*display: flex;*/
@@ -100,18 +120,20 @@ section {
 }
 
 /*responsive design*/
-@media screen and (max-width: 756px) {
+@media screen and (max-width: 847px) {
   header {
     text-align: center;
     height: 140px;
   }
-
+  p {
+    font-size: 3vw;
+  }
   .bio-column {
     width: 100%;
-    margin-bottom: 20px;
+
     text-align: center;
   }
-  .about-me {
+  #about-me {
     flex-direction: column;
   }
 }
