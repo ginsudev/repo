@@ -1,1 +1,22 @@
-{ "contact": { "twitter": "your_twitter_handle", "discord": "your_discord_handle" }, "information": { "source_code_link": "your_source_code_link" }, "changelog": [ { "date": "2023-04-14", "version_number": "1.0.0", "changes": "Initial release" } ] }
+{
+  "contact": {
+    "twitter": "GinsuDev",
+    "discord": "https://discord.gg/BhdUyCbgkZ"
+  },
+  "information": {
+    "description": "Dodo is the perfect Lock Screen tweak with everything you need. You can add your favourite applications to access quickly from the Lock Screen, receive media recommendations depending on what app was playing music previously and control music playback! You can also check the weather at ease.",
+    "source_code_link": ""
+  },
+  "changelog": [
+    {
+      "date": "2023-04-14",
+      "version_number": "1.0.0",
+      "changes": "Initial release"
+    },
+    {
+        "date": "2023-04-15",
+        "version_number": "1.0.1",
+        "changes": "- Added some improvements\n- Added some stuff."
+      }
+  ]
+}

@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
@@ -10,38 +11,44 @@
 
   <body onload="loadData()">
     <div id="header">
-      <img id="package-icon" src="" alt="" />
-      <span><h1 id="package-name"></h1><p class="version"></p></span>
+      <img id="package-icon" src="" alt="Package Icon">
+      <h2 id="package-name"></h2>
     </div>
+    
 
     <div id="content">
-      <div class="split-row">
-        <div class="row-title">Author</div>
+      <div class="horizontal-row rowFontSize rowPadding">
+        <div class="horizontal-row-title">Latest version</div>
+        <div id="version" class="row-content">N/A</div>
+      </div>
+      <div class="horizontal-row rowFontSize rowPadding">
+        <div class="horizontal-row-title">Author</div>
         <div id="author" class="row-content">N/A</div>
       </div>    
-      <div class="split-row">
-        <div class="row-title">Twitter</div>
-        <div id="twitter" class="row-content">N/A</div> <!-- Should be link -->
+      <div class="horizontal-row rowFontSize rowPadding">
+        <div class="horizontal-row-title">Twitter</div>
+        <a id="twitter" href="">N/A</a>
       </div>  
-      <div class="split-row">
-        <div class="row-title">Discord</div>
-        <div id="discord" class="row-content">N/A</div> <!-- Should be link -->
+      <div class="horizontal-row rowFontSize rowPadding">
+        <div class="horizontal-row-title">Discord</div>
+        <a id="discord" href="">N/A</a>
       </div>
-      <div class="split-row">
-        <div class="row-title">Source code</div>
-        <div id="source-code" class="row-content">N/A</div> <!-- Should be link -->
+      <div class="horizontal-row rowFontSize rowPadding">
+        <div class="horizontal-row-title">Source code</div>
+        <a id="source-code" href="">N/A</a>
       </div>
-      <div class="split-row">
-        <div class="row-title">Section</div>
+      <div class="horizontal-row rowFontSize rowPadding">
+        <div class="horizontal-row-title">Section</div>
         <div id="section" class="row-content">N/A</div>
       </div>
-  
-      <div id="description">
-        <!-- TODO -->
+      <div class="vertical-row rowFontSize rowPadding">
+        <div class="vertical-row-title">Description</div>
+        <div id="description" class="row-content">N/A</div>
       </div>
-  
-      <div id="changelog">
-        <!-- TODO -->
+      <div id="imageCarousel" class="rowPadding"></div>
+      <div class="vertical-row rowFontSize rowPadding">
+        <div class="vertical-row-title">Changelog</div>
+        <div id="changelog"></div>
       </div>
     </div>
 
