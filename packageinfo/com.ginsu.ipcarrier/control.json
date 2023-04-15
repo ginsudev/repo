@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.ipcarrier", "Name": "IPCarrier", "Version": "1.3", "Architecture": "iphoneos-arm", "Description": "IP address in status bar + cc module.", "Maintainer": "ginsu", "Author": "ginsu", "Section": "Tweaks", "Depends": "mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport" }

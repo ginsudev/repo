@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.volify", "Name": "Volify", "Version": "2.0.2", "Architecture": "iphoneos-arm", "Description": "Add a volume slider to Spotify.", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion (>= 1.0.0), firmware (>= 12.2)" }

@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.notchbanners", "Name": "NotchBanners", "Version": "2.2.5", "Architecture": "iphoneos-arm", "Description": "Banners from the notch!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon" }

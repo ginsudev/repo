@@ -1,0 +1,1 @@
+{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "ClassicAlerts brings the iOS 8 era sqaured alerts back.", "source_code_link": "" }, "changelog": [ { "date": "2023-04-15", "version_number": "1.0.0", "changes": "- Initial release" } ] }

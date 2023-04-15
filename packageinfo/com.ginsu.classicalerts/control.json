@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.classicalerts", "Name": "ClassicAlerts", "Version": "1.0.0", "Architecture": "iphoneos-arm", "Description": "Bring iOS 8 and lower's square-styled alerts back!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "mobilesubstrate (>= 0.9.5000)" }

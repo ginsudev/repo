@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.lockapps", "Name": "LockApps", "Version": "1.0.5", "Architecture": "iphoneos-arm", "Description": "Show all your favourite apps on the LS!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, com.opa334.altlist, preferenceloader" }

@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.nointerruptwhenplayingmusic", "Name": "NoInterruptWhenPlayingMusic", "Version": "1.0.1", "Architecture": "iphoneos-arm", "Description": "Quiet notifications when music is playing.", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "mobilesubstrate (>= 0.9.5000)" }

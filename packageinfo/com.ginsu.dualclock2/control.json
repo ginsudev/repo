@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.dualclock2", "Name": "DualClock 2", "Version": "1.1.2", "Architecture": "iphoneos-arm", "Description": "Two time zones system-wide", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.libgscommon" }

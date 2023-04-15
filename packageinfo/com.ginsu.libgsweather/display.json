@@ -1,0 +1,1 @@
+{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "A weather fetching library for Ginsu's tweaks.", "source_code_link": "" }, "changelog": [ { "date": "2023-04-15", "version_number": "1.0.1-1", "changes": "- Revert changes" } ] }

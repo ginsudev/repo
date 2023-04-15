@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.pockettranslator", "Name": "PocketTranslator", "Version": "2.0.2", "Architecture": "iphoneos-arm", "Description": "An awesome Orion tweak!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion (>= 1.0.0), firmware (>= 12.2)" }
