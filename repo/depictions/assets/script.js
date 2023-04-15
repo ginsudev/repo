@@ -1,3 +1,5 @@
+const packageInfo = `../api/packageinfo/`;
+
 // Get package ID from URL parameters
 const urlParams = new URLSearchParams(window.location.search);
 const packageId = urlParams.get('packageId');
@@ -9,15 +11,15 @@ function loadData() {
 }
 
 function setIcon() {
-	document.getElementById('package-icon').src = `../packageinfo/${packageId}/icon.png`;
+	document.getElementById('package-icon').src = `${packageInfo}${packageId}/icon.png`;
 }
 
 function fetchInfo() {
-	fetch(`../packageinfo/${packageId}/display.json`)
+	fetch(`${packageInfo}${packageId}/display.json`)
 		.then((response) => response.json())
 		.then((data) => {
 			// Get package control info from control.json file
-			fetch(`../packageinfo/${packageId}/control.json`)
+			fetch(`${packageInfo}${packageId}/control.json`)
 				.then((response) => response.json())
 				.then((controlData) => {
 					if (data.contact.twitter) {
@@ -71,7 +73,7 @@ function fetchInfo() {
 
 function setScreenshots() {
 	const container = document.querySelector('#imageCarousel');
-	fetch(`../packageinfo/${packageId}/screenshots/`)
+	fetch(`${packageInfo}${packageId}/screenshots/`)
 		.then((response) => response.text())
 		.then((data) => {
 			const parser = new DOMParser();
@@ -79,11 +81,15 @@ function setScreenshots() {
 			const files = html.querySelectorAll('a');
 			for (let i = 0; i < files.length; i++) {
 				const file = files[i].getAttribute('href');
-				if (file.endsWith('.PNG') || file.endsWith('.png') || file.endsWith('.jpg')) {
+				if (isImage(file)) {
 					const img = document.createElement('img');
 					img.src = file;
 					container.appendChild(img);
 				}
 			}
 		});
+}
+
+function isImage(file) {
+	return file.endsWith('.PNG') || file.endsWith('.png') || file.endsWith('.jpg') || file.endsWith('.jpeg');
 }

@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Show list of package IDs to choose from
-package_ids=($(ls packageinfo))
+package_ids=($(ls $REPO/repo/api/packageinfo))
 echo "Choose a package ID:"
 select package_id in "${package_ids[@]}"; do
   if [[ -n $package_id ]]; then
@@ -10,14 +10,14 @@ select package_id in "${package_ids[@]}"; do
 done
 
 # Check if the packageinfo directory exists
-if [ ! -d "packageinfo" ]; then
+if [ ! -d "$REPO/repo/api/packageinfo" ]; then
   echo "Error: packageinfo directory not found"
   exit 1
 fi
 
 # Loop over the directories in packageinfo that match the package ID
 found_package=false
-for dir in packageinfo/*; do
+for dir in $REPO/repo/api/packageinfo/*; do
   if [ -d "$dir" ]; then
     dir_name=$(basename "$dir")
     if [ "$dir_name" = "$package_id" ]; then
