@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.kbpro", "Name": "KBPro", "Version": "2.1.1", "Architecture": "iphoneos-arm", "Description": "Select, copy & paste shortcuts on the keyboard.", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader" }

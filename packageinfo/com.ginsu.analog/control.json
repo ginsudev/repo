@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.analog", "Name": "Analog", "Version": "1.1", "Architecture": "iphoneos-arm", "Description": "An analog clock on the lock screen", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader" }

@@ -7,7 +7,7 @@ json_object=$(cat << EOF
         "discord": "https://discord.gg/BhdUyCbgkZ"
     },
     "information": {
-        "description": "your_description"
+        "description": "your_description",
         "source_code_link": ""
     },
     "changelog": [

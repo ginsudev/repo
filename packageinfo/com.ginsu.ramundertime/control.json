@@ -1,0 +1,1 @@
+{ "Package": "com.ginsu.ramundertime", "Name": "RAMUnderTime", "Version": "3.2", "Architecture": "iphoneos-arm", "Description": "Shows the amount of free RAM in the status bar.", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion (>= 1.0.0), firmware (>= 12.2)" }

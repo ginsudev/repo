@@ -1,0 +1,1 @@
+{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "4Ders makes your folders bigger by increasing the iOS standard 3x3 layout to an improved 4x4 layout.", "source_code_link": "" }, "changelog": [ { "date": "2023-04-15", "version_number": "1.0.3", "changes": "- Fixed a bug" } ] }

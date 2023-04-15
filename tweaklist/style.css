@@ -1,0 +1,90 @@
+body {
+    font-family: Roboto;
+    background-color: #F1F1F1;
+    overflow-x: hidden;
+    margin: 30px 0px 30px 0px;
+    padding: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#content {
+    background-color: white;
+}
+
+/* Header */
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+  
+#header h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.add-repo-button {
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    background-color: #3b82f6;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+  
+.add-repo-button:hover {
+    background-color: #2563eb;
+}
+
+/* Tweak rows */
+
+#tweak-rows {
+    display: flex;
+    flex-direction: column;
+}
+
+.tweak-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.tweak-row-img {
+    width: 45px;
+    height: 45px;
+    margin-right: 16px;
+    border-radius: 10px;
+}
+
+.tweak-info {
+    flex: 1;
+}
+
+.tweak-title {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+}
+
+.tweak-subtitle {
+    font-size: 14px;
+    color: #666;
+    margin: 2px 0 0 0;
+}
+
+.chevron-icon {
+    width: 35px;
+    height: 35px;
+}
