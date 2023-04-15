@@ -18,6 +18,7 @@ for deb_file in $REPO/repo/packages/*.deb; do
 
     PACKAGE_IDENTIFIER=$(grep -i "^Package:" $controlFile | cut -d " " -f 2)
     PACKAGE_ARCHITECTURE=$(grep -i "^Architecture:" $controlFile | cut -d " " -f 2)
+    PACKAGE_VERSION=$(grep -i "^Version:" $controlFile | cut -d " " -f 2)
 
     # Check if Architecture is iphoneos-arm64
     if [ "$PACKAGE_ARCHITECTURE" = "iphoneos-arm64" ]; then
@@ -26,9 +27,18 @@ for deb_file in $REPO/repo/packages/*.deb; do
         continue
     fi
     
-    packageIDs+=("$PACKAGE_IDENTIFIER")
-
     PACKAGE_DIR=$PACKAGE_INFO_DIR/$PACKAGE_IDENTIFIER
+
+    # Check if the package version is newer than the existing package version, skip if not.
+    if [ -d "$PACKAGE_DIR" ]; then
+        version=$(jq -r '.Version' $PACKAGE_DIR/control.json)
+        if [[ "$PACKAGE_VERSION" < "$version" ]]; then
+            echo "Skipping $deb_file: Version is not the latest, will use the later version."
+            continue
+        fi
+    fi
+
+    packageIDs+=("$PACKAGE_IDENTIFIER")
     mkdir -p $PACKAGE_DIR
     
     if [ -f "$PACKAGE_DIR/$CONTROL_FILE_NAME.json" ]; then
