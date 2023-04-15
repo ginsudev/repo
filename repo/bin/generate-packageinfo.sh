@@ -1,10 +1,9 @@
 #!/bin/bash
 
-PACKAGE_INFO_DIR=packageinfo
+PACKAGE_INFO_DIR=$REPO/repo/api/packageinfo
 CONTROL_FILE_NAME=control
 DISPLAY_FILE_NAME=display
 SCREENSHOT_DIR_NAME=screenshots
-TWEAKLIST_DIR_NAME=tweaklist
 
 mkdir -p "$PACKAGE_INFO_DIR"
 mkdir -p temp_dir
@@ -12,7 +11,7 @@ mkdir -p temp_dir
 packageIDs=()
 
 # Loop over each deb file in the packages directory
-for deb_file in packages/*.deb; do
+for deb_file in $REPO/repo/packages/*.deb; do
     # Extract the control file from the deb
     controlFile=temp_dir/control
     dpkg -e $deb_file temp_dir/
@@ -37,12 +36,12 @@ for deb_file in packages/*.deb; do
     fi
 
     # Convert the control file to json and output to packageinfo directory
-    ./bin/control-to-json.sh temp_dir/control > "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
+    $REPO/repo/bin/control-to-json.sh temp_dir/control > "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
     # Populate needed contents
     mkdir -p "$PACKAGE_DIR/$SCREENSHOT_DIR_NAME"
     
     if [ ! -f "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json" ]; then
-        ./bin/generate-display.sh > "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json"
+        $REPO/repo/bin/generate-display.sh > "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json"
     fi
 
     # Clean up the extracted control file
@@ -51,10 +50,10 @@ done
 
 # Use jq to create a JSON object from the array and save it to a file
 json_array=$(jq -n --argjson arr "$(printf '%s\n' "${packageIDs[@]}" | jq -R . | jq -s .)" '{package_ids: $arr}')
-if [ -f "$TWEAKLIST_DIR_NAME/packages.json" ]; then
-    rm -f "$TWEAKLIST_DIR_NAME/packages.json"
+if [ -f "$REPO/repo/api/packages.json" ]; then
+    rm -f "$REPO/repo/api/packages.json"
 fi
 
-echo "$json_array" > "$TWEAKLIST_DIR_NAME/packages.json"
+echo "$json_array" > "$REPO/repo/api/packages.json"
 
 rm -rf temp_dir

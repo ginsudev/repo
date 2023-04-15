@@ -1,4 +1,4 @@
 #!/bin/bash
 
 # Create JSON for each package
-./bin/generate-packageinfo.sh
+./repo/bin/generate-packageinfo.sh
