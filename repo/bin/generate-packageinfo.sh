@@ -49,9 +49,21 @@ for deb_file in $REPO/repo/debs/*.deb; do
 
     # Convert the control file to json and output to packageinfo directory
     $REPO/repo/bin/control-to-json.sh "$controlFile" > "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
-    # Populate needed contents
-    mkdir -p "$PACKAGE_DIR/$SCREENSHOT_DIR_NAME"
     
+    # Screenshots
+    mkdir -p "$PACKAGE_DIR/$SCREENSHOT_DIR_NAME"
+    screenshots=()
+    for image_file in $PACKAGE_DIR/$SCREENSHOT_DIR_NAME/*; do
+        screenshots+=("$(basename "$image_file")")
+    done
+
+    json_screenshots=$(jq -n --argjson arr "$(printf '%s\n' "${screenshots[@]}" | jq -R . | jq -s .)" '{screenshots: $arr}')
+    if [ -f "$PACKAGE_DIR/screenshots.json" ]; then
+        rm -f "$PACKAGE_DIR/screenshots.json"
+    fi
+    echo "$json_screenshots" > "$PACKAGE_DIR/screenshots.json"
+    
+    # Display
     if [ ! -f "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json" ]; then
         $REPO/repo/bin/generate-display.sh > "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json"
     fi
