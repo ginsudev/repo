@@ -16,18 +16,18 @@ control_file="deb_contents/DEBIAN/control"
 
 PACKAGE_IDENTIFIER=$(grep -i "^Package:" $control_file | cut -d " " -f 2)
 
-awk -v url="https://repo.ginsu.dev/depictions/index.html?packageId=$PACKAGE_IDENTIFIER" '
-    /^Depiction:/ { sub(/.*/, "Depiction: " url); found = 1 }
-    { print }
-    END { if (!found) print "Depiction: " url }
-' "$control_file" > "$control_file.new"
+DEPICTION_URL="https://xiaocoder.dev/repo/depictions/index.html?packageId=$PACKAGE_IDENTIFIER"
+ICON_URL="https://xiaocoder.dev/repo/api/packageinfo/$PACKAGE_IDENTIFIER/icon.png"
 
-awk -v url="https://repo.ginsu.dev/api/packageinfo/$PACKAGE_IDENTIFIER/icon.png" '
-    /^Icon:/ { sub(/.*/, "Icon: " url); found = 1 }
+awk -v depiction="$DEPICTION_URL" -v icon="$ICON_URL" '
+    /^Depiction:/ { sub(/.*/, "Depiction: " depiction); found_depiction = 1 }
+    /^Icon:/ { sub(/.*/, "Icon: " icon); found_icon = 1 }
     { print }
-    END { if (!found) print "Icon: " url }
+    END { 
+      if (!found_depiction) print "Depiction: " depiction 
+      if (!found_icon) print "Icon: " icon 
+    }
 ' "$control_file" > "$control_file.new"
-
 mv "$control_file.new" "$control_file"
 
 # Repack the deb file
