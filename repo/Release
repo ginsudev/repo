@@ -1,0 +1,45 @@
+Origin: Ginsu Tweaks
+Label: Ginsu Tweaks
+Suite: stable
+Version: 2.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64
+Components: main
+Description: A collection of my free & useful tweaks
+Date: Sun, 16 Apr 2023 04:44:58 +0000
+MD5Sum:
+ cb909fb036c18afd153b4b995a1504eb            22928 Packages
+ 32a2785858d86babea984ad02498bee6             6699 Packages.bz2
+ 3656a00ef04c9b8c43baf8e5bfa020c4             7327 Packages.gz
+ ad69f03b194629baef9d028c64b56a16            10579 Packages.lz4
+ 339841e22abc4ac848f9b21413998694             6615 Packages.lzma
+ f8c68919ba0fdc9fb11c36269ba504bd             6668 Packages.xz
+ 3bcc056145d55d0287d7e1035f01d8de             6669 Packages.zst
+ d4125ee3b728f8105c2937d15c60f057               38 Release
+SHA1:
+ ca151788b2f09bd37eb04954ccb1dec5e078af69            22928 Packages
+ 1a4ab3265e216ff909b4566e62e62032cf33da7f             6699 Packages.bz2
+ d65bc8c054e72319bae6b6010aad90c0b712b1a0             7327 Packages.gz
+ 666777cd3076e0990f974a0acee059f366d49e5e            10579 Packages.lz4
+ e3a57e6c2956b50e6ae277c0d0a958c5c6c0b65a             6615 Packages.lzma
+ 2500e4435017c4aca3352ce4090fd854c2014a69             6668 Packages.xz
+ 42d8112815392eec22345e65af14a245970d391e             6669 Packages.zst
+ f36a6cd84525c012c74641852d760dbd1af6d7d0               38 Release
+SHA256:
+ eb7935288fd29d611293a6513f3aa0f07c8e88574d9ba12bb6878a9420ee38fb            22928 Packages
+ 4e295e61e0109ac49b3bd6c781d23959b0497e07711bff81798d9485365b8310             6699 Packages.bz2
+ 0c0c17bfb31fccde78cb1df2a94dce67b17b9bd89f68937205baf10058de0c80             7327 Packages.gz
+ cfb58b10bacf6e2f8a71ae30a9a33db800936ce2ba2e397b6e039169802ae18a            10579 Packages.lz4
+ a6e02692723dea03464a01b571bbd8a9ef55575b367a84c38538ad595a671daa             6615 Packages.lzma
+ 05bf649fa53f375bcfe9c660e18d75eb2f7c57067980252242140204bb658acf             6668 Packages.xz
+ 60855f2d351aa132dc75e6b2e34fcd4a9e76fbd41a3f6e04280e0d4af98488a7             6669 Packages.zst
+ 4dacd4c5a322de63b191f088a3dd541ec2a996b1d4fafaaedde02eded211ed92               38 Release
+SHA512:
+ 953529b03dece321224d358e1ba200671392ade99a84e8eda3c06911dd00fe166b1e825378df8ee90b35b937f59544f7ca805ce44d9e248e1e238e1ea8eba480            22928 Packages
+ 927856dd698952eeafe2849a5d0c564d5e12f9114810c68a184e6ff946a78d20e85efbc1a16cc09b2d381d747e515fad1b449e89e53c527f85055348fbc8f655             6699 Packages.bz2
+ b17767872d5eab886c49b3e0b642e1c3f44c3f01655ccdadcf2e8830e4468a48fd94d90468a6ee177f616e075c3fad42c6f113dbe95ea5621ad2333303975bd6             7327 Packages.gz
+ 73e1a78c8a6a99ba36eebe63ac1eef5b6ad5848fc9375f57186b27acb816e386184ab56a216cfefb5424f8c245569bec0cc0a75413f4526283134492a9cb0e1d            10579 Packages.lz4
+ 27f5cdc439c7158ca4b8cdb5fc41bb0371eecf28b6023b46f303866fb4edea902af65e64560161de0c71b3da7cb229814ba52fc8d6b6d018a191f25d58521715             6615 Packages.lzma
+ 5cb59af744db8166b4210a3a83e52f6cb66641ee5fdc3a133d6117dd56c1d4cd31ab63996694c9ec7998293ae957e21d4c20f3e789f1f3b9a6961e3e52ac6025             6668 Packages.xz
+ 6ceb23606de169f1766616ae278008e1971a30676655184854d73d527bd9195890a0c44a4e126d46c70b2a32de5c3fee040b5c74c112f503780ed32dede877c8             6669 Packages.zst
+ 2f269df19eb11cf0b28c67e2fa49c0952c02b681652145cdbe3cf786ad297e4b8d5ff8c1752e319e9a6932d46dbdc9eb2ff469a15fb58e21472f043bffbb346b               38 Release
