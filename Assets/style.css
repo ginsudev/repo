@@ -2,6 +2,7 @@
   background-color: var(--bg-color);
   box-sizing: border-box;
   color: var(--txt-color);
+  font-family: "Roboto", sans-serif;
 }
 :root {
   --txt-color: white;
@@ -70,10 +71,22 @@ section {
   height: 5vh;
   margin-right: 2vh;
 }
+
+.github:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 .twitter {
   width: 4.5vh;
   height: 4.5vh;
 }
+
+.twitter:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+}
+
 /* My Projects*/
 #projects {
   padding: 20px;
@@ -85,31 +98,15 @@ section {
 
 button {
   font-size: 3vh;
-  border-radius: 0.5vh;
+  border-radius: 1vh;
   padding: 2vh;
-}
-a:hover {
-  color: aliceblue;
-}
-.layout-container {
-  display: none;
-  /*display: flex;*/
-  flex-wrap: wrap;
-  justify-content: space-evenly;
+  box-shadow: 0.5vh 0.5vh #575554;
+  transition: all 0.3s;
 }
 
-.card-frame {
-  flex: 0 1 30%;
-  border: 2px dashed #683a96;
-  min-height: 200px;
-  margin-bottom: 45px;
-  flex-basis: 50vh;
-}
-
-.card-title {
-  position: relative;
-  color: #683a96;
-  font-size: 22px;
+button:hover {
+  cursor: pointer;
+  transform: translateY(1vh);
 }
 
 section {
