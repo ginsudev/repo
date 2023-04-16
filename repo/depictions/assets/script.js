@@ -73,23 +73,24 @@ function fetchInfo() {
 
 function setScreenshots() {
 	const container = document.querySelector('#imageCarousel');
-	fetch(`${packageInfo}${packageId}/screenshots/`)
-		.then((response) => response.text())
+	fetch(`${packageInfo}${packageId}/screenshots.json`)
+		.then((response) => response.json())
 		.then((data) => {
-			const parser = new DOMParser();
-			const html = parser.parseFromString(data, 'text/html');
-			const files = html.querySelectorAll('a');
-			for (let i = 0; i < files.length; i++) {
-				const file = files[i].getAttribute('href');
-				if (isImage(file)) {
+			data.screenshots.forEach((screenshot) => {
+				if (isValid(screenshot)) {
 					const img = document.createElement('img');
-					img.src = file;
+					img.src = `${packageInfo}${packageId}/screenshots/${screenshot}`;
 					container.appendChild(img);
 				}
-			}
+			});
+		})
+		.catch((error) => {
+			// Display error message if package control info cannot be loaded
+			const content = document.getElementById('imageCarousel');
+			content.innerHTML = `Error loading screenshots`;
 		});
 }
 
-function isImage(file) {
-	return file.endsWith('.PNG') || file.endsWith('.png') || file.endsWith('.jpg') || file.endsWith('.jpeg');
+function isValid(file) {
+	return file.length > 1;
 }
