@@ -11,7 +11,9 @@ mkdir -p temp_dir
 packageIDs=()
 
 # Loop over each deb file in the packages directory
-for deb_file in $REPO/repo/packages/*.deb; do
+for deb_file in $REPO/repo/debs/*.deb; do
+    $REPO/repo/bin/append-to-control.sh "$deb_file"
+
     # Extract the control file from the deb
     controlFile=temp_dir/control
     dpkg -e $deb_file temp_dir/
@@ -46,7 +48,7 @@ for deb_file in $REPO/repo/packages/*.deb; do
     fi
 
     # Convert the control file to json and output to packageinfo directory
-    $REPO/repo/bin/control-to-json.sh temp_dir/control > "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
+    $REPO/repo/bin/control-to-json.sh "$controlFile" > "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
     # Populate needed contents
     mkdir -p "$PACKAGE_DIR/$SCREENSHOT_DIR_NAME"
     
@@ -55,7 +57,7 @@ for deb_file in $REPO/repo/packages/*.deb; do
     fi
 
     # Clean up the extracted control file
-    rm -f temp_dir/control
+    rm -f "$controlFile"
 done
 
 # Use jq to create a JSON object from the array and save it to a file
