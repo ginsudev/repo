@@ -16,8 +16,8 @@ control_file="deb_contents/DEBIAN/control"
 
 PACKAGE_IDENTIFIER=$(grep -i "^Package:" $control_file | cut -d " " -f 2)
 
-DEPICTION_URL="https://xiaocoder.dev/repo/depictions/index.html?packageId=$PACKAGE_IDENTIFIER"
-ICON_URL="https://xiaocoder.dev/repo/api/packageinfo/$PACKAGE_IDENTIFIER/icon.png"
+DEPICTION_URL="https://ginsu.dev/repo/depictions/index.html?packageId=$PACKAGE_IDENTIFIER"
+ICON_URL="https://ginsu.dev/repo/api/packageinfo/$PACKAGE_IDENTIFIER/icon.png"
 
 awk -v depiction="$DEPICTION_URL" -v icon="$ICON_URL" '
     /^Depiction:/ { sub(/.*/, "Depiction: " depiction); found_depiction = 1 }
