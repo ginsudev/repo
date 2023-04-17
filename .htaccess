@@ -1,0 +1,2 @@
+RewriteCond %{HTTP_HOST} ^repo\.ginsu\.dev
+RewriteRule ^(.*)$ https://ginsu.dev/repo/$1 [R=301]
