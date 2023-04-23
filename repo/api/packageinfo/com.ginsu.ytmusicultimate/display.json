@@ -1,1 +1,22 @@
-{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "YTMusicUltimate unlocks all if not most of the YT Music premium features. It also adds some extra usability features.", "source_code_link": "https://github.com/ginsudev/YTMusicUltimate" }, "changelog": [ { "date": "2023-04-15", "version_number": "1.2.7", "changes": "- Updated patches, bug fixes." } ] }
+{
+  "contact": {
+    "twitter": "GinsuDev",
+    "discord": "https://discord.gg/BhdUyCbgkZ"
+  },
+  "information": {
+    "description": "YTMusicUltimate unlocks all if not most of the YT Music premium features. It also adds some extra usability features.",
+    "source_code_link": "https://github.com/ginsudev/YTMusicUltimate"
+  },
+  "changelog": [
+    {
+      "date": "2023-04-15",
+      "version_number": "1.2.7",
+      "changes": "- Updated patches, bug fixes."
+    },
+    {
+      "version_number": "1.2.8",
+      "changes": "- Fix login",
+      "date": "2023-04-23"
+    }
+  ]
+}
