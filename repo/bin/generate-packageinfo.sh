@@ -21,16 +21,15 @@ for deb_file in $REPO/repo/debs/*.deb; do
     PACKAGE_IDENTIFIER=$(grep -i "^Package:" $controlFile | cut -d " " -f 2)
     PACKAGE_ARCHITECTURE=$(grep -i "^Architecture:" $controlFile | cut -d " " -f 2)
     PACKAGE_VERSION=$(grep -i "^Version:" $controlFile | cut -d " " -f 2)
+    PACKAGE_DIR=$PACKAGE_INFO_DIR/$PACKAGE_IDENTIFIER
 
-    # Check if Architecture is iphoneos-arm64
+    # Check if Architecture is iphoneos-arm64, skip if it is
     if [ "$PACKAGE_ARCHITECTURE" = "iphoneos-arm64" ]; then
         echo "Skipping $deb_file: Architecture is iphoneos-arm64"
         rm -f temp_dir/control
         continue
     fi
     
-    PACKAGE_DIR=$PACKAGE_INFO_DIR/$PACKAGE_IDENTIFIER
-
     # Check if the package version is newer than the existing package version, skip if not.
     if [ -d "$PACKAGE_DIR" ]; then
         version=$(jq -r '.Version' $PACKAGE_DIR/control.json)
@@ -38,6 +37,11 @@ for deb_file in $REPO/repo/debs/*.deb; do
             echo "Skipping $deb_file: Version is not the latest, will use the later version."
             continue
         fi
+    fi
+
+    # Skip if the package ID already exists in the array.
+    if [[ " ${packageIDs[*]} " =~ " ${PACKAGE_IDENTIFIER} " ]]; then
+        continue
     fi
 
     packageIDs+=("$PACKAGE_IDENTIFIER")
