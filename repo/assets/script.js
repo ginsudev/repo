@@ -1,37 +1,88 @@
 const packageinfo = `api/packageinfo/`;
 
-function loadTweaks() {
-	fetch(`api/packages.json`)
-		.then((response) => response.json())
-		.then((data) => {
-			console.log(data);
-			let rowHTML = '';
-			data.package_ids.forEach((packageId) => {
-				fetch(`${packageinfo}${packageId}/control.json`)
-					.then((response) => response.json())
-					.then((controlData) => {
-						rowHTML += `<a href='depictions/index.html?packageId=${packageId}'>`;
-						rowHTML += `<div class='tweak-row'>`;
-						rowHTML += `<img src='${packageinfo}${packageId}/icon.png' alt='' class='tweak-row-img'/>`;
-						rowHTML += `<div class='tweak-info'>`;
-						rowHTML += `<h3 class='tweak-title'>${controlData.Name}</h3>`;
-						rowHTML += `<p class='tweak-subtitle'>${controlData.Description}</p>`;
-						rowHTML += `</div>`;
-						rowHTML += `<img src="assets/images/chevron.png" alt="Chevron" class="chevron-icon">`;
-						rowHTML += `</div>`;
-						rowHTML += `</a>`;
-						document.getElementById('tweak-rows').innerHTML = rowHTML;
-					})
-					.catch((error) => {
-						// Display error message if package control info cannot be loaded
-						const content = document.getElementById('content');
-						content.innerHTML = `Error loading package control info for ${packageId}: ${error}`;
-					});
-			});
-		})
-		.catch((error) => {
-			// Display error message if package control info cannot be loaded
-			const content = document.getElementById('content');
-			content.innerHTML = `Error loading packages`;
+function load() {
+	fetchTweaksList().then((data) => {
+		handleTweakData(data);
+	});
+}
+
+function handleTweakData(data) {
+	const listElement = document.createElement('div');
+
+	data.package_ids.forEach((packageId) => {
+		fetchPackageControl(packageId).then((controlData) => {
+			const link = document.createElement('a');
+			link.href = `depictions/index.html?packageId=${packageId}`;
+
+			// Row content
+			const tweakRow = document.createElement('div');
+			tweakRow.className = 'tweak-row';
+
+			// Tweak icon
+			const image = document.createElement('img');
+			image.src = `${packageinfo}${packageId}/icon.png`;
+			image.className = 'tweak-row-img';
+			tweakRow.appendChild(image);
+
+			// Tweak description
+			const tweakInfo = document.createElement('div');
+			tweakInfo.className = 'tweak-info';
+
+			const tweakTitle = document.createElement('h3');
+			const tweakTitleText = document.createTextNode(`${controlData.Name}`);
+			tweakTitle.className = 'tweak-title';
+			tweakTitle.appendChild(tweakTitleText);
+			tweakInfo.appendChild(tweakTitle);
+
+			const tweakSubtitle = document.createElement('p');
+			const tweakSubtitleText = document.createTextNode(`${controlData.Description}`);
+			tweakSubtitle.className = 'tweak-subtitle';
+			tweakSubtitle.appendChild(tweakSubtitleText);
+			tweakInfo.appendChild(tweakSubtitleText);
+
+			const chevronImage = document.createElement('img');
+			chevronImage.src = 'assets/images/chevron.png';
+			chevronImage.alt = 'Chevron';
+			chevronImage.className = 'chevron-icon';
+
+			tweakRow.appendChild(tweakInfo);
+			tweakRow.appendChild(chevronImage);
+			link.appendChild(tweakRow);
+			listElement.appendChild(link);
 		});
+
+		document.getElementById('tweak-rows').appendChild(listElement);
+	});
+}
+
+function isValidResponse(response) {
+	return !(response.status >= 400 && response.status < 600);
+}
+
+// Async
+
+async function fetchPackageControl(packageId) {
+	try {
+		const response = await fetch(`${packageinfo}${packageId}/control.json`);
+		if (isValidResponse(response)) {
+			return response.json();
+		} else {
+			throw new Error('Bad response from server');
+		}
+	} catch (error) {
+		console.log(error);
+	}
+}
+
+async function fetchTweaksList() {
+	try {
+		const response = await fetch(`api/packages.json`);
+		if (isValidResponse(response)) {
+			return response.json();
+		} else {
+			throw new Error('Bad response from server');
+		}
+	} catch (error) {
+		console.log(error);
+	}
 }
