@@ -5,7 +5,7 @@
   },
   "information": {
     "description": "A framework containing shared functionality and services used in all of my tweaks, also allowing communication between my tweaks for the best experience.",
-    "source_code_link": ""
+    "source_code_link": "https://github.com/ginsudev/gscore"
   },
   "changelog": [
     {
