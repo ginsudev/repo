@@ -1,1 +1,22 @@
-{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "A framework containing shared functionality and services used in all of my tweaks, also allowing communication between my tweaks for the best experience.", "source_code_link": "" }, "changelog": [ { "date": "2023-04-22", "version_number": "1.0.0", "changes": "- Initial release" } ] }
+{
+  "contact": {
+    "twitter": "GinsuDev",
+    "discord": "https://discord.gg/BhdUyCbgkZ"
+  },
+  "information": {
+    "description": "A framework containing shared functionality and services used in all of my tweaks, also allowing communication between my tweaks for the best experience.",
+    "source_code_link": ""
+  },
+  "changelog": [
+    {
+      "date": "2023-04-22",
+      "version_number": "1.0.0",
+      "changes": "- Initial release"
+    },
+    {
+      "version_number": "1.0.1",
+      "changes": "- Fix bundle image path for rootless",
+      "date": "2023-04-26"
+    }
+  ]
+}

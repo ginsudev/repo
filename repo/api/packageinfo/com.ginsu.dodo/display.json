@@ -17,6 +17,11 @@
       "version_number": "4.0.0",
       "changes": "- Rewrote the preferences in SwiftUI using Comet framework.\n - Migrate from GSCommon to GSCore which takes care of shared logic between my tweaks.",
       "date": "2023-04-22"
+    },
+    {
+      "version_number": "4.0.2",
+      "changes": "- Rootless support (Weather feature temporarily disabled)",
+      "date": "2023-04-26"
     }
   ]
 }
