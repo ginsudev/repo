@@ -22,6 +22,11 @@
       "version_number": "4.0.2",
       "changes": "- Rootless support (Weather feature temporarily disabled)",
       "date": "2023-04-26"
+    },
+    {
+      "version_number": "4.0.3",
+      "changes": "- Time and date fixes.\n- Use static date formatters as they can be expensive to create.",
+      "date": "2023-04-27"
     }
   ]
 }
