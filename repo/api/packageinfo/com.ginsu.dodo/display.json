@@ -27,6 +27,11 @@
       "version_number": "4.0.3",
       "changes": "- Time and date fixes.\n- Use static date formatters as they can be expensive to create.",
       "date": "2023-04-27"
+    },
+    {
+      "version_number": "4.0.3-1",
+      "changes": "- Fix 24 hr mode",
+      "date": "2023-04-28"
     }
   ]
 }
