@@ -22,6 +22,11 @@
       "version_number": "1.3.1",
       "changes": "- Fixed Volume bar and Playback speed button.\n- Added Traditional Chinese support.\n- Fixed YTMusicUltimate icon for correct button display.",
       "date": "2023-04-27"
+    },
+    {
+      "version_number": "1.3.2",
+      "changes": "- Added option to disable radio (endless music) feature.\n- Added option to hide History and Cast buttons in the navigation bar.\n- Login fix for AltStore/Sideloadly etc. (a.k.a Can't sign in because Google can't confirm it's safe) - Thanks to @PoomSmart for IAmYouTube.",
+      "date": "2023-04-29"
     }
   ]
 }

@@ -32,6 +32,11 @@
       "version_number": "4.0.3-1",
       "changes": "- Fix 24 hr mode",
       "date": "2023-04-28"
+    },
+    {
+      "version_number": "4.0.4",
+      "changes": "- Fix / Handle hiding the default media player on iOS >= 16.\n- Fix crash when locking the device on iOS >= 16.\n- Fix? Issue where Dodo was slightly offsetted downwards upon respring.\n - Use Combine Publishers over sharedInstances.\n- Properly bridge between Darwin notifications and Notifications.\n- Other code base improvements that won't affect the user.\n- Fix song track details always white colour.",
+      "date": "2023-04-29"
     }
   ]
 }
