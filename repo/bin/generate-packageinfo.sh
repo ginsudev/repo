@@ -10,48 +10,54 @@ mkdir -p temp_dir
 
 packageIDs=()
 
-# Loop over each deb file in the packages directory
-for deb_file in $REPO/repo/debs/*.deb; do
-    $REPO/repo/bin/append-to-control.sh "$deb_file"
+# Loop over each deb file in the packages directory.
+for deb_file in $(ls $REPO/repo/debs/*.deb | sort -r); do
+    # Extract the deb
+    extract_dir_name="$(basename "${deb_file%.*}")"
+    dpkg-deb --extract $deb_file temp_dir/$extract_dir_name
+    dpkg-deb --control $deb_file temp_dir/$extract_dir_name/DEBIAN
 
-    # Extract the control file from the deb
-    controlFile=temp_dir/control
-    dpkg -e $deb_file temp_dir/
+    unpacked_deb_dir=temp_dir/$extract_dir_name
+    controlFile=$unpacked_deb_dir/DEBIAN/control
 
+    # Add missing fields to the control file.
+    $REPO/repo/bin/append-to-control.sh "$controlFile"
+
+    # Collect deb info
     PACKAGE_IDENTIFIER=$(grep -i "^Package:" $controlFile | cut -d " " -f 2)
     PACKAGE_ARCHITECTURE=$(grep -i "^Architecture:" $controlFile | cut -d " " -f 2)
     PACKAGE_VERSION=$(grep -i "^Version:" $controlFile | cut -d " " -f 2)
+    PACKAGE_NAME=$(grep -i "^Name:" $controlFile | cut -d " " -f 2)
+    PACKAGE_DESC="$PACKAGE_NAME ($PACKAGE_VERSION)"
+
     PACKAGE_DIR=$PACKAGE_INFO_DIR/$PACKAGE_IDENTIFIER
 
-    # Check if Architecture is iphoneos-arm64, skip if it is
-    if [ "$PACKAGE_ARCHITECTURE" = "iphoneos-arm64" ]; then
-        echo "Skipping $deb_file: Architecture is iphoneos-arm64"
-        rm -f temp_dir/control
-        continue
-    fi
-    
     # Check if the package version is newer than the existing package version, skip if not.
     if [ -d "$PACKAGE_DIR" ]; then
         version=$(jq -r '.Version' $PACKAGE_DIR/control.json)
         if [[ "$PACKAGE_VERSION" < "$version" ]]; then
-            echo "Skipping $deb_file: Version is not the latest, will use the later version."
+            echo -e "\033[33m⚠ Skipping $PACKAGE_DESC because there is a later version ($version).\033[0m"
             continue
         fi
     fi
 
-    # Skip if the package ID already exists in the array.
-    if [[ " ${packageIDs[*]} " =~ " ${PACKAGE_IDENTIFIER} " ]]; then
+    # Check if Architecture is iphoneos-arm64, skip if it is.
+    if [ "$PACKAGE_ARCHITECTURE" = "iphoneos-arm64" ]; then
+        echo -e "\033[33m⚠ Skipping $PACKAGE_DESC because architecture is iphoneos-arm64\033[0m"
+        dpkg-deb -b "$unpacked_deb_dir" "$deb_file" >/dev/null
         continue
     fi
 
-    packageIDs+=("$PACKAGE_IDENTIFIER")
+    if [[ ! " ${packageIDs[*]} " =~ " ${PACKAGE_IDENTIFIER} " ]]; then
+        packageIDs+=("$PACKAGE_IDENTIFIER")
+    fi
+
     mkdir -p $PACKAGE_DIR
-    
     if [ -f "$PACKAGE_DIR/$CONTROL_FILE_NAME.json" ]; then
         rm -f "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
     fi
 
-    # Convert the control file to json and output to packageinfo directory
+    # Convert control file to json format.
     $REPO/repo/bin/control-to-json.sh "$controlFile" > "$PACKAGE_DIR/$CONTROL_FILE_NAME.json"
     
     # Screenshots
@@ -72,8 +78,9 @@ for deb_file in $REPO/repo/debs/*.deb; do
         $REPO/repo/bin/generate-display.sh > "$PACKAGE_DIR/$DISPLAY_FILE_NAME.json"
     fi
 
-    # Clean up the extracted control file
-    rm -f "$controlFile"
+    # Rebuild deb
+    dpkg-deb -b "$unpacked_deb_dir" "$deb_file" >/dev/null
+    echo -e "\033[32m✔ Success: $PACKAGE_DESC processed\033[0m"
 done
 
 # Use jq to create a JSON object from the array and save it to a file
@@ -85,3 +92,4 @@ fi
 echo "$json_array" > "$REPO/repo/api/packages.json"
 
 rm -rf temp_dir
+echo -e "\033[32m✔ Done! [${#packageIDs[@]} packages processed]\033[0m"
