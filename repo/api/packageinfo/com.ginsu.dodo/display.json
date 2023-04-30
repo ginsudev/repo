@@ -42,6 +42,11 @@
       "version_number": "4.0.5",
       "changes": "- Fix various UI components not having an initial value. Fixed by prepending Combine publishers with a dummy value.",
       "date": "2023-04-29"
+    },
+    {
+      "version_number": "4.0.6",
+      "changes": "- Remove all timer code and replace with a single hook. This fixes a slight delay before Dodo starts refreshing it's content when accessing the lock screen.",
+      "date": "2023-04-30"
     }
   ]
 }
