@@ -44,6 +44,7 @@ for deb_file in $(ls $REPO/repo/debs/*.deb | sort -r); do
     # Check if Architecture is iphoneos-arm64, skip if it is.
     if [ "$PACKAGE_ARCHITECTURE" = "iphoneos-arm64" ]; then
         echo -e "\033[33m⚠ Skipping $PACKAGE_DESC because architecture is iphoneos-arm64\033[0m"
+        find $unpacked_deb_dir -name '.DS_Store' -type f -delete
         dpkg-deb -b "$unpacked_deb_dir" "$deb_file" >/dev/null
         continue
     fi
@@ -79,6 +80,7 @@ for deb_file in $(ls $REPO/repo/debs/*.deb | sort -r); do
     fi
 
     # Rebuild deb
+    find $unpacked_deb_dir -name '.DS_Store' -type f -delete
     dpkg-deb -b "$unpacked_deb_dir" "$deb_file" >/dev/null
     echo -e "\033[32m✔ Success: $PACKAGE_DESC processed\033[0m"
 done
