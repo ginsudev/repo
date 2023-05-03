@@ -1,1 +1,1 @@
-{ "Package": "com.ginsu.ytmusicultimate", "Name": "YTMusicUltimate", "Version": "1.3.3", "Architecture": "iphoneos-arm", "Description": "YouTube Music Premium", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "mobilesubstrate (>= 0.9.5000)" }
+{ "Package": "com.ginsu.ytmusicultimate", "Name": "YTMusicUltimate", "Version": "1.3.4", "Architecture": "iphoneos-arm", "Description": "YouTube Music Premium", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "mobilesubstrate (>= 0.9.5000)" }
