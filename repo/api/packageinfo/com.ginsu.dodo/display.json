@@ -52,6 +52,11 @@
       "version_number": "4.0.7",
       "changes": "- Fixed respring loop on iOS 15.\n- Fixed date size adjustment not working.",
       "date": "2023-05-03"
+    },
+    {
+      "version_number": "4.0.8",
+      "changes": "- Use onRecieve instead of sinking directly on publishers for subscription cancellation when view disappears (Memory improvement).\n- Improvements to 'is lockscreen visible' reading.",
+      "date": "2023-05-04"
     }
   ]
 }
