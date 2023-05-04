@@ -57,6 +57,11 @@
       "version_number": "4.0.8",
       "changes": "- Use onRecieve instead of sinking directly on publishers for subscription cancellation when view disappears (Memory improvement).\n- Improvements to 'is lockscreen visible' reading.",
       "date": "2023-05-04"
+    },
+    {
+      "version_number": "4.0.8.1",
+      "changes": "- Fix initial content refresh",
+      "date": "2023-05-05"
     }
   ]
 }
