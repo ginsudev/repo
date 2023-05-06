@@ -42,6 +42,11 @@
       "version_number": "1.3.5",
       "changes": "- Updated translations.\n- Preference fixes.",
       "date": "2023-05-04"
+    },
+    {
+      "version_number": "1.3.6",
+      "changes": "- Updated Japanese, Simplified and Traditional Chinese languages - Thanks to @SKEIDs and @mumuisdog.\n- Small bug fixes.",
+      "date": "2023-05-07"
     }
   ]
 }
