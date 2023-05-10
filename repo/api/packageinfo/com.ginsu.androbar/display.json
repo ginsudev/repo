@@ -1,1 +1,14 @@
-{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "Bring a feature-packed version of the Android navigation bar to iOS.\n\nFeatures:\n\n- Home button, switch to previous app button, app switcher button.\n- Quick actions to open your favourite apps and access your favourite iOS functions.\n- Bring the curved screen effect from Android devices to iOS devices.\n- Disable system swipe gestures.\n- Long press on the bar to collapse it into a small window, which you can then tap to bring back the full-sized bar.\n- And much more!\n\n Compatibility:\n\n- iOS 14.\n- All notched iPhones & iPads.\n- Devices with home buttons might experience some bugs, as I don't have a home button device of my own, although I've done my best to support them.", "source_code_link": "" }, "changelog": [ { "date": "2023-04-15", "version_number": "3.2.1", "changes": "- Fix a few visual issues related to the 'Dot icons' option and having an action button set to none." } ] }
+{
+	"contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" },
+	"information": {
+		"description": "Bring a feature-packed version of the Android navigation bar to iOS.\n\nFeatures:\n\n- Home button, switch to previous app button, app switcher button.\n- Quick actions to open your favourite apps and access your favourite iOS functions.\n- Bring the curved screen effect from Android devices to iOS devices.\n- Disable system swipe gestures.\n- Long press on the bar to collapse it into a small window, which you can then tap to bring back the full-sized bar.\n- And much more!\n\n Compatibility:\n\n- iOS 14.\n- All notched iPhones & iPads.\n- Devices with home buttons might experience some bugs, as I don't have a home button device of my own, although I've done my best to support them.",
+		"source_code_link": ""
+	},
+	"changelog": [
+		{
+			"date": "2023-04-15",
+			"version_number": "3.2.1",
+			"changes": "- Fix a few visual issues related to the 'Dot icons' option and having an action button set to none."
+		}
+	]
+}
