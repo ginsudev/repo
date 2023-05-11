@@ -1,72 +1,77 @@
 {
-	"contact": {
-		"twitter": "GinsuDev",
-		"discord": "https://discord.gg/BhdUyCbgkZ"
-	},
-	"information": {
-		"description": "Dodo is the perfect Lock Screen tweak with everything you need. You can add your favourite applications to access quickly from the Lock Screen, receive media recommendations depending on what app was playing music previously and control music playback! You can also check the weather at ease.\n\nFeatures:\n\n- Quick access to applications\n- Media recommendations\n- Media player\n- Weather\n- Beautiful, customisable and smart design.",
-		"source_code_link": "https://github.com/ginsudev/Dodo"
-	},
-	"changelog": [
-		{
-			"date": "2023-04-15",
-			"version_number": "3.4.9",
-			"changes": "- Fixed layout issues.\n- Stability improvements.\n- Added a new status item to show the seconds."
-		},
-		{
-			"version_number": "4.0.0",
-			"changes": "- Rewrote the preferences in SwiftUI using Comet framework.\n - Migrate from GSCommon to GSCore which takes care of shared logic between my tweaks.",
-			"date": "2023-04-22"
-		},
-		{
-			"version_number": "4.0.2",
-			"changes": "- Rootless support (Weather feature temporarily disabled)",
-			"date": "2023-04-26"
-		},
-		{
-			"version_number": "4.0.3",
-			"changes": "- Time and date fixes.\n- Use static date formatters as they can be expensive to create.",
-			"date": "2023-04-27"
-		},
-		{
-			"version_number": "4.0.3-1",
-			"changes": "- Fix 24 hr mode",
-			"date": "2023-04-28"
-		},
-		{
-			"version_number": "4.0.4",
-			"changes": "- Fix / Handle hiding the default media player on iOS >= 16.\n- Fix crash when locking the device on iOS >= 16.\n- Fix? Issue where Dodo was slightly offsetted downwards upon respring.\n - Use Combine Publishers over sharedInstances.\n- Properly bridge between Darwin notifications and Notifications.\n- Other code base improvements that won't affect the user.\n- Fix song track details always white colour.",
-			"date": "2023-04-29"
-		},
-		{
-			"version_number": "4.0.5",
-			"changes": "- Fix various UI components not having an initial value. Fixed by prepending Combine publishers with a dummy value.",
-			"date": "2023-04-29"
-		},
-		{
-			"version_number": "4.0.6",
-			"changes": "- Remove all timer code and replace with a single hook. This fixes a slight delay before Dodo starts refreshing it's content when accessing the lock screen.",
-			"date": "2023-04-30"
-		},
-		{
-			"version_number": "4.0.7",
-			"changes": "- Fixed respring loop on iOS 15.\n- Fixed date size adjustment not working.",
-			"date": "2023-05-03"
-		},
-		{
-			"version_number": "4.0.8",
-			"changes": "- Use onRecieve instead of sinking directly on publishers for subscription cancellation when view disappears (Memory improvement).\n- Improvements to 'is lockscreen visible' reading.",
-			"date": "2023-05-04"
-		},
-		{
-			"version_number": "4.0.8.1",
-			"changes": "- Fix initial content refresh",
-			"date": "2023-05-05"
-		},
-		{
-			"version_number": "4.0.9",
-			"changes": "- Major architecture changes.\n- Fix status indicator display issues.\n- Added ability to show status indicators when they are disabled.\n- Added localisations (Chinese中文).\n- Other bug fixes.",
-			"date": "2023-05-06"
-		}
-	]
+  "contact": {
+    "twitter": "GinsuDev",
+    "discord": "https://discord.gg/BhdUyCbgkZ"
+  },
+  "information": {
+    "description": "Dodo is the perfect Lock Screen tweak with everything you need. You can add your favourite applications to access quickly from the Lock Screen, receive media recommendations depending on what app was playing music previously and control music playback! You can also check the weather at ease.\n\nFeatures:\n\n- Quick access to applications\n- Media recommendations\n- Media player\n- Weather\n- Beautiful, customisable and smart design.",
+    "source_code_link": "https://github.com/ginsudev/Dodo"
+  },
+  "changelog": [
+    {
+      "date": "2023-04-15",
+      "version_number": "3.4.9",
+      "changes": "- Fixed layout issues.\n- Stability improvements.\n- Added a new status item to show the seconds."
+    },
+    {
+      "version_number": "4.0.0",
+      "changes": "- Rewrote the preferences in SwiftUI using Comet framework.\n - Migrate from GSCommon to GSCore which takes care of shared logic between my tweaks.",
+      "date": "2023-04-22"
+    },
+    {
+      "version_number": "4.0.2",
+      "changes": "- Rootless support (Weather feature temporarily disabled)",
+      "date": "2023-04-26"
+    },
+    {
+      "version_number": "4.0.3",
+      "changes": "- Time and date fixes.\n- Use static date formatters as they can be expensive to create.",
+      "date": "2023-04-27"
+    },
+    {
+      "version_number": "4.0.3-1",
+      "changes": "- Fix 24 hr mode",
+      "date": "2023-04-28"
+    },
+    {
+      "version_number": "4.0.4",
+      "changes": "- Fix / Handle hiding the default media player on iOS >= 16.\n- Fix crash when locking the device on iOS >= 16.\n- Fix? Issue where Dodo was slightly offsetted downwards upon respring.\n - Use Combine Publishers over sharedInstances.\n- Properly bridge between Darwin notifications and Notifications.\n- Other code base improvements that won't affect the user.\n- Fix song track details always white colour.",
+      "date": "2023-04-29"
+    },
+    {
+      "version_number": "4.0.5",
+      "changes": "- Fix various UI components not having an initial value. Fixed by prepending Combine publishers with a dummy value.",
+      "date": "2023-04-29"
+    },
+    {
+      "version_number": "4.0.6",
+      "changes": "- Remove all timer code and replace with a single hook. This fixes a slight delay before Dodo starts refreshing it's content when accessing the lock screen.",
+      "date": "2023-04-30"
+    },
+    {
+      "version_number": "4.0.7",
+      "changes": "- Fixed respring loop on iOS 15.\n- Fixed date size adjustment not working.",
+      "date": "2023-05-03"
+    },
+    {
+      "version_number": "4.0.8",
+      "changes": "- Use onRecieve instead of sinking directly on publishers for subscription cancellation when view disappears (Memory improvement).\n- Improvements to 'is lockscreen visible' reading.",
+      "date": "2023-05-04"
+    },
+    {
+      "version_number": "4.0.8.1",
+      "changes": "- Fix initial content refresh",
+      "date": "2023-05-05"
+    },
+    {
+      "version_number": "4.0.9",
+      "changes": "- Major architecture changes.\n- Fix status indicator display issues.\n- Added ability to show status indicators when they are disabled.\n- Added localisations (Chinese中文).\n- Other bug fixes.",
+      "date": "2023-05-06"
+    },
+    {
+      "version_number": "4.0.9.1",
+      "changes": "- Fix incorrect status item display.",
+      "date": "2023-05-11"
+    }
+  ]
 }
