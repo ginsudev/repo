@@ -17,6 +17,11 @@
       "version_number": "1.0.1",
       "changes": "- Fix bundle image path for rootless",
       "date": "2023-04-26"
+    },
+    {
+      "version_number": "1.0.2",
+      "changes": "- Improvements to Ecosystem and tweak preference accessing interface.\n- Add UIDevice helper functions.\n- Add GlobalState singleton ObservableObject which can be subscribed to by all of my tweaks, currently it offers precise device orientation change logic, but more to come.\n- Add DualClock API integration.",
+      "date": "2023-05-13"
     }
   ]
 }

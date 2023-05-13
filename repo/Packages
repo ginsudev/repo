@@ -6,11 +6,11 @@ Maintainer: Ginsu
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.ginsu.4ders_1.0.3_iphoneos-arm.deb
-Size: 8196
-MD5sum: 3c7dc65ea0f1a4f36f42edf46e7ebc0e
-SHA1: 2800002eb53d7b4c8ab62a26c0dd255fb00d2910
-SHA256: 02c9b7984ee46975e76902772b5fe2b264d392368e3893104d8af2753d8d5316
-SHA512: 3525c15f4cec086805efb0be548bbf3ddab035b14d7b82d96401c6064094b4eb484a62e9a17b778c46e36c3754401f0eca947771cb7754e68decfc0b56bebb53
+Size: 8188
+MD5sum: 990ff8cd2504c0bface9127e0d469402
+SHA1: 1036ef1138a0add4f9012549fd5637b2b214dd9d
+SHA256: f201d4c3c21c0348b6f0a1f3e7d776dc2f2ea7639ebd676d2568e0c87e924852
+SHA512: 1c8b18c34656353f14cbdfce333bba4429ba08e11eac7da3fd1dc213c309fa6d802b018cf956fbad736540ca7290ab5b1546b19955202903925bbe3f7e6bbe55
 Description: 4x4 Folders!
 Name: 4Ders
 Author: Ginsu
@@ -26,11 +26,11 @@ Maintainer: Ginsu
 Installed-Size: 900
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.ginsu.acies_1.0.3_iphoneos-arm.deb
-Size: 194368
-MD5sum: 01dc1a938dd89c7dd05252494a8b7ae3
-SHA1: 2e260e6819ef1eeb729236a3ad72493dc6299e72
-SHA256: 8ed254ec76f781221a2d6168a97bb8bcd29d0a146149d3d31a8d0231fe0fdf40
-SHA512: ae62db81791e373a131272c13672dbe11e3315c35165018ae2cd25b72cbb50455b08679ab41dad821f1b80f5ab5656782b4a1f63eb789564623483af25612109
+Size: 194648
+MD5sum: c67d9b02cb9bd2abcf678110d2f1437e
+SHA1: 3a2435128f457d7d8615db0fdc2dff3348759c1b
+SHA256: 3b81ae1a5d650b4d30aae3eb262af9fb9f1b0b4b6a47e9b6bce67c8cf991cb16
+SHA512: 548dcf50a47294ea8b14c5376893a1a4dae955cc2b26c147459407be1644d31462772ef01ad9df80a721fbe9fca36d32a2d2b0a8666251154b1943bae59de814
 Description: An awesome media player.
 Name: Acies
 Author: Ginsu
@@ -46,11 +46,11 @@ Maintainer: Ginsu
 Installed-Size: 2192
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
 Filename: ./debs/com.ginsu.analog_1.1_iphoneos-arm.deb
-Size: 331260
-MD5sum: 9674b0adf0a7b0a53f9d8ae54d9a1582
-SHA1: 2b7cad6917fee5af167ee3ff5ba547a3d4e03132
-SHA256: 8fd888c863dbaebcc80c0f2094077bd6ef5030eb2429822ed03ff342c14f2427
-SHA512: 47b0f9fbd3cf5f0244287d665604f3b72e3af96a53f214cbb40bbb44a030b7023185fe9ebb57fdaa28a4892469a039b14c91cdd6cc5d5f25425705c2526d67fe
+Size: 330700
+MD5sum: 132074370041e192356a40f82545789d
+SHA1: 7d928dc8413995cb5e971a17e03bec489e6def59
+SHA256: 2a8f435bb378ae067c2649568da0c5d46c59f0398f4901d2dbe52994ffae9bb6
+SHA512: 2f4915ff97776f1c1085d3ef45f5cfc528e97a957cffdd91b35bb92a2db8b95ad436c3eaad90553f93cd7d983eed5ab4109416ae90cf90dd4345b5a2f69606c1
 Description: An analog clock on the lock screen
 Name: Analog
 Author: Ginsu
@@ -66,11 +66,11 @@ Maintainer: Ginsu
 Installed-Size: 2820
 Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.altlist, preferenceloader, com.ginsu.libgscommon
 Filename: ./debs/com.ginsu.androbar_3.2.1_iphoneos-arm.deb
-Size: 288260
-MD5sum: f70ab4d82ce32438a81a206ecef8a428
-SHA1: 1ea8a9fe77a3cb40d858c304ec8a1a79c97ab0c9
-SHA256: 26c656dd96f5ae64c24d4341ca7ccc9bbd9d1e3dd1b4aa9a6c7b4830f0428190
-SHA512: 465f4dd461cd66a7e169d4f6b43d299752663fdd1d7f177ba84975b31345901fe9c1ea763111eee91e96cf469b2eb094d82cc304d306f787ce56a54660de322d
+Size: 288352
+MD5sum: de79031914917be1bb1c1ebda67f3c29
+SHA1: 87559c2edfcb829bdf595036743116b0edd190f5
+SHA256: ac34c53c0c50f68866cffd09c99b94522251e3ca0c8f388d7fdaedc31a53a165
+SHA512: 8bbf4b9fc8269995424d1d169837890553b63577ab13e089f75e62d148e4e7f57aad566ab84787aadf9f5182aa919ca03f9ed17a73b7ecb7f857acfee7cc3433
 Description: Bring Android's navigation bar to iOS!
 Name: AndroBar
 Author: Ginsu
@@ -87,10 +87,10 @@ Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.ginsu.classicalerts.deb
 Size: 3320
-MD5sum: 91f998e51133e3d8aa5146882dc4d227
-SHA1: d1ce235684d963487da160e203e0085bd87dd15a
-SHA256: b1e004066ca3cd6f752c48dfc217610f6bafaf2d735c35f35920d5e6297e2fc4
-SHA512: 85cdfcb64b0b8cdefee3fc703815d1a393f0a56172f00b656bd46bea8d579eacdd5a887969d144309548eadb3428b3d13b98f513e3916efd867432ae724899d7
+MD5sum: c116d68b17f4036392235e1f97717913
+SHA1: 20a8322d77c96ad2950875f354a477a4fc8f4c36
+SHA256: 405da77d30c598eb483aa4844ce1bda8728bf2b35ed8b04ca299b6ffec378bcd
+SHA512: 6d6f691463d4d50b1121e6b76b77cdb3a37ce76b38a099e171c81ea27f52c8099e33e1b4e263a6ce3c35887841866fb8c66516f4c3f19d95e78359b296327203
 Description: Bring iOS 8 and lower's square-styled alerts back!
 Name: ClassicAlerts
 Author: Ginsu
@@ -106,11 +106,11 @@ Maintainer: Ginsu
 Installed-Size: 1364
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
 Filename: ./debs/com.ginsu.dockls_2.0.2_iphoneos-arm.deb
-Size: 131272
-MD5sum: 0202542c8415570ecf8bc90fa133716d
-SHA1: 4f6e972522e6f950be6a4d69fc78c0640ba55e32
-SHA256: 96893144e3a9f92cdf126b584d8a28bd91dad49e0ff2fd6fb287bc7297baee2a
-SHA512: e80f06c23e310d117e1dd8b21efa0330ff0713d76ee8cbb963993e47edef5eef89700f2248a005778e6bc12efc0c44790ecb66ae152a600196584ec6857d0a01
+Size: 130424
+MD5sum: f42078cdd9433be055e82bf9dc2aae31
+SHA1: 69ac71071d5200ad378a3da4f16b7d3fae2b103e
+SHA256: d3fd901e18c7573a8fb720f1943748892125d3bb590c1c0f8f1da603d38f9c70
+SHA512: bc780c3fbaadead9139637ac1fe982900d50094b020485ef26e40f502eff06f354d761e3db9119309179ce21ab71d9efcbaa5e029bf8899dfbc37ac002090a55
 Description: Your dock on the LS!
 Name: DockLS
 Author: Ginsu
@@ -126,11 +126,11 @@ Maintainer: Ginsu
 Installed-Size: 1248
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, preferenceloader
 Filename: ./debs/com.ginsu.docksearch_2.1.3_iphoneos-arm.deb
-Size: 117992
-MD5sum: cae194e5ba246d9df2e0fafb457c7749
-SHA1: ad4ff9086abdbf8c17aa8d0d2665a6360f3b9e6e
-SHA256: eccf974b73f041ffa2b237bb40926baea5b4012092efc2765a054459a1067273
-SHA512: 58403497151a755dabddb44c6a5775baf179b051a55e45ec0dffb04ed2f662992e4e48b47d98daacc4985ca13382cdb857ec28cffc6668c4e4f6360578f8d456
+Size: 117188
+MD5sum: d505dcff2ab72cc8902484535a56bdc4
+SHA1: d777b8ecfb44938c82d2f92a496dee32d165af5c
+SHA256: 3000970625d66fc5414b6f8212ef9f570c55f24c9e8b19909c4c2a2369a703b7
+SHA512: cfc6cd855f777b10da05cdc3399b2c0e081610f9e13f0346fe98130fa9adb790fb40ea9a92467cb86d15a959549e82c40b9f3d9ab82cee71b9265a09a98612da
 Description: Adds a browser search bar to the dock!
 Name: DockSearch
 Author: Ginsu
@@ -579,6 +579,46 @@ SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.dodo.json
 
 Package: com.ginsu.dodo
 Architecture: iphoneos-arm
+Version: 4.0.9.2
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 9056
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: ./debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm.deb
+Size: 939512
+MD5sum: 721d6ea04b5dd8599724cbe2bef1b06b
+SHA1: 203b161f4eb88908b99f603335d757fd0f6090df
+SHA256: c0fa025b3dfa91fbff33e611f5793cd6d60cde153c156201b3966f65dfe7e99f
+SHA512: f62c9f8ffa8adb623ad02cd24a8e69f2a81ebaf8b5eb3bfc66b39551436cee5c0ab8d72b891c7f6a3a8173e0772cd9b5889288b693e37b4928991edb153f5ab5
+Description: The perfect Lock Screen redesign.
+Name: Dodo
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.dodo
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.dodo/icon.png
+SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.dodo.json
+
+Package: com.ginsu.dodo
+Architecture: iphoneos-arm64
+Version: 4.0.9.2
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 9056
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: ./debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm64.deb
+Size: 940792
+MD5sum: 57280b01620baefab1671826b52d2a45
+SHA1: a60d52fda3d6b00d53d743c5ce89f51d343f9c0d
+SHA256: 74801af3dcae010ec7099b6f8a2de21a887cfdc713a08436e54b493a9014a0c9
+SHA512: 8672dd600625fe92f9819d515888392657211ea74d878ecaa5a60097ce7b04af73cb456b85c3e1dac4664f6e05227411c5d5c16e7727ed01c7cda45be4f5a4cc
+Description: The perfect Lock Screen redesign.
+Name: Dodo (Rootless)
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.dodo
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.dodo/icon.png
+SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.dodo.json
+
+Package: com.ginsu.dodo
+Architecture: iphoneos-arm
 Version: 4.0.9
 Section: Tweaks
 Maintainer: Ginsu
@@ -625,11 +665,11 @@ Maintainer: Ginsu
 Installed-Size: 3156
 Depends: com.cokepokes.libnotifications, com.opa334.ccsupport, dev.theos.orion14, preferenceloader, com.ginsu.libgscommon (>= 1.2.4), firmware (>= 14.0)
 Filename: ./debs/com.ginsu.draincheck_3.0.8_iphoneos-arm.deb
-Size: 1052468
-MD5sum: a1248d8988a5cc4ddc7c543a8f91ac2f
-SHA1: f518b74a7188c641b80a2aea78e93eb977a65257
-SHA256: 37518af0b73f36918544bfcbc120f48e6f9c57989970b80e3571f764df3c2e06
-SHA512: 044a6019f6e14e623ae8d9b1e46ca7b640278e36a3ab7073fd50af1b33dd665824eb5db64fcdf8a4e07c675b6c45ab614b404d350c87fe93a6e091141383b463
+Size: 1052068
+MD5sum: a8005e09e481a7b46ac3948592857a64
+SHA1: a0ab3ea4d5de2f968be0ce4cc9455f38fdf8db8e
+SHA256: 6dafc215612344c00bcccabd19ccaa03825c478b4a5069222447eb479b314cd0
+SHA512: 47bfea5424124f6777ba84e6331e8439eb7d56823fce1172a111fa4460d389095d418d94671e529702ff519b013076f5162351976d7e92195cc38cd118c8b774
 Description: Monitor your battery drain!
 Name: DrainCheck
 Author: Ginsu
@@ -658,6 +698,46 @@ Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.dual
 Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.dualclock2/icon.png
 SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.dualclock2.json
 
+Package: com.ginsu.dualclock2
+Architecture: iphoneos-arm
+Version: 2.0.0
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 3784
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: ./debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm.deb
+Size: 400456
+MD5sum: 3aa0cdfb0904c135c40801891ff8344f
+SHA1: d3bba624d6b195d8d2e124d8a1a49cc301230b5f
+SHA256: 32ee311b8f80e06a1594f75c602258a1852438b84c666660c5926ba36887bc68
+SHA512: 86d0fb72e89f6a4354b5728cd1fbeee9ffd90553e931ce1b2904acf42a42a8b79635aeb25bb145dc1842d32632183ec75210321069f3061be23f3f257eaa9aa0
+Description: Two time zones on the Lock Screen!
+Name: DualClock 2
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.dualclock2/icon.png
+SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.dualclock2.json
+
+Package: com.ginsu.dualclock2
+Architecture: iphoneos-arm64
+Version: 2.0.0
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 3784
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: ./debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm64.deb
+Size: 399316
+MD5sum: 456876e8b625877e6623fcf9fe4e879c
+SHA1: a92a151a75de830355f4321639915b9e5c9747fc
+SHA256: 77ac262695f7e2fb4f9e8a990bb28b4de7817e512a237369f07202abfbb98e04
+SHA512: cdd762b358f14a81b6acf84672e22ae176ac160969483597e31fe0e6bdfc1091e8e90c9e25674b3556d73a7b48f6b36add9c049693e77b581672b7c581c412a6
+Description: Two time zones on the Lock Screen!
+Name: DualClock 2
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.dualclock2/icon.png
+SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.dualclock2.json
+
 Package: com.ginsu.enablebatterypercent
 Architecture: iphoneos-arm
 Version: 2.1.2
@@ -666,11 +746,11 @@ Maintainer: ginsu
 Installed-Size: 1108
 Depends: mobilesubstrate
 Filename: ./debs/com.ginsu.enablebatterypercent_2.1.2_iphoneos-arm.deb
-Size: 693700
-MD5sum: 51875aeeb417741eb94c85a6ade6ad12
-SHA1: 08658c719ed1a06186abd4e16c12dd27ea95c9f9
-SHA256: 95b33c150b8f4c7e9774609bb46a6294a87def806b5dfff09c5719f877bb6d45
-SHA512: 6e95b538df87f8a24d05d7a2b79d120894a911b6c99ef0645545531a9a759c6d3902a7ac4917be9370522d8f1d8e108ef0d05cc85fddc0139392a04abd737f72
+Size: 693696
+MD5sum: 566b06bea92252c735445cc82a0c330c
+SHA1: 911d7ad3db2e4713a1bee4126fc495a499591dc6
+SHA256: 76628ddb2e7efb4e814a653f61003bd97299bf0324ee401ccae98a7ec8d9688c
+SHA512: be14928d1ec152124f5ae593cc95e04a1216a58305ff98d51563a8851ea32b24649c5772e022e42bd113882ebf3e3492eed2acddf2117602174336d5588234c1
 Description: Enable Apple's Secret Battery Percentage.
 Name: EnableBatteryPercent
 Author: ginsu
@@ -686,11 +766,11 @@ Maintainer: Ginsu
 Installed-Size: 2912
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
 Filename: ./debs/com.ginsu.gradi_2.2.3_iphoneos-arm.deb
-Size: 324956
-MD5sum: fc6893cf48b71597950a441ec7195239
-SHA1: e1e634bf4a0d65b52400deb1e800aabec3495a9b
-SHA256: 904ea1f9caa5754064d6febebdfe4e8e0814c9c1c47e39aeb39de8eda8007707
-SHA512: 7186e913f32148acd9613b549f3537d9e4b6281eac8b5c3f8ab9927bccfca7ba722a7bf49af8acde07e8962ba299a369c1eb9e541d7996e7c7ce78b7f3d54206
+Size: 324328
+MD5sum: 8212d91379d04a4b8907b892bbe27471
+SHA1: bdbae20f8eed7babfa2874bda6497f43a03daf02
+SHA256: c997fbe0b60b073297c37ba7c2d27047f40d78a13c3b11bd0eee63c5368eaa74
+SHA512: 66bb15113734a3eaf555ce017f940b87859369961f08557a201555a2799f5dee23a20b007b70d4addf0ba2c37647f115a068baa996183a779a8aa5e80322c389
 Description: An awesome Orion tweak!
 Name: Gradi
 Author: Ginsu
@@ -776,6 +856,46 @@ Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.gsco
 Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.gscore/icon.png
 SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.gscore.json
 
+Package: com.ginsu.gscore
+Architecture: iphoneos-arm
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gscore_1.0.2_iphoneos-arm.deb
+Size: 449208
+MD5sum: b7e7c9c187fd360814140aafd9449210
+SHA1: 880c3d086aa14272d733593c683d54a09e447b85
+SHA256: 8759247a34b2c9a34592c0e6047998bf35335311c585d9901d55862e236161d8
+SHA512: 06f7924619e3a0cade38aa6f99b4dfca5728eaa8737b7f6ebebae343142a8e5a350b5b2aa0eb4a3cddf79eebd37dd7e6698eec02609b4a2ccbd601a71c6b662f
+Description: Environment and communication between my tweaks
+Name: GSCore
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.gscore
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.gscore/icon.png
+SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.gscore.json
+
+Package: com.ginsu.gscore
+Architecture: iphoneos-arm64
+Version: 1.0.2
+Section: Tweaks
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: ./debs/com.ginsu.gscore_1.0.2_iphoneos-arm64.deb
+Size: 449280
+MD5sum: df60bb3f072d4bb03199e68c6b8cf66c
+SHA1: 8058ae6bbf770d28ef35bd12fd3affa867dc1c5f
+SHA256: 4292bad19ef228342a81c2810de301da15f8989ff7918042ad82454c0196ad7b
+SHA512: baf69c451b42d58255b931808bbf590fdd80fd1cb0605e2ff32f81f6eeba322d204a493d28808f095662171aced38f2960401312cf9bdbcdc729ba458b18840f
+Description: Environment and communication between my tweaks
+Name: GSCore (Rootless)
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depictions/index.html?packageId=com.ginsu.gscore
+Icon: https://ginsu.dev/repo/api/packageinfo/com.ginsu.gscore/icon.png
+SileoDepiction: https://ginsu.dev/repo/depictions/native/com.ginsu.gscore.json
+
 Package: com.ginsu.ipcarrier
 Architecture: iphoneos-arm
 Version: 1.3
@@ -784,11 +904,11 @@ Maintainer: ginsu
 Installed-Size: 372
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
 Filename: ./debs/com.ginsu.ipcarrier_1.3_iphoneos-arm.deb
-Size: 29904
-MD5sum: 7f1686c7ec3b3244b9e93a5a3d17a256
-SHA1: 0fe09d6619de6496381aec3aa5155d7d7aee2000
-SHA256: b2aab556651bc713aa55016cf759779ba4447929c0fbb13e047c9e0aaeb63265
-SHA512: cc5de2893c4ba38464ef4e30ae497a935a7bdbc80e509302aece63afa271bf9be4823224b8efe2dbd727220d1e97e99f476429ed6f35344a6ade03b7238bcf01
+Size: 29892
+MD5sum: e2a58e4cad03fc007671956822a2ea1f
+SHA1: eb9e4ad46adea506f0ccb751c63533b9dfa8d034
+SHA256: b7ed629fd3fef303881da0108d79a783ac2671a089d3b05c483bcf1b74719006
+SHA512: 71d71d62b835e5f1c374ac9260574bcd3af4a94c90ff62d2a76d13eb7b53f72c6d2660fdec2866ac643526220ffda46147bb7adc52e60a37e55bff03984d6337
 Description: IP address in status bar + cc module.
 Name: IPCarrier
 Author: ginsu
@@ -804,11 +924,11 @@ Maintainer: Ginsu
 Installed-Size: 980
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
 Filename: ./debs/com.ginsu.kbpro_2.1.1_iphoneos-arm.deb
-Size: 106768
-MD5sum: 94c614a4aaf238b6052bdf9329b565d3
-SHA1: 89e7ae39345eadad1224d8b1349975d3c7fabf02
-SHA256: e8f23209c8894029924c6f5b5e2df3255826859b9a48786d4e743d505ae70ae5
-SHA512: fc6ac8f9d72382c72d37902fe3ceef8bd4057e5cec71b5e25d24d4198218e4c2bc2d8236a0d44bf995616c09ea9620b0b252d6551baa31b100930faf54524ade
+Size: 106728
+MD5sum: 8aabef7918b648908826c524b65a4868
+SHA1: 66ce2ad2d530dfc239db7c90decf7cba1cab0fbe
+SHA256: acce2819297dc6753c4ce95a0aa278873d06da7e26ce3fe9ca06db8b769cc880
+SHA512: e8f5ea447437f4b0880423725b660758cc9cbb21bd8658218867a453097db356dd0906f8ed5554cd2e022eb5b74429b2bdc4795125a9f00af0534e6817117328
 Description: Select, copy & paste shortcuts on the keyboard.
 Name: KBPro
 Author: Ginsu
@@ -824,11 +944,11 @@ Maintainer: Ginsu
 Installed-Size: 1520
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, com.opa334.altlist, preferenceloader
 Filename: ./debs/com.ginsu.killcontrol_1.2.2_iphoneos-arm.deb
-Size: 162704
-MD5sum: e0e941d7311ba614565ee497e2e7876e
-SHA1: 3904b36903328dd80101788b6ad6700b49209062
-SHA256: ecc7d9506bd85c5c14f32b35185d8585c873a09430dc2f9ea8a7e1454c5f84a7
-SHA512: 4fb6b23fab0e59de02978c5c47c6d72ee571fcd81bb855f376dc20713377cd62bd6f4111dda31ab4277c7adcef998418f4b18a1cefcd396cce287a1999d3c433
+Size: 162284
+MD5sum: 52f585bdd17f2c86d48563c12457b269
+SHA1: 1cb52b6f3601d43270168bd6c932897e802fe886
+SHA256: 86f294c6942355ec1ee02a50669e95bdc355af8f4aa3f0e38290f3f2407296ec
+SHA512: 807c8c601151644e0c416110572687dff98409ca7dd53da9b0728d524d0814a33ff15ba9c520be41a8bc2e004cb895389bcdadfa7a013ad110b955b6391e287c
 Description: An awesome Orion tweak!
 Name: KillControl
 Author: Ginsu
@@ -843,11 +963,11 @@ Section: Development
 Maintainer: Ginsu
 Installed-Size: 564
 Filename: ./debs/com.ginsu.libgscommon_1.2.6-2_iphoneos-arm.deb
-Size: 76048
-MD5sum: ba49aa565d986ee18d260240271be97e
-SHA1: 16d874ae37f4736c16529ed54e46963d7efcc3cb
-SHA256: a0024142200379955cd7e3c0ae7e5068d1c4be5d4fad7bd2224943fb9135ec3b
-SHA512: 452638bb917913f3127b17f4581d8565511d13e3e588bef2747284f28ec1124714f262381cd74ef8e4747a0fd91f4c219ec8159dd5bd74abc820f2638232ff27
+Size: 76280
+MD5sum: e18a6fb49c3f1158042add2408892b56
+SHA1: 5fa3238d6f3f2339407b21fdb3b521ef1b693ba1
+SHA256: 9e4c58fb099689370a9f3b4919b57a4344c0b025ed86654e1dff5d77b971406c
+SHA512: af6834b381c01b9288887c6426fd2958cfbeb0a9208a4150c6aacf85a655b830b63de84dd3116ee7d49f4390f45aa8cff47cc1e912bed882ed34e3738fb34c48
 Description: A library for Ginsu's tweaks!
 Name: libgscommon
 Author: Ginsu
@@ -862,11 +982,11 @@ Section: System
 Maintainer: Ginsu
 Installed-Size: 172
 Filename: ./debs/com.ginsu.libgsweather_1.0.1-1_iphoneos-arm.deb
-Size: 8844
-MD5sum: 4a3eb34b9dad47a7dd2cf67ce526d96d
-SHA1: d4db9a40ef46aa287347b51e310d2dfab6689a67
-SHA256: 89d444ddc7478af6efd090d93f4058d5d70b460954070e1c2b7210f8f3d9a215
-SHA512: ea74f019d8bc510f216196f8f99f71fd2f665e79e62ff01609cab95e2885077b8be287f4befc9a4b9c4e02d1f42d6d24ce608c8eada07b18288b17f98819ade2
+Size: 8824
+MD5sum: a8c11821f2dab24eeb1e4ae9250fec26
+SHA1: f809beb97a006da1f362461fe633f5caa7ac4ed3
+SHA256: 218eaf50ef0f95ac1835cbc6d49d9fa64827c21960d65a357dce1b85f0809476
+SHA512: c3faf70cdfcd3c66bf08f6b7bd6acacc826877ecd548df9abfb021afbb719195b5d9a09ba3a05779a77ec4437b6d55d29d636ba339c09ace4f1b4d9a04d139d7
 Description: A weather library for Ginsu's tweaks.
 Tag: role::developer
 Name: libgsweather
@@ -883,11 +1003,11 @@ Maintainer: Ginsu
 Installed-Size: 1808
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, com.opa334.altlist, preferenceloader
 Filename: ./debs/com.ginsu.lockapps_1.0.5_iphoneos-arm.deb
-Size: 195348
-MD5sum: ceb3aedce49bb24c1e547ec931f07d7e
-SHA1: fa1e9c66a5c197dafd2e31bdd0ea0f1242188df6
-SHA256: 9ea1f4fbc5ba0aeaf8a5872d913dc7b93438b93fd047f1797841e1e62bb725d8
-SHA512: 0ee3b839438f251213beda6ec867639a6d202f54c728c2260728991e22483e535ca733d681324059a07d5a97f0eb4a93ac683963931f2c62ad224e22b056e6ad
+Size: 195284
+MD5sum: c6ea23ac041b535ccff83b082f0d8096
+SHA1: d41d0396d304420b476bf92bcea765078f721f77
+SHA256: 36f4e8c765205f338a1421336f57a725eb84aa3da3cd19b78191f16844051b36
+SHA512: ce0a24b96070da0636828b335712af9061c9f4099c384508a10951f0ea9675bdba52a674cd294ee40c0505821e934df73515c9c1c16c471c70f4c2b898b07055
 Description: Show all your favourite apps on the LS!
 Name: LockApps
 Author: Ginsu
@@ -903,11 +1023,11 @@ Maintainer: Ginsu
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.ginsu.nointerruptwhenplayingmusic_1.0.1_iphoneos-arm.deb
-Size: 5364
-MD5sum: 2bf6ba8092228be8e679ad04457cf6bc
-SHA1: 9cf33e35550b799d290b33c1d0031091c32b9b32
-SHA256: f5e3491323155ca9570fdec966f05e05c29ecfa5b2ada6d78af50499dd8ccd7c
-SHA512: 4dc8612b6b4abea3e1d01abba85bf7f9f36e0663cdcd20a1d43ad5966c75899bf0af1916884f7d3b28bdc691878102eeaa7ae13677663f78aa4cfecf1136cc28
+Size: 5368
+MD5sum: 6ac7b6a0a4e1439a1904220ef50db5da
+SHA1: ff29f1a93e47646421477f3ce178bf29f86255a0
+SHA256: 3ba45e65ae7afc3156080b18ecd569d2aa6cfb1deb1eb65c59ae6726908547a8
+SHA512: 90ee079ec54f7c6044067e03840837511631f0de5f7915bb52ea33a23c2d2b613886f4e5daa3b989d8c3552db07eef80744a6685a1f99367ce6edca1d6da0ad7
 Description: Quiet notifications when music is playing.
 Name: NoInterruptWhenPlayingMusic
 Author: Ginsu
@@ -923,11 +1043,11 @@ Maintainer: Ginsu
 Installed-Size: 2016
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
 Filename: ./debs/com.ginsu.notchbanners_2.2.5_iphoneos-arm.deb
-Size: 233064
-MD5sum: f6e316edea5f7256ca4eb6869e479619
-SHA1: 983756bccca2697f33270e9ae34f727a04da8403
-SHA256: 988030bdf5ed174d4bce3072a618df6a44753a40de4b1c2d4168c3c3cc709310
-SHA512: d5485fe8100e3af753538e20778d44cbba730d58a1b71cd7a5ecae82025bcfc6b24a8195372aa02179f99c3c526c13038df139a295d8168d319369c437768586
+Size: 232584
+MD5sum: 233171ea1b5c702da08f3a1cb6184733
+SHA1: e49c59e74c0f46d47b1f14c16a7936d08d5cda1b
+SHA256: 7249bad17a77a7a40bb239ee5082e84ad001bac93cd9713639f2058a6e1a67c2
+SHA512: 839412a2e03923a6822072a735950f579cde3a3b78556082f6a68b5d88e54f86baaf22b3718c3df4afd214329b7f49862dfb285fadefd53862a7e7912bbaeabb
 Description: Banners from the notch!
 Name: NotchBanners
 Author: Ginsu
@@ -962,11 +1082,11 @@ Maintainer: Ginsu
 Installed-Size: 1140
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport
 Filename: ./debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm.deb
-Size: 128640
-MD5sum: 3a8e88721e62824dafb1bc026f861ab7
-SHA1: 62cf986a5ef9046a315c801aa98e2c5ba72d602e
-SHA256: 607a26578916d2f42a840444d0facad84ba8c16dcd9dc09dc7b102a481b29b6b
-SHA512: 9fa5201271e73770b39dad3f055f0d1979591fe93f83342204a2bc59470a53c830eb9f69cdb8ddd95f0bfb498add530cff944e0f5f8ff3c09abee20e658394d7
+Size: 128864
+MD5sum: febc8f82a509fa875c5493aa7a00320f
+SHA1: 2cbbd149e9e1be1f646802882cdb28a09a3b7dd2
+SHA256: bf81c9604307294421f072156a15f3924a1200625fc1eae25c562709d8cf2bbc
+SHA512: fcc05972e17bd7742788fd334f680f7c5fb5b71744b72e48f139efbc1ff9e8859cc81b760d9b5e825c849f6fa1853dea7bbe7b98f125170d141a9e707da93cfe
 Description: Lightweight & convenient translator.
 Name: PocketTranslator
 Author: Ginsu
@@ -982,11 +1102,11 @@ Maintainer: Ginsu
 Installed-Size: 1140
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport
 Filename: ./debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm64.deb
-Size: 129192
-MD5sum: a6d7b11aa3ec330ca384de30b21fcebe
-SHA1: fe4a44d2005b66fc2b34373858624b99a1c00666
-SHA256: 909c0c6872631ca15d1f25e541a013b86c97e044bb4dbae9ef504bec7ee6d28c
-SHA512: 7f909240069cd0838607181b8a607dda666b7a4d9f81ea5acacb0abc85ccd58c744da2dd44f3b71d102ea2f370fa0ac9e4497d52dc3162ca2f5239468b90c3ce
+Size: 128540
+MD5sum: 3940e84850c738a6d38e23f9ecdc44f9
+SHA1: ae7f2a77b179631aa01a9fd37dfd01ce9c8861cd
+SHA256: ab243979f9ef05f1a00a5182e2386bd986609cab7d218458f11d6de0e8b27fd0
+SHA512: 12a7f97e43a4dec558495f13247c5eb60c573cd5864da95c573f609044b6c1cae316ac5a9ce892d87eb8b4664c3f253e35ff9df3cc4641a53b6ef8993755274c
 Description: Lightweight & convenient translator.
 Name: PocketTranslator (Rootless)
 Author: Ginsu
@@ -1002,11 +1122,11 @@ Maintainer: Ginsu
 Installed-Size: 1056
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), preferenceloader, com.ginsu.libgscommon, com.opa334.altlist
 Filename: ./debs/com.ginsu.protectedbrowser_1.2.4_iphoneos-arm.deb
-Size: 113472
-MD5sum: ec601c1a5884f7c14579900c8b52752e
-SHA1: dc5f55e992fa5b2b23d1ebcab760b3de37d54273
-SHA256: 4884f52de8d96e15fc7b314af48fc2111cb0a328fac0522fdc21aa40dc8ee71a
-SHA512: 8f122df4fb85c31abddeeefe7db5b6e2a456a53d09951f58f1fec8b8bfa5c4910771c94252bf26d32cf4885deb1c6639ad451dad4e5fc289c0edb05ecacec9d4
+Size: 113540
+MD5sum: 5ce08ab60982e4c4f5cc8e9ca5b10a60
+SHA1: ed34c5ae8dc6248fa173f3a39dc875754b168ddb
+SHA256: b321eacaa652227d8858a9605859fabc2a29c79646e589c0ed897c265aeff420
+SHA512: e28aeeae7a1ce0205ef95ee9363a45e84ed51a5815bd44a152625551374aea545960a7df1335ac092666477ef01ee5bb666e1ca137bd742edf69bcc657b472ca
 Description: Disable dangerous JS injection in 3rd party in-app browsers
 Name: ProtectedBrowser
 Author: Ginsu
@@ -1022,11 +1142,11 @@ Maintainer: Ginsu
 Installed-Size: 528
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: ./debs/com.ginsu.ramundertime_3.2_iphoneos-arm.deb
-Size: 43708
-MD5sum: a6882ee2a825c8917b1bc97dc3fa153a
-SHA1: 55f5da41d2ad45c6de121ff966953ffad23ab951
-SHA256: 06cac17264d9d1cf9b5a2e8b8dcc9e03296c76a73af9cd8f73fb2d9bb6685bf3
-SHA512: bf76ce11a9fe1217cdcbb536b1cefa08cb9e0641b38c2a9127c9a50a71e543f8b50704663e20a0199824b787ff95b79ac6d64b4fac56158d670dbce652b72a71
+Size: 44092
+MD5sum: 2852fef739db93cc0d731d4c30abbe72
+SHA1: b52d7a0d057465faaab81da70e9e24504d8daddf
+SHA256: d561a738edf0cfaa220ed79b391f2137c5e45e2ae45268ca0c0024ed6f75a7a8
+SHA512: 8bb1b19e7b80ce45d787abab985c0b5ef5919375c161caf1189b58fbf59fc2cd4b6ce8c8a4bc360edbd79850f1349c218a54911af15d0a08ae5a50fa2b726adb
 Description: Shows the amount of free RAM in the status bar.
 Name: RAMUnderTime
 Author: Ginsu
@@ -1042,11 +1162,11 @@ Maintainer: Ginsu
 Installed-Size: 2924
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, preferenceloader
 Filename: ./debs/com.ginsu.recents_1.1.7_iphoneos-arm.deb
-Size: 1108924
-MD5sum: 455e781565075ca03c7c8511d96b7388
-SHA1: ec109d81f0b69fdc792145d403a2e9f8ec35f75d
-SHA256: ac6df3b20e8de6e91d5d8146a0152a502342cb296ae9d1732de195959370ea65
-SHA512: afdf4ea2f947750b6acdbafc31f0b3aea3d357121ebfb63f23d7f5c8f83984f67449ea43b3f43a64304dc886b110b78687ba0059930de93b282fade2a0847b9f
+Size: 1108972
+MD5sum: 53c38e50f041f37e315288aabbed14ed
+SHA1: 4ab36987385ef87b093f1c5c83cacc9934e98420
+SHA256: 3a2a483abd5f375eaeda30e0e3de6edcc4afc1483d8aa26ed0af4ce6b36d1961
+SHA512: d184c4f3fc17cbb48f35409ccc162c762e91bd6019849839cb67ac69c889dc4afdba544988d2f044d18329e7e12889bf668b07b41108c440e116865ab4c8ea8b
 Description: Show recently opened apps on the Home Screen!
 Name: Recents
 Author: Ginsu
@@ -1062,11 +1182,11 @@ Maintainer: Ginsu
 Installed-Size: 712
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
 Filename: ./debs/com.ginsu.routeconfigurator_1.0.1-1_iphoneos-arm.deb
-Size: 147644
-MD5sum: 10f21902b7c90f4beeef1593a3f94ed6
-SHA1: 394d0db7c93f9662120bfd68a445e0caf317ab83
-SHA256: 345b48464c34da67e9ecb4948fb20706e2737d183fa69be1ba506b65c12309f2
-SHA512: 6fcd2995e8eae348c4c1a63f6aad28093ccd8ccc08e17cdb4947e1533c2e3bba3ae03dd86ae8da3311291142cc85dcd5275c82d7284c979017712a9839610f1f
+Size: 147596
+MD5sum: c9bfc83e6ff8957ba308bb8bb823e015
+SHA1: dbb067bd57f4f71a2718b2e5abbbdd4387ef9404
+SHA256: 6e8a40efa2dc6f5821a22e08d335799fd17b26863f0febff49d03a8b2e72a1d9
+SHA512: d7a57d55fe1c9911715888c28b60928400e57d3ed49e28a6fab03025ab8edcddf75bd502dbdcda8b631e19217febff6445841e6f258324cae054f61eb5a8d12e
 Description: Set preferred audio routes for different apps.
 Name: RouteConfigurator
 Author: Ginsu
@@ -1082,11 +1202,11 @@ Maintainer: Ginsu
 Installed-Size: 468
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
 Filename: ./debs/com.ginsu.volify_2.0.2_iphoneos-arm.deb
-Size: 43784
-MD5sum: 0c9e57b2b4adba8dd6d746db5cd96f97
-SHA1: cb68199c516c6afd29d06bbbb378ed0ac42b9828
-SHA256: 390c97d8f1bffc042e51311c4d7794b5b01f7c03351bbea96338517869795f58
-SHA512: add20f2d44272e8f76ec2cea83408003bc23154eaad299794e9f97494cd7954601ded5e366324ad392a093d7873097dde8223d602ef09acf24a08c8982c7dc44
+Size: 43768
+MD5sum: e4b9d9f9523e2075ab65abae6a687db0
+SHA1: 9e18f26b411ede9226925402fe0f473a167f3b9b
+SHA256: a441d7edae8a03b1e1e2bfc799597e77cccd912cbfb22d9a70e96592d4e63118
+SHA512: 3b05e0a5a9953185335cced2b40ee93d56b9fa477441076fd131adc903be9b4fb480c9f8319c12b4c0ae418f65cbda97e19845990c8a8d354212a4dd854b1d38
 Description: Add a volume slider to Spotify.
 Name: Volify
 Author: Ginsu
@@ -1102,11 +1222,11 @@ Maintainer: Ginsu
 Installed-Size: 468
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.peterdev.libpddokdo
 Filename: ./debs/com.ginsu.weatherls_2.0.1_iphoneos-arm.deb
-Size: 46664
-MD5sum: 94eb577a3b7e2f8dcb1c809456239720
-SHA1: 06e91a4c1b43238f81a6aac1540316e5332adde1
-SHA256: 80a6d7d66a24d9df3a44f875a837972ea675199b69e12bdf8edd184c8e842cf2
-SHA512: 6d3f3a4cdb84856e4b3b89ce94ecedb7f33e0fd242e6d180a8960063f3285be2c129a99e5daeebd86e2d2cab1ac6b32798be4651390c7e76b85127021a172740
+Size: 46636
+MD5sum: 9113ee3a4e19e3a34eda86598f3c8c7a
+SHA1: 6deabb77c199779472603299c0079a9f8f85ee7c
+SHA256: dbf1690beaed38fdd5cbb13ffd8d597f6c868f32d767cb732d92c24565946bb6
+SHA512: c2fa9019c5639fff7c47a54eb0605c89accc417ab0908787757daadea380025a457440c4978ee1e081aeaabb63c0783c024f1797d342626fead53fd074b59292
 Description: Show the weather on the lock screen!
 Name: WeatherLS
 Author: Ginsu
@@ -1350,11 +1470,11 @@ Maintainer: Ginsu
 Installed-Size: 412
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.ginsu.ytmusicultimate_1.3.6_iphoneos-arm.deb
-Size: 70836
-MD5sum: 965f6dc8977160137533ec4974f1139a
-SHA1: 8c831e395d55215ac89407bf092eca4a97501603
-SHA256: df75681d8e8453c1774f31a60fe2ba013fc0c6919f6725c1464e68781185714c
-SHA512: 6d60eafb226943ca89ba5aceecf86109247b0ce32aa5d1f201daf9be4e5f5bec0d2c204618abedb317f2a6c44898a3a7673670835c9c7c0c50ddf3b91575a770
+Size: 70808
+MD5sum: 39960a43604d5ede30ad2d0e5d929c33
+SHA1: 9ece81019a00411e9f1d8837dc0f35b9483edb70
+SHA256: afa17b099dbc1e2476cc6c1e1582446725db25e4ea2687caaadbb5abf7fa8138
+SHA512: c67f719e3f3c46b240b018eb5684cba2aad3b7f8878d9e7fb7cba5fadc3aed585e206340d833ec934756a2229099dd257c50e37a3235867ce7697f8a7af655dd
 Description: YouTube Music Premium
 Name: YTMusicUltimate
 Author: Ginsu
@@ -1370,11 +1490,11 @@ Maintainer: Ginsu
 Installed-Size: 412
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debs/com.ginsu.ytmusicultimate_1.3.6_iphoneos-arm64.deb
-Size: 71048
-MD5sum: a55c66887367795d42fb731f62c8d541
-SHA1: 11e7e30bf62dabaa11f020c409fd6fb2b91d3661
-SHA256: dadf3e60dbf7f267827e1409a60b99544be49b352ff7f6f42a81c3889c4fc408
-SHA512: 611223c2e41c9ce2eea434ca7a6709d34f86473f76f0812bddb7d8a8a81de2cdec1fb90f0dfdace27b3f367ac574078cc3f173b43bbb0cefdd64dcad94e371b9
+Size: 70884
+MD5sum: 9bacea85d1e7047b3c78f3c51035f843
+SHA1: 80e14a49f686eb5502c5a8f540074339b079adb9
+SHA256: cf0d6d762e1cbeca9131a8db56089947f8c034d57e01c344d6fa045b62050918
+SHA512: 7ab5bc8a108b71c3cc265d44cb8d5df9c2388a822dfb9197110b077d7a850b4c27b5d51a10e561a316a887f4c5a4693035a2e9d9cc5f6fa4257e5e21fc0d727c
 Description: YouTube Music Premium
 Name: YTMusicUltimate
 Author: Ginsu
