@@ -52,6 +52,11 @@
       "version_number": "1.3.7",
       "changes": "- Added option to enable seek backward/forward buttons.\n- Added option to remove sort filter button from the navigation bar.\n- Small improvements.",
       "date": "2023-05-14"
+    },
+    {
+      "version_number": "1.3.8",
+      "changes": "- Fixed seek buttons glitch.\n- UI improvements.",
+      "date": "2023-05-17"
     }
   ]
 }
