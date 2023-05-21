@@ -22,6 +22,11 @@
       "version_number": "2.0.1",
       "changes": "- Update icon when location/time zone changes.\n- Fix status bar toggle not taking effect.\n- Bring back single date feature.",
       "date": "2023-05-14"
+    },
+    {
+      "version_number": "2.0.2",
+      "changes": "- Fix issue with enabling/disabling the tweak.",
+      "date": "2023-05-21"
     }
   ]
 }

@@ -77,6 +77,11 @@
       "version_number": "4.0.9.2",
       "changes": "- Support new GSCore version.",
       "date": "2023-05-13"
+    },
+    {
+      "version_number": "4.1.0",
+      "changes": "- Support DualClock (Tap Dodo's time to switch timezones).\n- Add ability to show active timers on Dodo as status items.\n- Add ability to disable media background color.\n- Minor bug fixes.",
+      "date": "2023-05-21"
     }
   ]
 }
