@@ -82,6 +82,11 @@
       "version_number": "4.1.0",
       "changes": "- Support DualClock (Tap Dodo's time to switch timezones).\n- Add ability to show active timers on Dodo as status items.\n- Add ability to disable media background color.\n- Minor bug fixes.",
       "date": "2023-05-21"
+    },
+    {
+      "version_number": "4.2.0",
+      "changes": "- Switch from libpddokdo to GSWeather.\n- Improved Combine code.\n- Code improvements to the media-related stuff.",
+      "date": "2023-06-24"
     }
   ]
 }

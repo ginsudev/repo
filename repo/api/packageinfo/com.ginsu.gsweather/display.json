@@ -1,0 +1,1 @@
+{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "An efficient weather fecthing library written in Swift + Combine.", "source_code_link": "https://github.com/ginsudev/GSWeather" }, "changelog": [ { "date": "2023-06-24", "version_number": "1.0.0", "changes": "- Initial release" } ] }
