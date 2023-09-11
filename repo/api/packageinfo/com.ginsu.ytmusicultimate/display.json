@@ -62,6 +62,11 @@
       "version_number": "1.4.1",
       "changes": "- Added option to unstick headers.\n- Added option to remove tab bar labels.\n- Added option to select startup tab.\n- Fixed login issues on free developer and enterprise certificates (AltStore/Sideloadly/Scarlet etc.).\n- Fixed rare tab bar icons glitch and code improvements.\n- YTMusic app updated to v6.06.3.",
       "date": "2023-06-24"
+    },
+    {
+      "version_number": "1.5.2",
+      "changes": "Seek buttons option replaces Skip buttons instead of Like/Dislike",
+      "date": "2023-09-11"
     }
   ]
 }
