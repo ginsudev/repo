@@ -17,6 +17,11 @@
       "version_number": "1.1.0",
       "changes": "- Now provides a Temperature object which contains fahrenheit and celsius representations.\n- Provides sunset and sunrise Date.\n- Provides high/low Temperature.",
       "date": "2023-06-26"
+    },
+    {
+      "version_number": "1.1.1",
+      "changes": "- taurine crash fix",
+      "date": "2023-10-02"
     }
   ]
 }

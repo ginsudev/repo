@@ -1,1 +1,1 @@
-{ "Package": "com.ginsu.gscore", "Name": "GSCore ", "Version": "1.0.3", "Architecture": "iphoneos-arm", "Description": "Environment and communication between my tweaks", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0)" }
+{ "Package": "com.ginsu.gscore", "Name": "GSCore ", "Version": "1.0.4", "Architecture": "iphoneos-arm", "Description": "Environment and communication between my tweaks", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0)" }

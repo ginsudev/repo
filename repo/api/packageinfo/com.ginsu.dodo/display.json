@@ -92,6 +92,11 @@
       "version_number": "4.2.1",
       "changes": "- Add option to show sunrise/sunset time.\n- Add option to show high/low temp.\n- Add ability to tap weather to convert from celsius to fahrenheit.\n- Now uses temperature unit specified in General->Language and region->Temperature.",
       "date": "2023-06-26"
+    },
+    {
+      "version_number": "4.2.2",
+      "changes": "- Use new GSWeather apis",
+      "date": "2023-10-02"
     }
   ]
 }
