@@ -1,4 +1,4 @@
-#!/bin/bash
+ #!/bin/bash
 
 directory="$(pwd)"
 zshrc_file="$HOME/.zshrc"
