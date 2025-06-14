@@ -67,6 +67,11 @@
       "version_number": "1.5.2",
       "changes": "Seek buttons option replaces Skip buttons instead of Like/Dislike",
       "date": "2023-09-11"
+    },
+    {
+      "version_number": "2.0.1",
+      "changes": "- Added YTMUltimate button under player to download Audio/Artwork image (Thanks to @BandarHL).\n- Added option to hide Downloads tab (Tab options).\n- Added options to manage downloading features (Player options).\n- Added clear cache feature (YTMUltimate settings).\n- Added audio, covers downloading feature.\n- Added option to disable content warning (Player options section).\n- Added option to force enable premium (Premium options section).\n- Added option to set Downloads tab as startup page (Tab bar options section).\n- Rewrited settings, most of options applies immediately.\n- Fixed Default playback mode not working on some devices.\n- Recommended reinstalling YTMusic IPA.",
+      "date": "2024-03-10"
     }
   ]
 }
