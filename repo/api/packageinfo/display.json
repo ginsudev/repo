@@ -1,0 +1,1 @@
+{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "your_description", "source_code_link": "" }, "changelog": [ { "date": "2024-03-10", "version_number": "1.0.0", "changes": "- Initial release" } ] }
