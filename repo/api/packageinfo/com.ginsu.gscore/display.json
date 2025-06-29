@@ -32,6 +32,11 @@
       "version_number": "1.0.4",
       "changes": "- taurine crash fix",
       "date": "2023-10-02"
+    },
+    {
+      "version_number": "1.1.0",
+      "changes": "Add BUILD_FOR_DISTRIBUTION build flag, fix some compile errors.",
+      "date": "2025-06-29"
     }
   ]
 }

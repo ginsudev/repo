@@ -1,1 +1,22 @@
-{ "contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" }, "information": { "description": "If you prefer classy analog clocks and are bored of iOS's default digital clock, then Analog for you! Analog adds a fully customisable analog clock to the Lock Screen with the following features:\n\n- Clock face and clock hand theming (Themers can design their own clock themes and put them up for download somewhere).\n- Customisable date complication.\n- A lock status indicator for devices with Face-ID.\n- A digital time complication.\n- Wallpaper colour detection.\n- upports translations.\n- And many more customisable options!\n\nFor Theme creators:\n\nCustom clock faces:\nCustom clock faces should be 500x500px '.png' files named 'Face.png'. You should make a folder with the name of your theme, then place your 'Face.png' inside. You can then place the folder you created in this directory '/Library/Application Support/Analog/Faces/'.\n\nCustom clock hands:\nThere is 4 main images needed to create a set of clock hands: 'Center.png, Seconds.png, Hour.png, Minute.png'. The dimensions for the files are as follows:\n\n- Center.png = 25x25px\n- Seconds.png = 16x120px\n- Hour.png = 16x101px\n- Minute.png = 16x120px\n\nSimilarly to custom clock faces, you need to create a folder with the name of your theme, then place those images inside the folder. After that, you can place the folder in the directory: '/Library/Application Support/Analog/Hands/'.", "source_code_link": "" }, "changelog": [ { "date": "2023-04-15", "version_number": "1.1", "changes": "- Transitioned to libgscommon to handle most preference-related stuff for better maintenance."} ] }
+{
+  "contact": {
+    "twitter": "GinsuDev",
+    "discord": "https://discord.gg/BhdUyCbgkZ"
+  },
+  "information": {
+    "description": "If you prefer classy analog clocks and are bored of iOS's default digital clock, then Analog for you! Analog adds a fully customisable analog clock to the Lock Screen with the following features:\n\n- Clock face and clock hand theming (Themers can design their own clock themes and put them up for download somewhere).\n- Customisable date complication.\n- A lock status indicator for devices with Face-ID.\n- A digital time complication.\n- Wallpaper colour detection.\n- upports translations.\n- And many more customisable options!\n\nFor Theme creators:\n\nCustom clock faces:\nCustom clock faces should be 500x500px '.png' files named 'Face.png'. You should make a folder with the name of your theme, then place your 'Face.png' inside. You can then place the folder you created in this directory '/Library/Application Support/Analog/Faces/'.\n\nCustom clock hands:\nThere is 4 main images needed to create a set of clock hands: 'Center.png, Seconds.png, Hour.png, Minute.png'. The dimensions for the files are as follows:\n\n- Center.png = 25x25px\n- Seconds.png = 16x120px\n- Hour.png = 16x101px\n- Minute.png = 16x120px\n\nSimilarly to custom clock faces, you need to create a folder with the name of your theme, then place those images inside the folder. After that, you can place the folder in the directory: '/Library/Application Support/Analog/Hands/'.",
+    "source_code_link": ""
+  },
+  "changelog": [
+    {
+      "date": "2023-04-15",
+      "version_number": "1.1",
+      "changes": "- Transitioned to libgscommon to handle most preference-related stuff for better maintenance."
+    },
+    {
+      "version_number": "2.0",
+      "changes": "Support iOS 16. Reduce dependencies. Refactor.",
+      "date": "2025-06-29"
+    }
+  ]
+}
