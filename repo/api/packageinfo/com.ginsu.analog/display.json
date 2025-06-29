@@ -17,6 +17,11 @@
       "version_number": "2.0",
       "changes": "Support iOS 16. Reduce dependencies. Refactor.",
       "date": "2025-06-29"
+    },
+    {
+      "version_number": "2.0.1",
+      "changes": "Fix crash if preferences not found",
+      "date": "2025-06-29"
     }
   ]
 }

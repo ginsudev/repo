@@ -37,6 +37,11 @@
       "version_number": "1.1.0",
       "changes": "Add BUILD_FOR_DISTRIBUTION build flag, fix some compile errors.",
       "date": "2025-06-29"
+    },
+    {
+      "version_number": "1.1.1",
+      "changes": "Refactor Preferences propertyWrapper",
+      "date": "2025-06-29"
     }
   ]
 }
