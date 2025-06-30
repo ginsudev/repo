@@ -22,6 +22,11 @@
       "version_number": "2.0.1",
       "changes": "Fix crash if preferences not found",
       "date": "2025-06-29"
+    },
+    {
+      "version_number": "2.0.2",
+      "changes": "- Fix complications/widgets offset.\n- Fix clock not updating in AOD.",
+      "date": "2025-06-30"
     }
   ]
 }
