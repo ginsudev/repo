@@ -3,7 +3,7 @@
   "name": "Volify",
   "subtitle": "Add a volume slider to Spotify.",
   "description": "Volify (Volume + Spotify) adds a volume bar to the Spotify now playing page",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.volify/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.volify/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

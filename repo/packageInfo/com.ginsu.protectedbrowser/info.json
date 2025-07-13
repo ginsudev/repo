@@ -3,7 +3,7 @@
   "name": "ProtectedBrowser",
   "subtitle": "Disable dangerous JS injection in 3rd party in-app browsers",
   "description": "ProtectedBrowser prevents JavaScript injection on apps like Instagram and TikTok",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.protectedbrowser/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.protectedbrowser/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

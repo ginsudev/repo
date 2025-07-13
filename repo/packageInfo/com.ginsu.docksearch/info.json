@@ -3,7 +3,7 @@
   "name": "DockSearch",
   "subtitle": "Adds a browser search bar to the dock!",
   "description": "Adds a browser search bar to the dock!",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.docksearch/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.docksearch/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

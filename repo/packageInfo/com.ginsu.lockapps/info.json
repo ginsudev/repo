@@ -3,7 +3,7 @@
   "name": "LockApps",
   "subtitle": "Show all your favourite apps on the LS!",
   "description": "LockApps replaces the camera page on the Lock Screen with an app drawer-like page, allowing you to open your favourite apps instead of being limited to just the Camera. Configure options in Settings.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.lockapps/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.lockapps/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

@@ -3,7 +3,7 @@
   "name": "libgscommon",
   "subtitle": "A library for Ginsu's tweaks!",
   "description": "A library for Ginsu's tweaks!",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.libgscommon/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.libgscommon/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [],

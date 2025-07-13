@@ -3,7 +3,7 @@
   "name": "WeatherLS",
   "subtitle": "Show the weather on the lock screen!",
   "description": "Show the weather on the lock screen!",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.weatherls/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.weatherls/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

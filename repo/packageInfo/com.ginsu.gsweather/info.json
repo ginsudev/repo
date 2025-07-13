@@ -3,7 +3,7 @@
   "name": "GSWeather ",
   "subtitle": "A Weather fetching framework",
   "description": "An efficient weather fecthing library written in Swift + Combine.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.gsweather/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [],

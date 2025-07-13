@@ -3,7 +3,7 @@
   "name": "GSCore (Rootless)",
   "subtitle": "Environment and communication between my tweaks",
   "description": "A framework containing shared functionality and services used in all of my tweaks, also allowing communication between my tweaks for the best experience.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.gscore/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [],

@@ -3,7 +3,7 @@
   "name": "libgsweather",
   "subtitle": "A weather library for Ginsu's tweaks.",
   "description": "A weather library for Ginsu's tweaks.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.libgsweather/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.libgsweather/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [],
