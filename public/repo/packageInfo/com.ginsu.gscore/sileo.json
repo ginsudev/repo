@@ -49,7 +49,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/depiction/com.ginsu.gscore",
+          "action": "https://ginsu.dev/#/depiction/com.ginsu.gscore",
           "title": "View web depiction"
         }
       ],

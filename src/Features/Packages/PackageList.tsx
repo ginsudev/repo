@@ -34,7 +34,7 @@ export default function PackageList() {
           showArrow: true
         })}
         onItemClick={(p) => {
-          window.location.href = `/depiction/${p.id}`
+          window.location.href = `#/depiction/${p.id}`
         }}
       />
     </>

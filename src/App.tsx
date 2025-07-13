@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { Routes, Route, HashRouter } from 'react-router'
 import HomePage from './Features/Home/HomePage'
 import PackageDepictionPage from './Features/Packages/PackageDepictionPage'
 import VersionsPage from './Features/Packages/VersionsPage'
@@ -7,13 +7,13 @@ import MaxWidthWrapper from './Components/MaxWidthWrapper'
 function App() {
   return (
     <MaxWidthWrapper>
-      <BrowserRouter basename={'/'}>
+      <HashRouter>
         <Routes>
           <Route index element={<HomePage />} />
           <Route path='/depiction/:id' element={<PackageDepictionPage />} />
           <Route path='/versions/:id' element={<VersionsPage />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </MaxWidthWrapper>
   )
 }

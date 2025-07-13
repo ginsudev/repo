@@ -85,7 +85,7 @@ export default function VersionsPage() {
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: '20px' }}>
-      <ClassicButton title={`← Back to ${packageInfo.name}`} onClick={() => (window.location.href = `/depiction/${id}`)} />
+      <ClassicButton title={`← Back to ${packageInfo.name}`} onClick={() => (window.location.href = `#/depiction/${id}`)} />
       {sortedVersions.length && (
         <>
           <div style={titleStyles}>Version History</div>

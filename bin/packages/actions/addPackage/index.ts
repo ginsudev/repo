@@ -33,7 +33,7 @@ export default async function (debPath?: string) {
 
     // Append custom fields to the control file
     console.log(`⌛ Processing control file`)
-    controlFile['Depiction'] = `${BASE_URL}/depiction/${packageId}`
+    controlFile['Depiction'] = `${BASE_URL}/#/depiction/${packageId}`
     controlFile['SileoDepiction'] = `${BASE_URL}/repo/packageInfo/${packageId}/sileo.json`
     controlFile['Icon'] = `${BASE_URL}/repo/packageInfo/${packageId}/icon.png`
     writeControlFile(path.join(tmpExtractPath, 'DEBIAN', 'control'), controlFile)

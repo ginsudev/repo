@@ -149,7 +149,7 @@ export default function PackageDepictionPage() {
             <div style={{ display: 'flex', flexDirection: 'column', gap: '10px' }}>
               <ChangelogEntry version={version} date={packageInfo.versions[version].date} changes={packageInfo.versions[version].changes} />
               <div style={{ height: '1px', background: '#ddd', margin: '0.5rem 0' }} />
-              <ClassicButton title='View all versions' onClick={() => (window.location.href = `/versions/${id}`)} />
+              <ClassicButton title='View all versions' onClick={() => (window.location.href = `#/versions/${id}`)} />
             </div>
           </SectionContent>
         )

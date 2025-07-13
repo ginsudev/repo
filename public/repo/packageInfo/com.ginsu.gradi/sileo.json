@@ -80,7 +80,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/depiction/com.ginsu.gradi",
+          "action": "https://ginsu.dev/#/depiction/com.ginsu.gradi",
           "title": "View web depiction"
         }
       ],

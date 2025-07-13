@@ -69,7 +69,7 @@ export function createSileoDepiction(options: CreateSileoDepictionOptions) {
           },
           {
             class: 'DepictionTableButtonView',
-            action: `${BASE_URL}/depiction/${options.packageInfo.id}`,
+            action: `${BASE_URL}/#/depiction/${options.packageInfo.id}`,
             title: 'View web depiction'
           }
         ],

@@ -75,7 +75,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/depiction/com.ginsu.notchbanners",
+          "action": "https://ginsu.dev/#/depiction/com.ginsu.notchbanners",
           "title": "View web depiction"
         }
       ],
