@@ -1,0 +1,1881 @@
+Package: com.ginsu.4ders
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: public/repo/debs/com.ginsu.4ders_1.0.3_iphoneos-arm.deb
+Size: 8176
+MD5sum: 329f5d6adea1932f6db5ed0ad6c1eb85
+SHA1: 19b0dca18b3406b80469a153b352d3df902e1073
+SHA256: 658e81dbc9f9e47576fe209af35b673076c883a31690ee6d8a911079e12cc7e9
+Section: Tweaks
+Description: 4x4 Folders!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.4ders
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.4ders/icon.png
+Name: 4Ders
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.4ders/sileo.json
+
+Package: com.ginsu.acies
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 900
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: public/repo/debs/com.ginsu.acies_1.0.3_iphoneos-arm.deb
+Size: 194412
+MD5sum: 050e8cda1c814da61c404b15810621c6
+SHA1: 2986bcb600f98ae4dd54c55931a87a9d69064d21
+SHA256: afd0c3da59aaaed97ec44cc93e59614053bde9ede6f1fc52c302e57d846b2774
+Section: Tweaks
+Description: An awesome media player.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.acies
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.acies/icon.png
+Name: Acies
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.acies/sileo.json
+
+Package: com.ginsu.analog
+Version: 1.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 2192
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
+Filename: public/repo/debs/com.ginsu.analog_1.1_iphoneos-arm.deb
+Size: 330424
+MD5sum: 383154334c876b6283fabf60d1ed0594
+SHA1: 5a484534b4fb14b27ccc47303305de7b1aa07431
+SHA256: 51fd401f8152c3b42d69d06da81ecb61481b4297c8ae950f04cad261457fe4e5
+Section: Tweaks
+Description: An analog clock on the lock screen
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.analog
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/icon.png
+Name: Analog
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/sileo.json
+
+Package: com.ginsu.analog
+Version: 2.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 1484
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.analog_2.0_iphoneos-arm64.deb
+Size: 267432
+MD5sum: a95506c9fd114b474be4aba5d7a02d6f
+SHA1: d5b46b1b981c51261a22cbb7598647ef3330d3b2
+SHA256: 31a4de56d460d3fb4630d9ce06856b050885377937ec48f37efe18c982fdc61f
+Section: Tweaks
+Description: An analog clock on the lock screen
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.analog
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/icon.png
+Name: Analog
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/sileo.json
+
+Package: com.ginsu.analog
+Version: 2.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1484
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.analog_2.0_iphoneos-arm.deb
+Size: 269092
+MD5sum: 5c162b649903f7a8e0b6dcd300ce25d1
+SHA1: dbf894ef6a4e543e18ca3c9a0a74b41c38034265
+SHA256: b2c3d4673e3dfc79d73aa4566d45017e6ba4afcc1ab7021c21a4b275f64943ef
+Section: Tweaks
+Description: An analog clock on the lock screen
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.analog
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/icon.png
+Name: Analog
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/sileo.json
+
+Package: com.ginsu.analog
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1480
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.analog_2.0.1_iphoneos-arm.deb
+Size: 266584
+MD5sum: 728ac2c8ddd799587080bc20890e9587
+SHA1: 4b3b1841fd0847eaca4aa3cfcb35df0002a052d6
+SHA256: 8fd8f874a627c0cb3c4c0c558a3b6f385387c0f34f61447f225ca860b6a5b2f2
+Section: Tweaks
+Description: An analog clock on the lock screen
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.analog
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/icon.png
+Name: Analog
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/sileo.json
+
+Package: com.ginsu.analog
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 1480
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.analog_2.0.1_iphoneos-arm64.deb
+Size: 265804
+MD5sum: b158273048549f11e123f69a0a235f20
+SHA1: 34ada93f884c08b2bc577b89bef0382566d6585d
+SHA256: 50c582e5742b504d5bc6726ca0baca939e19603ecca607a456d6ff1ec0f7f01a
+Section: Tweaks
+Description: An analog clock on the lock screen
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.analog
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/icon.png
+Name: Analog
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/sileo.json
+
+Package: com.ginsu.analog
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1488
+Depends: dev.theos.orion14, firmware (>= 16.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.analog_2.0.2_iphoneos-arm.deb
+Size: 268140
+MD5sum: ae3626035e452dd232df61328e9b4d95
+SHA1: e78dda7a09b144ed63746fcadf4aa175a9e2b2ec
+SHA256: a424692def94f970d11319e7363dc25071518e43e8a3aa2daab35f07a0a31f2c
+Section: Tweaks
+Description: An analog clock on the lock screen
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.analog
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/icon.png
+Name: Analog
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/sileo.json
+
+Package: com.ginsu.analog
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 1488
+Depends: dev.theos.orion14, firmware (>= 16.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.analog_2.0.2_iphoneos-arm64.deb
+Size: 267368
+MD5sum: b5497bc3c7465554bba21b5742c09981
+SHA1: 67c53dfe35a1df8ad301ecaeb3b74e07235ec673
+SHA256: 57ad54af25dd03b4c69e1e8b21f666158a8e6b27fa9dc190376f0cbbffda3090
+Section: Tweaks
+Description: An analog clock on the lock screen
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.analog
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/icon.png
+Name: Analog
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.analog/sileo.json
+
+Package: com.ginsu.androbar
+Version: 3.2.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 2820
+Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.altlist, preferenceloader, com.ginsu.libgscommon
+Filename: public/repo/debs/com.ginsu.androbar_3.2.1_iphoneos-arm.deb
+Size: 287896
+MD5sum: 94849f3c1d99b75b2e8a134ee59b17b1
+SHA1: 69a2b6e0c936a05eb309c85b98b0ac006284bc55
+SHA256: 82b672ce674ce8893379b1e25301533204dcf79f754a666733003a6e607256b6
+Section: Tweaks
+Description: Bring Android's navigation bar to iOS!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.androbar
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.androbar/icon.png
+Name: AndroBar
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.androbar/sileo.json
+
+Package: com.ginsu.classicalerts
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 136
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: public/repo/debs/com.ginsu.classicalerts.deb
+Size: 3296
+MD5sum: 19fe54b2e61bf31810bafcbcad39d545
+SHA1: 786eaa2b5870e2f8cd89ad0a932fa600e841ade3
+SHA256: 55dd885539b1d276e0fe0ab3d14ca2d88b367169f803f18695ee199ba30d4cf4
+Section: Tweaks
+Description: Bring iOS 8 and lower's square-styled alerts back!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.classicalerts
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.classicalerts/icon.png
+Name: ClassicAlerts
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.classicalerts/sileo.json
+
+Package: com.ginsu.comet
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 2148
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.comet-_1.0.5_iphoneos-arm.deb
+Size: 228612
+MD5sum: cbe6bf3df0e7e8ca38c5348a174d9ec4
+SHA1: a4d033408b332d8b7fc87a8d748d222c6a66da28
+SHA256: 4fe9ab0396beb26ad353c645c8277bf2a0d1ece42cea527fadabcc37e1f033a3
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.comet
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/icon.png
+Name: Comet
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/sileo.json
+
+Package: com.ginsu.comet
+Version: 1.0.5
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 2148
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.comet-_1.0.5_iphoneos-arm64.deb
+Size: 229112
+MD5sum: 012f50bf93c19e1006c9fe00c196d2d3
+SHA1: c93ccff7fcc52d8b8207ab44e79cd5cb3b16a934
+SHA256: bae381c0bbd96477d8a6009ad3d90cdf2bb0724883d0f6ba9da8dabe22183d84
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.comet
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/icon.png
+Name: Comet (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/sileo.json
+
+Package: com.ginsu.comet
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 2136
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.comet_1.1.0_iphoneos-arm64.deb
+Size: 227448
+MD5sum: 4c17629148f5768a729ab1248e7ca657
+SHA1: 76dd1c4745f7a87a29343cebc2e748218207e0bc
+SHA256: b1f12fe3cbd0efe0e2779f6e4f11c9e5823359b7024029565148f1709eb1356d
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.comet
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/icon.png
+Name: Comet (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/sileo.json
+
+Package: com.ginsu.comet
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 2136
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.comet_1.1.0_iphoneos-arm.deb
+Size: 227112
+MD5sum: 852085bb5e25bd3ba7d8de1c6679f565
+SHA1: e548590ab1a3f14b304cd6196a55563ac7abbf49
+SHA256: a7356b2f6d0f8f408bb30e8e31ce82fdd27c16cc915d75114168538dc7ff383f
+Section: Tweaks
+Description: A SwiftUI Prefs Framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.comet
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/icon.png
+Name: Comet
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.comet/sileo.json
+
+Package: com.ginsu.dockls
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1364
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
+Filename: public/repo/debs/com.ginsu.dockls_2.0.2_iphoneos-arm.deb
+Size: 129804
+MD5sum: 0dfcdfc4f66e8bd070774d71b705c61a
+SHA1: 5eda9e82da06b71e619733136a66b8ce75359f78
+SHA256: 66fdaef8ad923b9830e163c6b8f61e2b80565185df1d84ba0129cbc65a592a84
+Section: Tweaks
+Description: Your dock on the LS!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dockls
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dockls/icon.png
+Name: DockLS
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dockls/sileo.json
+
+Package: com.ginsu.docksearch
+Version: 2.1.3
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1248
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, preferenceloader
+Filename: public/repo/debs/com.ginsu.docksearch_2.1.3_iphoneos-arm.deb
+Size: 117832
+MD5sum: 04c37e891667ae1ea20f32d61e92d09a
+SHA1: 38d7c10c61d81313b0d37a025ba0c175ca58e238
+SHA256: 7eadab7f2af0ad61e6ff7912b0fec6b87a74f91a89b6a15ecb36b74c86a123ce
+Section: Tweaks
+Description: Adds a browser search bar to the dock!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.docksearch
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.docksearch/icon.png
+Name: DockSearch
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.docksearch/sileo.json
+
+Package: com.ginsu.dodo
+Version: 3.4.9
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 6484
+Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.altlist, preferenceloader, com.ginsu.libgscommon, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_3.4.9_iphoneos-arm.deb
+Size: 701808
+MD5sum: 3961a8274004a4f85fd2bbc3dfdaa6a8
+SHA1: 45a6c231858ecc24834d5d5bcdab39d350c2dde8
+SHA256: 134f26bedf7768dbfcbb8a2fa8f9960899addf0669a5bd197219580f205c0ddb
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8104
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.0_iphoneos-arm.deb
+Size: 841080
+MD5sum: fa4783d9c7bc202c7a05e194fac17b7a
+SHA1: 17b4bb942697bbc24d14e5c723133248cd0ba2fa
+SHA256: 6987170e1573790d4e63138c7dbafe257f5e386771dd562afc8d279e544a9651
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8104
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.1_iphoneos-arm.deb
+Size: 841792
+MD5sum: ad625672084cbb180cbed363063eb6a0
+SHA1: 91d0210f4c2360e0367433d126cf1d4c543d668b
+SHA256: d05b4ff6fde6bf86407b6bb54803994b0ac6fb08dcc82a9d1739a5030d987034
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.2
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8092
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.2_iphoneos-arm64.deb
+Size: 843000
+MD5sum: cc59be4c1c71a03ffd8061252eace0a6
+SHA1: 932439f5c0a4e34ababf4b3951145bd0f6a3ad65
+SHA256: f2f4a8fbf1feabbb09ef0f8ac2313d9426ea490f3c169f8d49f62b0d5e1a2732
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8128
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.2_iphoneos-arm.deb
+Size: 844380
+MD5sum: eee6f88beeb4b16a257f9b6eb50af87c
+SHA1: 5bb4c5862676e57503738abcc964a8961d50a92d
+SHA256: 2647e48d385c06a3a0b53eb4fc7e4b51c1c0e5fd6e869fc4b43df5efbdd9def9
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.3
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8188
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.3_iphoneos-arm64.deb
+Size: 848604
+MD5sum: a0a5926ddc670142e8d23d20391e5ee0
+SHA1: 136977153ff7ec41c036449c15e2a53a9a9a5595
+SHA256: 7a43b83ced6e237716f0cb625b3b19433d22e34d7f4e82623aed5bbf913eacbe
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.3
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8188
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.3_iphoneos-arm.deb
+Size: 849204
+MD5sum: ecdd267c5bdb0f76866d1589ee01d9f1
+SHA1: 0857b9363b57cd3eced3ff973a6885165bbdfeac
+SHA256: 6440a6c5c5dab77e9bd07472e0bb70e18b039742034b0308d6521476c7088c88
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.3-1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8188
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.3-1_iphoneos-arm.deb
+Size: 850532
+MD5sum: 7951a8ff1477d923f76c2b6dad042fc7
+SHA1: a8984e4ae4637792cc10b8384586b1ed83c8852b
+SHA256: 6eb328c166926c78a3fc677700f15821de962fbe4c93786b42475115534f3298
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.3-1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8188
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.3-1_iphoneos-arm64.deb
+Size: 845556
+MD5sum: 5398db9e5097b10eaacdee5ae5fb857e
+SHA1: c1b869140aab5c67daa9efac0defbb1f980526a4
+SHA256: b75a258572b01770dc6eab4a278931fa79ee6205e0baffe529cf0fc009610db8
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.4
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8196
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.4_iphoneos-arm.deb
+Size: 852756
+MD5sum: 6b08ecdd3a0f41f759a929d4f24b759c
+SHA1: f35c46c0170d4d5a2020059dd3a9c58d90270212
+SHA256: 8dc5c4b9441315bb8bb8fad131bd0226c42f17807f5d5157d275c90dbb7e1108
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.4
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8196
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.4_iphoneos-arm64.deb
+Size: 847300
+MD5sum: feaa847ace1c316529d44719d4988c66
+SHA1: e00781d7e8c0b05fa0cebc24998e2c19688c6991
+SHA256: f0a03301bddfc182cdf411529f67f1fa360c095e0bf90fe9c82586d3a6b7328a
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.5
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8200
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.5_iphoneos-arm64.deb
+Size: 848376
+MD5sum: 1420dfcef489bf224dc0f613091c3409
+SHA1: 5a2efeb47739a6fa4bbb0bf5a183cb85c4021009
+SHA256: 89bd7d0e8506de20320be31687f6832c24c14b7dee95411541a3d4a1718d5979
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.5
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8220
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.5_iphoneos-arm.deb
+Size: 857224
+MD5sum: bdf6b1d392f9112d8bea3f395f0fc01a
+SHA1: 76d3506414444984dab23af76dbe410d5d81c713
+SHA256: b278534536f8190ec0895d688dcf8a98d4bac714a5c7c01b9d543747ade75dba
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.6
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8344
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.6_iphoneos-arm64.deb
+Size: 852484
+MD5sum: 6343731a8d2237fa3942d5943653be56
+SHA1: dca2e34c6085fc236e9c8a8c84362703114b5391
+SHA256: 71133b5884d346a772f18009732e0fd330dd8451c0ade58cfb85a3bd44b143ab
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.6
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8344
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.6_iphoneos-arm.deb
+Size: 855556
+MD5sum: f74a77978215eba56bad3108a3fdaca3
+SHA1: bb6b1e7cfd986eb5a24d738918a1ad0faef260d6
+SHA256: 3283e298b02a6958ef8237b5ba1d7a6654773f5768bf1c1a8ae37a0ad24f0250
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.7
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8324
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.7_iphoneos-arm.deb
+Size: 850016
+MD5sum: 4602e0ede8aa1fec58435f355d287439
+SHA1: f482215f94ab5bb09e19be2d3197955cf26ffb35
+SHA256: 41bfe872847bc12e7802884023ced7571801e8367eb065a837a5c414de767b2c
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.7
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8324
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.7_iphoneos-arm64.deb
+Size: 850420
+MD5sum: 9c330ed65b24a1750838db62deb07e6a
+SHA1: d046086d44543da8b32e1addb306d646ecc8bc48
+SHA256: ba58f6f35f5292cf29655a1932d8ee265b1c5a9d1fd0dac91e880a8779532439
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.8
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8432
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.8_iphoneos-arm64.deb
+Size: 856852
+MD5sum: 01103a2d159485977683d835c3d1da5a
+SHA1: 59acce6826848980edef0353bd894230f41b0b44
+SHA256: b84c0c1873be119c3a9f4da93f1e8f7647e08ec314db4ad1e12cd47536219fbd
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.8
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8432
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.8_iphoneos-arm.deb
+Size: 861672
+MD5sum: bfe19af9519c5b9c7bfbef8dbb0fb271
+SHA1: 357d74faf92d6eb9cdd4f63784d225bd6085919a
+SHA256: 8b35bb2550c0fafa993f276ed469f815cfaa00caf0153294e8d5392a448f2fb1
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.8.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 8488
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.8.1_iphoneos-arm64.deb
+Size: 857944
+MD5sum: 6d8a521d3c0721f093f424c05e37fc04
+SHA1: a43d2ddb1bb2df4f0a0d30918b8743c07aa3b039
+SHA256: 75ffc705e92471ecabd67e47c83c9f2f9c847240c5afcd0dbdbed05f4171ed7f
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.8.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 8508
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.8.1_iphoneos-arm.deb
+Size: 858112
+MD5sum: 75c78ff16788af93536d92f826196872
+SHA1: 928fd48ad6776a800e4740963459504a1f0a6a07
+SHA256: f24e9a8b281c244a6849cc9ea795bd2d17331dbaed5988b9a5b99e59cf8d2d87
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.9
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 9052
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.9_iphoneos-arm.deb
+Size: 936084
+MD5sum: 6d9206e90a0b714ff0a459e8960a3ae6
+SHA1: 50568f8bea257bcd7ab41086021bb43d342827cb
+SHA256: 912c3ea6aaf791bda37d583abd7f02ed5cacb9d914135c21d6445719051a30c1
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.9
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 9036
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.9_iphoneos-arm64.deb
+Size: 934452
+MD5sum: 4d0ff9b845ec4d2b350f9ef2a66ff206
+SHA1: f78a00b2cccac556650a3573a15f09b5384f7d8e
+SHA256: 7bb67f54c8edbc075de23149ff87aeb0829f2e65a001449b553376e852816ef1
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.9.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 9056
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.9.1_iphoneos-arm.deb
+Size: 936572
+MD5sum: 7c2cc247090b727000a4bcf595fc5562
+SHA1: 7c6bfb60c8c0a675828be709e03d92c758d699cd
+SHA256: 99468e068f9b2d0f4ee47e66dd328de00f3a863e5b45498ba837c4bbfacbb3d8
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.9.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 9056
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.9.1_iphoneos-arm64.deb
+Size: 937164
+MD5sum: 8c6d0e9a8aa4574e305f62ef09dae072
+SHA1: 8e11a542f675d7321bb4fd5dc2c1d33c8944858a
+SHA256: c5cd92f9c5665318cb33fc4c939d355f96d11bca2f4038d27ba60356d13bf54a
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.9.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 9056
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm.deb
+Size: 938516
+MD5sum: 3898d06e7682137e13df6a384fedadd5
+SHA1: 2e857d77b65e540fe46cc1cb9978be7143e9e7f6
+SHA256: 8fc0460a552441fc687ac6edc7a8bd513f49d689bb4dbabe9ff4af4143c7d0ec
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.0.9.2
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 9056
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm64.deb
+Size: 936952
+MD5sum: 1579af48c4c9c1ccd23ad8115a9172e5
+SHA1: 85aef3e08a4e607a2a0eb1aa5fdca93bb20843ae
+SHA256: 58aa3ec257a66ac47d82c6fa8b7f251a10eb71155332399a2043d6abeec31eae
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.1.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 9548
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
+Filename: public/repo/debs/com.ginsu.dodo_4.1.0_iphoneos-arm64.deb
+Size: 986940
+MD5sum: 7941d0ae12710dbc65eda57ac7c9da27
+SHA1: 16bf2ca910ff4025f7a5f3804ab29783ec87cf3b
+SHA256: 39c653427b5fe34ad17a097dc6b8c3be6eca21a008fba12f53cbfde289fa4645
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.1.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 9548
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.dodo_4.1.0_iphoneos-arm.deb
+Size: 988156
+MD5sum: 69b437ac2f5911308c07f5ea8d9f8958
+SHA1: c83f99d23a6a50e0b9ea414291e0f5cfe28f3a30
+SHA256: abffa5158a687bfda81a2db99b244726d8748087d7afb5a814253c0f91f7bd7b
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.2.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 9728
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: public/repo/debs/com.ginsu.dodo_4.2.0_iphoneos-arm.deb
+Size: 999464
+MD5sum: 0adde77d8f3fee18a055b24e236115be
+SHA1: 9e05f0b9a60c139d7ea0461df19c39773a741874
+SHA256: a4b913cd67fae94e3bc3c677ca87196334546e90a92f32a6a3f34c6f99e76bda
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.2.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 9728
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: public/repo/debs/com.ginsu.dodo_4.2.0_iphoneos-arm64.deb
+Size: 1002100
+MD5sum: d3099acc3b8070aaf49171f65cbbe953
+SHA1: 39f63e28340f481b0f5f2e6457818001fa9074cd
+SHA256: 45cdd184cb4aa6e2148cfc5cb06a90dfdc48ace5f77309e9c27d8bdbded1466e
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.2.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 9936
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: public/repo/debs/com.ginsu.dodo_4.2.1_iphoneos-arm64.deb
+Size: 1026068
+MD5sum: 394c1a0ef4f154fdacb23ce0cadc722a
+SHA1: e9d1a5a808fcdfb09e165817ebc8e2afa98ed2e6
+SHA256: a9771b6a19e204e580806b99dc175631af2a7a893a3c09da3c194fd4e58f75a2
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.2.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 9936
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: public/repo/debs/com.ginsu.dodo_4.2.1_iphoneos-arm.deb
+Size: 1025640
+MD5sum: c44d841a784defa5bc04edafdcd7ef55
+SHA1: 7290b3831a5164586a8d6d7296ef6b317d227b0d
+SHA256: 5c3d2142fb39e5785133296ce5c53c78300dad572456bc7bad4ad47761bf7835
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.2.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 7592
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: public/repo/debs/com.ginsu.dodo_4.2.2_iphoneos-arm.deb
+Size: 957644
+MD5sum: b9f6b18b9f7f68824767b52ae4337bd9
+SHA1: e2fd6b6656930524dbf8c592cd27c052e8b52451
+SHA256: 10ef699dc0cab93fb75275a8eb129c755109665adb2f260104ac831a34cd6912
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.dodo
+Version: 4.2.2
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 7592
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
+Filename: public/repo/debs/com.ginsu.dodo_4.2.2_iphoneos-arm64.deb
+Size: 957072
+MD5sum: 8e438eed34e205b5d22e674a90addcba
+SHA1: 23cb9ef1c6052a69e631e32d0aee389d4494c737
+SHA256: 3e66e19cb7bd8be6d7308d034adf0ee322881c0e2930abc7899d93a54878112a
+Section: Tweaks
+Description: The perfect Lock Screen redesign.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dodo
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png
+Name: Dodo (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/sileo.json
+
+Package: com.ginsu.draincheck
+Version: 3.0.8
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 3156
+Depends: com.cokepokes.libnotifications, com.opa334.ccsupport, dev.theos.orion14, preferenceloader, com.ginsu.libgscommon (>= 1.2.4), firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.draincheck_3.0.8_iphoneos-arm.deb
+Size: 1052272
+MD5sum: 4072a2f08d296b0a9bdd4242b0b7a9ce
+SHA1: 86d8244f189fb9e66c1f00eda0fa68d77dc306a9
+SHA256: c0e0ca72192accf18d9a7dc40089d0f472cfd5b95c89d4159f35dbe57e0a33ec
+Section: Tweaks
+Description: Monitor your battery drain!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.draincheck
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/icon.png
+Name: DrainCheck
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/sileo.json
+
+Package: com.ginsu.dualclock2
+Version: 1.1.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1884
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.libgscommon
+Conflicts: com.exodia9610.dualclock
+Filename: public/repo/debs/com.ginsu.dualclock2_1.1.2_iphoneos-arm.deb
+Size: 210556
+MD5sum: c8958d58a9342204d89c2a5bf67b7f44
+SHA1: 4e3f1f1c67b1a02223ad393e6f0f084065b2d922
+SHA256: 84ea30b468e7551308b99e8065f0ff3ff101f7552e0253def7d56eb881201dc5
+Section: Tweaks
+Description: Two time zones system-wide
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png
+Name: DualClock 2
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/sileo.json
+
+Package: com.ginsu.dualclock2
+Version: 2.0.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 3784
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm64.deb
+Size: 400828
+MD5sum: 93582c4d94d74c400de98e842af73444
+SHA1: 56c203edfb85e533d83410b76cac26d458e2b11d
+SHA256: 28e0d3489c82293ea1fe5090faecacf068daf1d976a28bee24e3e232aef137fd
+Section: Tweaks
+Description: Two time zones on the Lock Screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png
+Name: DualClock 2
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/sileo.json
+
+Package: com.ginsu.dualclock2
+Version: 2.0.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 3784
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm.deb
+Size: 399752
+MD5sum: e746ee6578bc599c381c8c16c187d0cd
+SHA1: 28426ab6029f3a0e9c90b22f46df3d5a818e7f92
+SHA256: 0552782a49340053a9c5b400bb4f4e7fbdd32f74654572014f8043bec289d0a4
+Section: Tweaks
+Description: Two time zones on the Lock Screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png
+Name: DualClock 2
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/sileo.json
+
+Package: com.ginsu.dualclock2
+Version: 2.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 3832
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.dualclock2_2.0.1_iphoneos-arm64.deb
+Size: 397252
+MD5sum: 2caccdf960a25b5889e043d200a6f55b
+SHA1: 03b35e24341fedb8abb42c6fa7e486199b8c92ba
+SHA256: 5726d49280b9ea50837ec783d086a33a83de9f28aef746e45ae0524b0c904896
+Section: Tweaks
+Description: Two time zones on the Lock Screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png
+Name: DualClock 2
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/sileo.json
+
+Package: com.ginsu.dualclock2
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 3832
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.dualclock2_2.0.1_iphoneos-arm.deb
+Size: 396624
+MD5sum: 2647bee70ac45fb0b7e7cb29080a6fa5
+SHA1: 41309699eaf975595859450557e4a3f0c34732ca
+SHA256: 56401db51c17d871833f27b043ce9d7c97e668acac15c1efcd5f22f06552dd6c
+Section: Tweaks
+Description: Two time zones on the Lock Screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png
+Name: DualClock 2
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/sileo.json
+
+Package: com.ginsu.dualclock2
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 3832
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.dualclock2_2.0.2_iphoneos-arm.deb
+Size: 397052
+MD5sum: 5c333c8319795ba156157a68f8363b5c
+SHA1: 65b9e9361f26e5b38aa61291c4c0fa9698b463fd
+SHA256: 11db3189f861f88a0005db64db7fdf25a34070d1a79af8795ff7c3bf8c45a64d
+Section: Tweaks
+Description: Two time zones on the Lock Screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png
+Name: DualClock 2
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/sileo.json
+
+Package: com.ginsu.dualclock2
+Version: 2.0.2
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 3832
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
+Filename: public/repo/debs/com.ginsu.dualclock2_2.0.2_iphoneos-arm64.deb
+Size: 397196
+MD5sum: 689c1bd4599eb2221c5993c861724ddd
+SHA1: ac73ac84750dd254026da99626c25fe48aca69f4
+SHA256: e523f1d89f9f459b6e02cb655be629aa9e2770919fd7a365edecaeec65904886
+Section: Tweaks
+Description: Two time zones on the Lock Screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.dualclock2
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png
+Name: DualClock 2 (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/sileo.json
+
+Package: com.ginsu.enablebatterypercent
+Version: 2.1.2
+Architecture: iphoneos-arm
+Maintainer: ginsu
+Installed-Size: 1108
+Depends: mobilesubstrate
+Filename: public/repo/debs/com.ginsu.enablebatterypercent_2.1.2_iphoneos-arm.deb
+Size: 693632
+MD5sum: d4d4b2442ee9e0d0cc3f055937f4ee3d
+SHA1: 9b3f84b89a79052472202b8f3344ee51ca665807
+SHA256: 1bd177a3baeae375f1691a908de6cd61ef9117faa65d41ed1fda568bfc47803d
+Section: Tweaks
+Description: Enable Apple's Secret Battery Percentage.
+Author: ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.enablebatterypercent
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.enablebatterypercent/icon.png
+Name: EnableBatteryPercent
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.enablebatterypercent/sileo.json
+
+Package: com.ginsu.gradi
+Version: 2.2.3
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 2912
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
+Filename: public/repo/debs/com.ginsu.gradi_2.2.3_iphoneos-arm.deb
+Size: 325516
+MD5sum: 54b09d9e155bc57631682eb0c87f970b
+SHA1: 11b673e9e44f4ca010283db02ede4615b765f628
+SHA256: def728c4633988e02e8929b264f9560f303a7665f862e66d795db1025b817295
+Section: Tweaks
+Description: An awesome Orion tweak!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gradi
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gradi/icon.png
+Name: Gradi
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gradi/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore-iphoneos-arm_1.0.0_.deb
+Size: 391208
+MD5sum: 6e4410c12513300e80ec105dcf3338e7
+SHA1: 45fb0957f43f1ec50f2f7ccb340b1df93c4fcb45
+SHA256: c58934668dea9607e812132a682211ddbbf1300995e1261c6b27f6bd0abcb13d
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore-iphoneos-arm64_1.0.0_.deb
+Size: 392744
+MD5sum: 4fe5a5f8f59dee45c17e90ad28ddd032
+SHA1: 887b08fe0c92fd3ee6fe81c9e5a72a8dba3af851
+SHA256: 2066969b95c60c04b447306d051d3ac624cc84251b67fe084c6243c6dfc92f98
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.1_iphoneos-arm.deb
+Size: 391344
+MD5sum: 70e64080fd067b6c5919bb33914cd49f
+SHA1: fced60dd3d57c231cbe1c1d3078969db9ed205dc
+SHA256: f6606080a8cb2a03a5edc7ee4b1f708b69e0fc17c2af5cc1fce6eca637dcb238
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.1_iphoneos-arm64.deb
+Size: 391944
+MD5sum: 719a51d0c82ed9bab61eb5338cc9b49c
+SHA1: 7cbab93811d266b434cf3e0819fd79c1fbdb0aa9
+SHA256: d21dcb29fdef666e36173dd6f8aeb052dbbbdc346e6cd8c93b84879ed7f9e536
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.2
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.2_iphoneos-arm64.deb
+Size: 447232
+MD5sum: 6c52e4700593ee9fa4d9f0a631310705
+SHA1: 7253fe5956dfafe2878222c5aafaa8e77ac584a0
+SHA256: 7f36d66934152d157028d21b4868894300c770637ae77b3f1cd7efaa2717d4b6
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.2_iphoneos-arm.deb
+Size: 448528
+MD5sum: 8127e2c6ec319620721597cde40c1950
+SHA1: ae4b02fc7b61129f3f7b8218c60ab9b4d04092e2
+SHA256: 0fdc8b2ca772b53a85907939436e87ec35a47b83d0545e76ef689c390a4cb05c
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.3
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.3_iphoneos-arm64.deb
+Size: 450552
+MD5sum: bd60ccb3edacf72be350393fbd935464
+SHA1: 42eff78af36913374515976088b9aba73160042e
+SHA256: f4d359c3ff44e049093edd796ef77472e0b5a436c737f9c62e171b2a509d3e1b
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.3
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.3_iphoneos-arm.deb
+Size: 448236
+MD5sum: 71dded71c9efe3ea9afa484c67878bba
+SHA1: 6b4c2abf3a434d2d36e0ce627d98c53121ca6bda
+SHA256: 66e3937aff8fcf845cd70b57f2c3ac42a03f02613a972e6e0676da7369223ff6
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.4
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 4272
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.4_iphoneos-arm64.deb
+Size: 438812
+MD5sum: dd0748ace4ddb21ddf94537cda113f98
+SHA1: 7d96c9bffe83d22b0a7eebdd7f2acd203221eaea
+SHA256: a5111769fc10ac6b09310e67ce4e962b31ee7145d7d56f62a868d0b6d3074a1e
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.0.4
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 4268
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.0.4_iphoneos-arm.deb
+Size: 435868
+MD5sum: 754ec4e9d270852c4e1bfe3fc1ec8a08
+SHA1: af2bee6c18da8b3f24b9d5fe2d99e655db7657a2
+SHA256: 7d9c172bc5e7ba5ccce1fd3f845e6136112772fad1e5637dd37e239326d58d79
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 4380
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.1.0_iphoneos-arm.deb
+Size: 447632
+MD5sum: 5b671f0b2afcc1907838acf215612ef3
+SHA1: 3c5dc99c431397a08f076356ced897a3f92219aa
+SHA256: 36b014363fd363a2d03df78dd50191aa1c8bcee3eaf08849b02544c19263905c
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 4380
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.1.0_iphoneos-arm64.deb
+Size: 448824
+MD5sum: cddefab8f51771e0a31d099a804386ca
+SHA1: db21499dbfae02ac03beac7914b396c27791e1b0
+SHA256: a4ba08a3faa7479a9b332dc7be9bc47c76f73d4bc829995c9390b2d1a3c0ffc4
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 4340
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.1.1_iphoneos-arm64.deb
+Size: 444172
+MD5sum: 00981eabd971919703ad71f9591e9ab7
+SHA1: cfa8c0205bea599ffb4d90eb02fda566515604a4
+SHA256: 2cef9364994dd80d6faf65c248d2bbcb360492226387b818f5f4997b540232da
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gscore
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 4336
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gscore_1.1.1_iphoneos-arm.deb
+Size: 441124
+MD5sum: fe29f6ec8b9bf87cfdfdf180a54b6399
+SHA1: 0e42bdd39d995410f883faca24bb4e43673bf84c
+SHA256: abee67a8ea2e85969ba2bb9ea361a7adfa5dd0a7c60678f2108ed854ccb949f2
+Section: Tweaks
+Description: Environment and communication between my tweaks
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gscore
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/icon.png
+Name: GSCore
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/sileo.json
+
+Package: com.ginsu.gsweather
+Version: 1.0.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gsweather-_1.0.0_iphoneos-arm.deb
+Size: 88644
+MD5sum: ae5521a07601a313e007ead2581e8abc
+SHA1: 0699b5431ff3b65cae625b6f3b3ca536dad15e31
+SHA256: 30da333ed49739a04792e409c5c3c95faba7373fd6406fba4eeaa3d8f0ab15cc
+Section: Tweaks
+Description: A Weather fetching framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Name: GSWeather
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.gsweather
+Version: 1.0.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gsweather-_1.0.0_iphoneos-arm64.deb
+Size: 88720
+MD5sum: b39f2226606408b82053db1c17ab1bc4
+SHA1: 96ad8b34bb03facaf2fe82f9ac5d6ffd2163d285
+SHA256: 981162d03fc439aca4738295f532ac1bb6a62999324aa64a375a8958384dc98d
+Section: Tweaks
+Description: A Weather fetching framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Name: GSWeather (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.gsweather
+Version: 1.1.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gsweather-_1.1.0_iphoneos-arm64.deb
+Size: 124836
+MD5sum: 1568ee20caeb678d936f969ed9117b3c
+SHA1: d8cea279bfefc5b2977280caa1281b4ab5afdd4b
+SHA256: e79a54e150a1c5687eb03e79e9ddb639eec93ca04227cc3fc4c3d1edfd3ba309
+Section: Tweaks
+Description: A Weather fetching framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Name: GSWeather (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.gsweather
+Version: 1.1.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 0
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gsweather-_1.1.0_iphoneos-arm.deb
+Size: 124668
+MD5sum: da6c8ae0efd315ebac6a43abd67369c8
+SHA1: c0ba0e824487cccc282666d4e6411353417bf8aa
+SHA256: 5bbbb945c095cdb35f2273c8aeeaeaf3711304b881a264e0d15c7e2b56514204
+Section: Tweaks
+Description: A Weather fetching framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Name: GSWeather
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.gsweather
+Version: 1.1.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1216
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm.deb
+Size: 120604
+MD5sum: 6cd815bc7388f3fb24c18c295f53d8cb
+SHA1: 9a4184b8ef32e198f97c81e4f4b9a2efec03079f
+SHA256: 7b40ef78fe427b2643b0865e05c0d9f93e9282fe3aeaaf2a3f1759005211a488
+Section: Tweaks
+Description: A Weather fetching framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Name: GSWeather
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.gsweather
+Version: 1.1.1
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 1216
+Depends: dev.theos.orion14, firmware (>= 14.0)
+Filename: public/repo/debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm64.deb
+Size: 120588
+MD5sum: 97e699b56efed1ed6117d3df7e56b9b2
+SHA1: 642d3ce75273758030989349d016a5d4332c5dd4
+SHA256: a30a32d9d21fc6c5dbc4863dcab585f07402194d26ff0c1414a19049a646bba4
+Section: Tweaks
+Description: A Weather fetching framework
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.gsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/icon.png
+Name: GSWeather (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.gsweather/sileo.json
+
+Package: com.ginsu.ipcarrier
+Version: 1.3
+Architecture: iphoneos-arm
+Maintainer: ginsu
+Installed-Size: 372
+Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
+Filename: public/repo/debs/com.ginsu.ipcarrier_1.3_iphoneos-arm.deb
+Size: 29860
+MD5sum: e4c423ba379123485f8c4e7bb03184a4
+SHA1: ec4e2a49ed740c9e2720d3eca680e8a9fb463b4e
+SHA256: b2bda0da38ebe869d794252ba17cefb8bd7c6c323c89bfb723b2505b17bb7718
+Section: Tweaks
+Description: IP address in status bar + cc module.
+Author: ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.ipcarrier
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.ipcarrier/icon.png
+Name: IPCarrier
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.ipcarrier/sileo.json
+
+Package: com.ginsu.kbpro
+Version: 2.1.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 980
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
+Filename: public/repo/debs/com.ginsu.kbpro_2.1.1_iphoneos-arm.deb
+Size: 106700
+MD5sum: 891986a38776775c4f45af17bc902e32
+SHA1: a708f011db7ba0c11d649c710efc93f956c7e6b2
+SHA256: b232fcbdd34e68c35be13290cdd7dddff5e95ae3e0156cab53c30b1dede2b393
+Section: Tweaks
+Description: Select, copy & paste shortcuts on the keyboard.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.kbpro
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.kbpro/icon.png
+Name: KBPro
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.kbpro/sileo.json
+
+Package: com.ginsu.killcontrol
+Version: 1.2.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1520
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, com.opa334.altlist, preferenceloader
+Filename: public/repo/debs/com.ginsu.killcontrol_1.2.2_iphoneos-arm.deb
+Size: 161800
+MD5sum: da272eacd2f18659aff9785358f34e62
+SHA1: a36082756dffd5c1b38dd9cae2beb88bb504276d
+SHA256: 3cfde9ae24df2405bd82b2bde04a05708d51dc7b1a4cafb4b87a8819d05c4865
+Section: Tweaks
+Description: An awesome Orion tweak!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.killcontrol
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.killcontrol/icon.png
+Name: KillControl
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.killcontrol/sileo.json
+
+Package: com.ginsu.libgscommon
+Version: 1.2.6-2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 564
+Filename: public/repo/debs/com.ginsu.libgscommon_1.2.6-2_iphoneos-arm.deb
+Size: 76176
+MD5sum: c247910582f501053077ca6ea2dead26
+SHA1: 4c5276220174f72c3ead8777063baa8296e3af52
+SHA256: ff271cf75077a96a6885ae85de69180e0a5c40d05936a4ffeee018d85d453bdc
+Section: Development
+Description: A library for Ginsu's tweaks!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.libgscommon
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.libgscommon/icon.png
+Name: libgscommon
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.libgscommon/sileo.json
+
+Package: com.ginsu.libgsweather
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 172
+Filename: public/repo/debs/com.ginsu.libgsweather_1.0.1-1_iphoneos-arm.deb
+Size: 8800
+MD5sum: 49d5e2ef5c610f825e657d7d6236ba1c
+SHA1: 4f917decc0371bf05ee1c75cae56077e0c55055c
+SHA256: fe2db7c2f391009a68d58d785c09c3bd7214c88d266174b657568aa809b64ace
+Section: System
+Description: A weather library for Ginsu's tweaks.
+Tag: role::developer
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.libgsweather
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.libgsweather/icon.png
+Name: libgsweather
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.libgsweather/sileo.json
+
+Package: com.ginsu.lockapps
+Version: 1.0.5
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1808
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, com.opa334.altlist, preferenceloader
+Filename: public/repo/debs/com.ginsu.lockapps_1.0.5_iphoneos-arm.deb
+Size: 194792
+MD5sum: 8c12cef54d476b83b15d34ade5271024
+SHA1: 8ead0ae737ac02f5a7baa450afa8f776c9251205
+SHA256: 2444c54ef16dfc5e7da028c999b3904313d442cc6859693c09704d5c6a82cc13
+Section: Tweaks
+Description: Show all your favourite apps on the LS!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.lockapps
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.lockapps/icon.png
+Name: LockApps
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.lockapps/sileo.json
+
+Package: com.ginsu.nointerruptwhenplayingmusic
+Version: 1.0.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 172
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: public/repo/debs/com.ginsu.nointerruptwhenplayingmusic_1.0.1_iphoneos-arm.deb
+Size: 5340
+MD5sum: 03d7717fd31a3c1cb63e3f96063ccdd0
+SHA1: 6a40dde1af4b19f6c7e2ce406add726d1d4ecc14
+SHA256: d5ec726b177283a6b85b371d74c774e23ae0be7518d6f1e198998e75d573c543
+Section: Tweaks
+Description: Quiet notifications when music is playing.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.nointerruptwhenplayingmusic
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.nointerruptwhenplayingmusic/icon.png
+Name: NoInterruptWhenPlayingMusic
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.nointerruptwhenplayingmusic/sileo.json
+
+Package: com.ginsu.notchbanners
+Version: 2.2.5
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 2016
+Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
+Filename: public/repo/debs/com.ginsu.notchbanners_2.2.5_iphoneos-arm.deb
+Size: 233648
+MD5sum: c8554ccea7c072dca572aa70b67ebcc7
+SHA1: 2495de63748cce54d93ebc216a4fb2236cb181aa
+SHA256: a0f2bb54fcc1ff1c06e3b5a7512d32c91ba23838fda044e1ebde1bba706bc0cf
+Section: Tweaks
+Description: Banners from the notch!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.notchbanners
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.notchbanners/icon.png
+Name: NotchBanners
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.notchbanners/sileo.json
+
+Package: com.ginsu.pockettranslator
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1208
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: public/repo/debs/com.ginsu.pockettranslator_2.0.2_iphoneos-arm.deb
+Size: 133724
+MD5sum: 29a0941c9d89f4b1ae505c7f386393cf
+SHA1: 42ecf88e3875dc926801d2f124bde80419bf6870
+SHA256: 4ef5acc6731e08eb3908e1cbe865680589fd9c5cebe4b46ec15cd3ffa467d554
+Section: Tweaks
+Description: An awesome Orion tweak!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.pockettranslator
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.pockettranslator/icon.png
+Name: PocketTranslator
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.pockettranslator/sileo.json
+
+Package: com.ginsu.pockettranslator
+Version: 2.1.0
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1140
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport
+Filename: public/repo/debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm.deb
+Size: 128764
+MD5sum: 5183d3eed45f06afd702051aaa08d232
+SHA1: ccc8a1b13a4508b95a152fceb8f06ff35c61adcf
+SHA256: 943a6e23d1ed42b981d545e481828d188dadde6b5a0a2193b3f722df8584fbe5
+Section: Tweaks
+Description: Lightweight & convenient translator.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.pockettranslator
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.pockettranslator/icon.png
+Name: PocketTranslator
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.pockettranslator/sileo.json
+
+Package: com.ginsu.pockettranslator
+Version: 2.1.0
+Architecture: iphoneos-arm64
+Maintainer: Ginsu
+Installed-Size: 1140
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport
+Filename: public/repo/debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm64.deb
+Size: 128868
+MD5sum: cc28d5dad205a15016d43af4fba468e4
+SHA1: 0dd51604001050013cb59eea764fef42a65799d1
+SHA256: 83c27d28fb110f3e04663e12d7232d39f4c5cac9faba2e0f8bffc6cfd58494ea
+Section: Tweaks
+Description: Lightweight & convenient translator.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.pockettranslator
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.pockettranslator/icon.png
+Name: PocketTranslator (Rootless)
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.pockettranslator/sileo.json
+
+Package: com.ginsu.protectedbrowser
+Version: 1.2.4
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 1056
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), preferenceloader, com.ginsu.libgscommon, com.opa334.altlist
+Filename: public/repo/debs/com.ginsu.protectedbrowser_1.2.4_iphoneos-arm.deb
+Size: 113700
+MD5sum: 7a25451dd31ab7e76cb0197776dc3309
+SHA1: 3ccc1e6036b02ca633b2e43b4840d8d8a0f1fd74
+SHA256: 11e3f48dc19ba9969c5e7c8ad8d0367fe7492b28d15b9c0712c6eed0f189d65a
+Section: Tweaks
+Description: Disable dangerous JS injection in 3rd party in-app browsers
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.protectedbrowser
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.protectedbrowser/icon.png
+Name: ProtectedBrowser
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.protectedbrowser/sileo.json
+
+Package: com.ginsu.ramundertime
+Version: 3.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 528
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: public/repo/debs/com.ginsu.ramundertime_3.2_iphoneos-arm.deb
+Size: 43492
+MD5sum: 782192900c3103186ad56c8f7450b0b9
+SHA1: a4bc9de7cf4cc8f2e9e7c605846c6ea87f7102cb
+SHA256: 21a124ad560539c71fd63addbdbd301e68f1fb097d56e13d8bfa1e47d06eca31
+Section: Tweaks
+Description: Shows the amount of free RAM in the status bar.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.ramundertime
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.ramundertime/icon.png
+Name: RAMUnderTime
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.ramundertime/sileo.json
+
+Package: com.ginsu.recents
+Version: 1.1.7
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 2924
+Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, preferenceloader
+Filename: public/repo/debs/com.ginsu.recents_1.1.7_iphoneos-arm.deb
+Size: 1109092
+MD5sum: 0d8a285e8d39183fa8317a951db59705
+SHA1: 12479f12f19b098dd135f41928c95db8f8b6e8ef
+SHA256: 6a901dbbff30ea55ae183aa0a49cef5ec5e8404c60e4e1b7d72e359ccb76b134
+Section: Tweaks
+Description: Show recently opened apps on the Home Screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.recents
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.recents/icon.png
+Name: Recents
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.recents/sileo.json
+
+Package: com.ginsu.routeconfigurator
+Version: 1.0.1-1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 712
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
+Filename: public/repo/debs/com.ginsu.routeconfigurator_1.0.1-1_iphoneos-arm.deb
+Size: 147656
+MD5sum: b61f6b9e9f8f4d9fe701aa683e053c5a
+SHA1: 44e90b926dd77d7b3632660aab70604b572a01a6
+SHA256: fcad5fec8d98195582c74df59036a31e47a28cfc3f7fb14fb1c472de41db1d5d
+Section: Tweaks
+Description: Set preferred audio routes for different apps.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.routeconfigurator
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.routeconfigurator/icon.png
+Name: RouteConfigurator
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.routeconfigurator/sileo.json
+
+Package: com.ginsu.volify
+Version: 2.0.2
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 468
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
+Filename: public/repo/debs/com.ginsu.volify_2.0.2_iphoneos-arm.deb
+Size: 43764
+MD5sum: 1d1acddc4fa1e890f45524ee61222047
+SHA1: 94083806738a0311a45057fd530114f6ff162215
+SHA256: 163b32a2a62c6e2e1963de3425666a2debf1c7a5c19a050a1e53821fdb7e7276
+Section: Tweaks
+Description: Add a volume slider to Spotify.
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.volify
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.volify/icon.png
+Name: Volify
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.volify/sileo.json
+
+Package: com.ginsu.weatherls
+Version: 2.0.1
+Architecture: iphoneos-arm
+Maintainer: Ginsu
+Installed-Size: 468
+Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.peterdev.libpddokdo
+Filename: public/repo/debs/com.ginsu.weatherls_2.0.1_iphoneos-arm.deb
+Size: 46616
+MD5sum: 41c47e0c253b5c13b0daca79b993c1bc
+SHA1: c7fc8d887977b449c3215399df4a52ab9c60c676
+SHA256: c5ebc736e81bcb898c170ff7e2550c717a8481d104b1a9e9aa1e667ef4c28a45
+Section: Tweaks
+Description: Show the weather on the lock screen!
+Author: Ginsu
+Depiction: https://ginsu.dev/repo/depiction/com.ginsu.weatherls
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.weatherls/icon.png
+Name: WeatherLS
+Sileodepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.weatherls/sileo.json
+

@@ -1,0 +1,303 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://ginsu.dev/repo/packageInfo/com.ginsu.gscore/banner.png",
+  "tabs": [
+    {
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "yPadding": 10,
+          "action": "https://paypal.me/xiaonuoya",
+          "class": "DepictionButtonView",
+          "text": "Click here to buy me a coffee :)"
+        },
+        {
+          "itemSize": "{160, 346}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "screenshots": []
+        },
+        {
+          "markdown": "A framework containing shared functionality and services used in all of my tweaks, also allowing communication between my tweaks for the best experience.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extra information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.1.1",
+          "title": "Version"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "class": "DepictionTableTextView",
+          "text": "Ginsu"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "action": "https://ginsu.dev/repo/depiction/com.ginsu.gscore",
+          "title": "View web depiction"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Details"
+    },
+    {
+      "tabname": "Changes",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.0.0",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Initial release",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.0.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix bundle image path for rootless",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.0.2",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Improvements to Ecosystem and tweak preference accessing interface.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add UIDevice helper functions.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add GlobalState singleton ObservableObject which can be subscribed to by all of my tweaks, currently it offers precise device orientation change logic, but more to come.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add DualClock API integration.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.0.3",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix issue with reading tweak prefs",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.0.4",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "taurine crash fix",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.1.0",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add BUILD_FOR_DISTRIBUTION build flag, fix some compile errors.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.1.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Refactor Preferences propertyWrapper",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        }
+      ]
+    },
+    {
+      "views": [
+        {
+          "action": "https://discord.gg/BhdUyCbgkZ",
+          "title": "Join my Discord server",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "action": "https://x.com/GinsuDev",
+          "title": "Follow me on X",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Contact"
+    }
+  ],
+  "tintColor": "#47afd1"
+}

@@ -1,8 +1,0 @@
-Origin: Ginsu Tweaks
-Label: Ginsu Tweaks
-Suite: stable
-Version: 2.1
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Components: main
-Description: A collection of my free & useful tweaks

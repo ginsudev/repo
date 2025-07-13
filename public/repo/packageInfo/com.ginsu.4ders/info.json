@@ -1,0 +1,20 @@
+{
+  "id": "com.ginsu.4ders",
+  "name": "4Ders",
+  "subtitle": "4x4 Folders!",
+  "description": "4x4 Folders!",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.4ders/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [
+    "screenshot1.jpg"
+  ],
+  "versions": {
+    "1.0.3": {
+      "date": "2025-07-12T06:25:59.751Z",
+      "changes": [
+        "Initial release"
+      ]
+    }
+  }
+}

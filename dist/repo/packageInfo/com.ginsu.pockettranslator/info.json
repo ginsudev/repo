@@ -1,0 +1,28 @@
+{
+  "id": "com.ginsu.pockettranslator",
+  "name": "PocketTranslator",
+  "subtitle": "An awesome Orion tweak!",
+  "description": "Pocket Translator adds a CC module to the control centre which when tapped, presents a translator of your choice (i.e. Google, DeepL, etc.).",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.pockettranslator/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [
+    "IMG_3443.jpg"
+  ],
+  "versions": {
+    "2.0.2": {
+      "date": "2025-07-12T06:53:33.385Z",
+      "changes": [
+        "Initial release"
+      ]
+    },
+    "2.1.0": {
+      "date": "2025-07-12T06:53:48.608Z",
+      "changes": [
+        "Support rootless",
+        "No longer requires any system hooks",
+        ""
+      ]
+    }
+  }
+}

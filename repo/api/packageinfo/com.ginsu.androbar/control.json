@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.androbar", "Name": "AndroBar", "Version": "3.2.1", "Architecture": "iphoneos-arm", "Description": "Bring Android's navigation bar to iOS!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), com.opa334.altlist, preferenceloader, com.ginsu.libgscommon" }

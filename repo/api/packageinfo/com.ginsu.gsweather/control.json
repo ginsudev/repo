@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.gsweather", "Name": "GSWeather ", "Version": "1.1.1", "Architecture": "iphoneos-arm", "Description": "A Weather fetching framework", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0)" }

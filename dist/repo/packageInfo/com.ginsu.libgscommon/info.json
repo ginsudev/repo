@@ -1,0 +1,18 @@
+{
+  "id": "com.ginsu.libgscommon",
+  "name": "libgscommon",
+  "subtitle": "A library for Ginsu's tweaks!",
+  "description": "A library for Ginsu's tweaks!",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.libgscommon/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [],
+  "versions": {
+    "1.2.6-2": {
+      "date": "2025-07-12T06:51:21.686Z",
+      "changes": [
+        "Initial release"
+      ]
+    }
+  }
+}

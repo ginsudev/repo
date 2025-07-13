@@ -1,0 +1,229 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/banner.png",
+  "tabs": [
+    {
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "yPadding": 10,
+          "action": "https://paypal.me/xiaonuoya",
+          "class": "DepictionButtonView",
+          "text": "Click here to buy me a coffee :)"
+        },
+        {
+          "itemSize": "{160, 346}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "screenshots": [
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_0129 2.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_0129 2.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3399.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3399.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3401.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3401.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3402.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3402.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3406.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.analog/screenshots/IMG_3406.PNG",
+              "accessibilityText": "Screenshot"
+            }
+          ]
+        },
+        {
+          "markdown": "If you prefer classy analog clocks and are bored of iOS's default digital clock, then Analog for you! Analog adds a fully customisable analog clock to the lock screen with the following features:\n\n - Clock face and clock hand theming (themers can design their own clock themes and put them up for download somewhere).\n\n- Customisable date complication.\n\n- A lock status indicator for devices with face id.\n\n- A digital time complication.\n\n- A wallpaper colour detection.\n\n- Supports translations.\n\n- And many more customisable options\n\nFor theme creators:\n\n- Custom clock faces:\nCustom clock faces should be **500x500px** '.png' files named 'Face.png'. You should make a folder with the name of your theme, then place your 'Face.png' inside. You can then place the folder you created in this directory `/Library/Application Support/Analog/Faces/`.\n\nCustom clock hands:\nThere is 4 main images needed to create a set of clock hands: `Center.png, Seconds.png, Hour.png, Minute.png`. The dimensions for the files are as follows:\n\n- Center.png = 25x25px\n- Seconds.png = 16x120px\n- Hour.png = 16x101px\n- Minute.Png = 16x120px\n\nSimilarly to custom clock faces, you need to create a folder with the name of your theme, then place those images inside the folder. After that, you can place the folder in the directory: `/Library/Application Support/Analog/Hands/`.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extra information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2.0.2",
+          "title": "Version"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "class": "DepictionTableTextView",
+          "text": "Ginsu"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "action": "https://ginsu.dev/repo/depiction/com.ginsu.analog",
+          "title": "View web depiction"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Details"
+    },
+    {
+      "tabname": "Changes",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Initial release",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "2.0.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix crash if preferences not found.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "2.0.2",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix complications/widgets offset.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix clock not updating in AOD.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "2.0",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Support iOS 16. Reduce dependencies. Refactor.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        }
+      ]
+    },
+    {
+      "views": [
+        {
+          "action": "https://discord.gg/BhdUyCbgkZ",
+          "title": "Join my Discord server",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "action": "https://x.com/GinsuDev",
+          "title": "Follow me on X",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Contact"
+    }
+  ],
+  "tintColor": "#47afd1"
+}

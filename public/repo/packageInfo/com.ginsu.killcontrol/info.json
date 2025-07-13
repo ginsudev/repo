@@ -1,0 +1,21 @@
+{
+  "id": "com.ginsu.killcontrol",
+  "name": "KillControl",
+  "subtitle": "An awesome Orion tweak!",
+  "description": "One swipe to kill all apps + more.\\n\\nFeatures:\\n- Swipe down to kill all apps.\\n- Kill apps after locking the device.\\n- Grace period in which apps wont get killed.\\n- Kill specified apps when another chosen app is opened.\\n- Open specified apps when another chosen app is opened.\\n- Blacklist apps from being closed.\\n- An option to not kill now playing apps.\\n- Optional confirmation prompt.",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.killcontrol/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [
+    "IMG_3574.PNG",
+    "IMG_3575.PNG"
+  ],
+  "versions": {
+    "1.2.2": {
+      "date": "2025-07-12T06:51:05.998Z",
+      "changes": [
+        "Initial release"
+      ]
+    }
+  }
+}

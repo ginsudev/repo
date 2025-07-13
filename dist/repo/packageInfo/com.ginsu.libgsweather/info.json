@@ -1,0 +1,18 @@
+{
+  "id": "com.ginsu.libgsweather",
+  "name": "libgsweather",
+  "subtitle": "A weather library for Ginsu's tweaks.",
+  "description": "A weather library for Ginsu's tweaks.",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.libgsweather/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [],
+  "versions": {
+    "1.0.1-1": {
+      "date": "2025-07-12T06:51:52.170Z",
+      "changes": [
+        "Initial release"
+      ]
+    }
+  }
+}

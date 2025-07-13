@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.acies", "Name": "Acies", "Version": "1.0.3", "Architecture": "iphoneos-arm", "Description": "An awesome media player.", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "mobilesubstrate (>= 0.9.5000)" }

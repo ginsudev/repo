@@ -1,0 +1,25 @@
+{
+  "id": "com.ginsu.draincheck",
+  "name": "DrainCheck",
+  "subtitle": "Monitor your battery drain!",
+  "description": "DrainCheck adds a CC module to the control centre which upon enabling will begin monitoring battery drainage, and after you disable it, you'll get your results. You can also choose to automatically enable/disable DrainCheck with LPM / DND modes.",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.draincheck/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [
+    "IMG_3647.jpg",
+    "IMG_3648.jpg",
+    "IMG_3649.PNG",
+    "IMG_3650.PNG",
+    "IMG_3651.PNG",
+    "IMG_3653.PNG"
+  ],
+  "versions": {
+    "3.0.8": {
+      "date": "2025-07-12T06:44:35.046Z",
+      "changes": [
+        "Initial release"
+      ]
+    }
+  }
+}

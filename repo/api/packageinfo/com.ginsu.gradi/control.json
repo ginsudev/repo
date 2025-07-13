@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.gradi", "Name": "Gradi", "Version": "2.2.3", "Architecture": "iphoneos-arm", "Description": "An awesome Orion tweak!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon" }
