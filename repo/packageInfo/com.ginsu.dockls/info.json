@@ -1,0 +1,21 @@
+{
+  "id": "com.ginsu.dockls",
+  "name": "DockLS",
+  "subtitle": "Your dock on the LS!",
+  "description": "Your dock on the LS!",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.dockls/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [
+    "IMG_2925.PNG",
+    "IMG_2928.PNG"
+  ],
+  "versions": {
+    "2.0.2": {
+      "date": "2025-07-12T06:36:09.886Z",
+      "changes": [
+        "Initial release"
+      ]
+    }
+  }
+}

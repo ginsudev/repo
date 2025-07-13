@@ -1,0 +1,139 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/banner.png",
+  "tabs": [
+    {
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "yPadding": 10,
+          "action": "https://paypal.me/xiaonuoya",
+          "class": "DepictionButtonView",
+          "text": "Click here to buy me a coffee :)"
+        },
+        {
+          "itemSize": "{160, 346}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "screenshots": [
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3647.jpg",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3647.jpg",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3648.jpg",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3648.jpg",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3649.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3649.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3650.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3650.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3651.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3651.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3653.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.draincheck/screenshots/IMG_3653.PNG",
+              "accessibilityText": "Screenshot"
+            }
+          ]
+        },
+        {
+          "markdown": "DrainCheck adds a CC module to the control centre which upon enabling will begin monitoring battery drainage, and after you disable it, you'll get your results. You can also choose to automatically enable/disable DrainCheck with LPM / DND modes.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extra information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "3.0.8",
+          "title": "Version"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "class": "DepictionTableTextView",
+          "text": "Ginsu"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "action": "https://ginsu.dev/repo/depiction/com.ginsu.draincheck",
+          "title": "View web depiction"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Details"
+    },
+    {
+      "tabname": "Changes",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "3.0.8",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Initial release",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        }
+      ]
+    },
+    {
+      "views": [
+        {
+          "action": "https://discord.gg/BhdUyCbgkZ",
+          "title": "Join my Discord server",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "action": "https://x.com/GinsuDev",
+          "title": "Follow me on X",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Contact"
+    }
+  ],
+  "tintColor": "#47afd1"
+}
