@@ -3,7 +3,7 @@
   "name": "DockLS",
   "subtitle": "Your dock on the LS!",
   "description": "Your dock on the LS!",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.dockls/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.dockls/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

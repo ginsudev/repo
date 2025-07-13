@@ -3,7 +3,7 @@
   "name": "Acies",
   "subtitle": "An awesome media player.",
   "description": "A custom media player for the lock screen.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.acies/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.acies/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

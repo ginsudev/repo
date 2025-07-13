@@ -3,7 +3,7 @@
   "name": "DualClock 2",
   "subtitle": "Two time zones system-wide",
   "description": "Two time zones on the Lock Screen and in the status bar.\\n\\nDualClock 2 is the successor to DualClock, re-written in Swift, bugs fixed and more intelligence. DualClock 2 allows users to show up to two different time zones on the Lock Screen and in the status bar. Supports iPad and iPhone.\\n\\nSupports iOS 14+",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.dualclock2/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

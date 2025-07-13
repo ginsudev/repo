@@ -3,7 +3,7 @@
   "name": "RAMUnderTime",
   "subtitle": "Shows the amount of free RAM in the status bar.",
   "description": "RAMUnderTime allows users to quickly check the amount of remaining free RAM right from the status bar. Supports all devices",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.ramundertime/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.ramundertime/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

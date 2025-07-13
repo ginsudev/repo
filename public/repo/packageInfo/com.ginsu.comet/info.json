@@ -3,7 +3,7 @@
   "name": "Comet ",
   "subtitle": "A SwiftUI Prefs Framework",
   "description": "A framework to help build preference pages in SwiftUI.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.comet/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.comet/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [],

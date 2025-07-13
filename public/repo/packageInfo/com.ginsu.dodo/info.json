@@ -3,7 +3,7 @@
   "name": "Dodo",
   "subtitle": "The perfect Lock Screen redesign.",
   "description": "Dodo is the perfect Lock Screen tweak with everything you need. You can add your favourite applications to access quickly from the Lock Screen, receive media recommendations depending on what app was playing music previously and control music playback! You can also check the weather at ease.\\n\\nFeatures:\\n\\n- Quick access to applications\\n- Media recommendations\\n- Media player\\n- Weather\\n- Beautiful, customisable and smart design.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.dodo/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

@@ -3,7 +3,7 @@
   "name": "NotchBanners",
   "subtitle": "Banners from the notch!",
   "description": "Give your notch some purpose! NotchBanners transforms the appearance of notification banners by making them drop down below the notch, as if they were part of the notch itself.\\n\\nFeatures:\\n\\n- A banner design that integrates with the device's notch.\\n- Custom colour support\\n- More coming..\\n\\nThis tweak should also support non-notched devices, although they don't have a notch. :)",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.notchbanners/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.notchbanners/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [

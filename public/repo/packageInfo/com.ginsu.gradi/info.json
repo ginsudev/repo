@@ -3,7 +3,7 @@
   "name": "Gradi",
   "subtitle": "An awesome Orion tweak!",
   "description": "This tweak brings Google's beautiful music player with the gradient to the iOS lock screen.",
-  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.gradi/icon.png",
+  "icon": "https://ginsu.dev/repo/packageInfo/com.ginsu.gradi/icon.png",
   "author": "Ginsu",
   "maintainer": "Ginsu",
   "screenshots": [
