@@ -1,0 +1,13 @@
+Package: com.ginsu.4ders
+Name: 4Ders
+Architecture: iphoneos-arm
+Description: 4x4 Folders!
+Maintainer: Ginsu
+Author: Ginsu
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
+Depiction: https://ginsu.dev/depiction/com.ginsu.4ders
+Version: 1.0.3
+Installed-Size: 172
+Icon: https://ginsu.dev/repo/packageInfo/com.ginsu.4ders/icon.png
+SileoDepiction: https://ginsu.dev/repo/packageInfo/com.ginsu.4ders/sileo.json
