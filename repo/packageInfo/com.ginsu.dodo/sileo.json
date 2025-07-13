@@ -85,7 +85,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/depiction/com.ginsu.dodo",
+          "action": "https://ginsu.dev/#/depiction/com.ginsu.dodo",
           "title": "View web depiction"
         }
       ],

@@ -75,7 +75,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/depiction/com.ginsu.acies",
+          "action": "https://ginsu.dev/#/depiction/com.ginsu.acies",
           "title": "View web depiction"
         }
       ],

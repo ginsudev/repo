@@ -60,7 +60,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/depiction/com.ginsu.ipcarrier",
+          "action": "https://ginsu.dev/#/depiction/com.ginsu.ipcarrier",
           "title": "View web depiction"
         }
       ],
