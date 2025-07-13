@@ -1,0 +1,249 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/banner.png",
+  "tabs": [
+    {
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "yPadding": 10,
+          "action": "https://paypal.me/xiaonuoya",
+          "class": "DepictionButtonView",
+          "text": "Click here to buy me a coffee :)"
+        },
+        {
+          "itemSize": "{160, 346}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "screenshots": [
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_0128.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_0128.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_3339.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_3339.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_3340.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_3340.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_3341.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dualclock2/screenshots/IMG_3341.PNG",
+              "accessibilityText": "Screenshot"
+            }
+          ]
+        },
+        {
+          "markdown": "Two time zones on the Lock Screen and in the status bar.\\n\\nDualClock 2 is the successor to DualClock, re-written in Swift, bugs fixed and more intelligence. DualClock 2 allows users to show up to two different time zones on the Lock Screen and in the status bar. Supports iPad and iPhone.\\n\\nSupports iOS 14+",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extra information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "2.0.2",
+          "title": "Version"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "class": "DepictionTableTextView",
+          "text": "Ginsu"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "action": "https://ginsu.dev/depiction/com.ginsu.dualclock2",
+          "title": "View web depiction"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Details"
+    },
+    {
+      "tabname": "Changes",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.1.2",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Initial release",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "2.0.0",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Rewrite in SwiftUI.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Migrate to GSCore from GSCommon.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Now reacts to location/time zone changes.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Improved lock screen and statusbar appearance.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add Chinese support（支持中文）",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "2.0.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Update icon when location/time zone changes.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix status bar toggle not taking effect.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Bring back single date feature.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "2.0.2",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix issue with enabling/disabling the tweak.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        }
+      ]
+    },
+    {
+      "views": [
+        {
+          "action": "https://discord.gg/BhdUyCbgkZ",
+          "title": "Join my Discord server",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "action": "https://x.com/GinsuDev",
+          "title": "Follow me on X",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Contact"
+    }
+  ],
+  "tintColor": "#47afd1"
+}

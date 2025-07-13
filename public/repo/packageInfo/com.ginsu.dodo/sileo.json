@@ -1,0 +1,799 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/banner.png",
+  "tabs": [
+    {
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "yPadding": 10,
+          "action": "https://paypal.me/xiaonuoya",
+          "class": "DepictionButtonView",
+          "text": "Click here to buy me a coffee :)"
+        },
+        {
+          "itemSize": "{160, 346}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "screenshots": [
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3681.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3681.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3682.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3682.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3683.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3683.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3684.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3684.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3685.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3685.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3686.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3686.PNG",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3687.PNG",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.dodo/screenshots/IMG_3687.PNG",
+              "accessibilityText": "Screenshot"
+            }
+          ]
+        },
+        {
+          "markdown": "Dodo is the perfect Lock Screen tweak with everything you need. You can add your favourite applications to access quickly from the Lock Screen, receive media recommendations depending on what app was playing music previously and control music playback! You can also check the weather at ease.\\n\\nFeatures:\\n\\n- Quick access to applications\\n- Media recommendations\\n- Media player\\n- Weather\\n- Beautiful, customisable and smart design.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extra information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "4.2.2",
+          "title": "Version"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "class": "DepictionTableTextView",
+          "text": "Ginsu"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "action": "https://ginsu.dev/depiction/com.ginsu.dodo",
+          "title": "View web depiction"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Details"
+    },
+    {
+      "tabname": "Changes",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "3.4.9",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Initial release",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.0",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Rewrote the preferences in SwiftUI using Comet framework.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Migrate from GSCommon to GSCore which takes care of shared logic between my tweaks.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Rootless support (Weather feature temporarily disabled)",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.2",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Rootless support (Weather feature temporarily disabled)",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.3-1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix 24 hr mode",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.3",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Time and date fixes.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Use static date formatters as they can be expensive to create.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.4",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix / Handle hiding the default media player on iOS >= 16.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix crash when locking the device on iOS >= 16.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix? Issue where Dodo was slightly offsetted downwards upon respring.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Use Combine Publishers over sharedInstances.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Properly bridge between Darwin notifications and Notifications.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Other code base improvements that won't affect the user.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix song track details always white colour.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.5",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix various UI components not having an initial value. Fixed by prepending Combine publishers with a dummy value.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.6",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Remove all timer code and replace with a single hook. This fixes a slight delay before Dodo starts refreshing it's content when accessing the lock screen.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.7",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fixed respring loop on iOS 15.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fixed date size adjustment not working.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.8.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix initial content refresh",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.8",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Use onRecieve instead of sinking directly on publishers for subscription cancellation when view disappears (Memory improvement).",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Improvements to 'is lockscreen visible' reading.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.9.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix incorrect status item display.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.9.2",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Support new GSCore version.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.0.9",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Major architecture changes.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Fix status indicator display issues.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Added ability to show status indicators when they are disabled.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Added localisations (Chinese中文).",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Other bug fixes.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.1.0",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Support DualClock (Tap Dodo's time to switch timezones).",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add ability to show active timers on Dodo as status items.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add ability to disable media background color.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Minor bug fixes.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.2.0",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Switch from libpddokdo to GSWeather.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Improved Combine code.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Code improvements to the media-related stuff.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.2.1",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add option to show sunrise/sunset time.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add option to show high/low temp.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Add ability to tap weather to convert from celsius to fahrenheit.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Now uses temperature unit specified in General->Language and region->Temperature.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Use new GSWeather apis",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "4.2.2",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Use new GSWeather apis",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "useSpacing": true,
+          "markdown": "",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        }
+      ]
+    },
+    {
+      "views": [
+        {
+          "action": "https://discord.gg/BhdUyCbgkZ",
+          "title": "Join my Discord server",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "action": "https://x.com/GinsuDev",
+          "title": "Follow me on X",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Contact"
+    }
+  ],
+  "tintColor": "#47afd1"
+}

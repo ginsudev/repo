@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.dockls", "Name": "DockLS", "Version": "2.0.2", "Architecture": "iphoneos-arm", "Description": "Your dock on the LS!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon" }

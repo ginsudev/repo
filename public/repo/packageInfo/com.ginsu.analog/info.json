@@ -1,0 +1,46 @@
+{
+  "id": "com.ginsu.analog",
+  "name": "Analog",
+  "subtitle": "An analog clock on the lock screen",
+  "description": "If you prefer classy analog clocks and are bored of iOS's default digital clock, then Analog for you! Analog adds a fully customisable analog clock to the lock screen with the following features:\n\n - Clock face and clock hand theming (themers can design their own clock themes and put them up for download somewhere).\n\n- Customisable date complication.\n\n- A lock status indicator for devices with face id.\n\n- A digital time complication.\n\n- A wallpaper colour detection.\n\n- Supports translations.\n\n- And many more customisable options\n\nFor theme creators:\n\n- Custom clock faces:\nCustom clock faces should be **500x500px** '.png' files named 'Face.png'. You should make a folder with the name of your theme, then place your 'Face.png' inside. You can then place the folder you created in this directory `/Library/Application Support/Analog/Faces/`.\n\nCustom clock hands:\nThere is 4 main images needed to create a set of clock hands: `Center.png, Seconds.png, Hour.png, Minute.png`. The dimensions for the files are as follows:\n\n- Center.png = 25x25px\n- Seconds.png = 16x120px\n- Hour.png = 16x101px\n- Minute.Png = 16x120px\n\nSimilarly to custom clock faces, you need to create a folder with the name of your theme, then place those images inside the folder. After that, you can place the folder in the directory: `/Library/Application Support/Analog/Hands/`.",
+  "icon": "https://ginsu.dev/repo/api/packageinfo/com.ginsu.analog/icon.png",
+  "author": "Ginsu",
+  "maintainer": "Ginsu",
+  "screenshots": [
+    "IMG_0129 2.PNG",
+    "IMG_3399.PNG",
+    "IMG_3401.PNG",
+    "IMG_3402.PNG",
+    "IMG_3406.PNG"
+  ],
+  "versions": {
+    "1.1": {
+      "date": "2025-07-12T06:30:52.063Z",
+      "changes": [
+        "Initial release"
+      ]
+    },
+    "2.0.1": {
+      "date": "2025-07-12T06:31:54.007Z",
+      "changes": [
+        "Fix crash if preferences not found.",
+        ""
+      ]
+    },
+    "2.0.2": {
+      "date": "2025-07-12T06:32:12.201Z",
+      "changes": [
+        "Fix complications/widgets offset.",
+        "Fix clock not updating in AOD.",
+        ""
+      ]
+    },
+    "2.0": {
+      "date": "2025-07-12T06:32:45.954Z",
+      "changes": [
+        "Support iOS 16. Reduce dependencies. Refactor.",
+        ""
+      ]
+    }
+  }
+}

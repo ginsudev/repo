@@ -1,0 +1,119 @@
+{
+  "minVersion": "0.4",
+  "class": "DepictionTabView",
+  "headerImage": "https://ginsu.dev/repo/packageInfo/com.ginsu.ipcarrier/banner.png",
+  "tabs": [
+    {
+      "views": [
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        },
+        {
+          "yPadding": 10,
+          "action": "https://paypal.me/xiaonuoya",
+          "class": "DepictionButtonView",
+          "text": "Click here to buy me a coffee :)"
+        },
+        {
+          "itemSize": "{160, 346}",
+          "class": "DepictionScreenshotsView",
+          "itemCornerRadius": 6,
+          "screenshots": [
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.ipcarrier/screenshots/s2.jpg",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.ipcarrier/screenshots/s2.jpg",
+              "accessibilityText": "Screenshot"
+            },
+            {
+              "fullSizeURL": "https://ginsu.dev/repo/packageInfo/com.ginsu.ipcarrier/screenshots/screenshot1.jpg",
+              "url": "https://ginsu.dev/repo/packageInfo/com.ginsu.ipcarrier/screenshots/screenshot1.jpg",
+              "accessibilityText": "Screenshot"
+            }
+          ]
+        },
+        {
+          "markdown": "IPCarrier replaces the carrier text in the status bar with your IP Address, whether it be Wi-Fi or mobile. This tweak also includes a control centre module that can be used to fetch your global IP address.",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSeparatorView"
+        },
+        {
+          "class": "DepictionHeaderView",
+          "title": "Extra information"
+        },
+        {
+          "class": "DepictionTableTextView",
+          "text": "1.3",
+          "title": "Version"
+        },
+        {
+          "title": "Price",
+          "text": "Free",
+          "class": "DepictionTableTextView"
+        },
+        {
+          "title": "Developer",
+          "class": "DepictionTableTextView",
+          "text": "ginsu"
+        },
+        {
+          "class": "DepictionTableButtonView",
+          "action": "https://ginsu.dev/depiction/com.ginsu.ipcarrier",
+          "title": "View web depiction"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Details"
+    },
+    {
+      "tabname": "Changes",
+      "class": "DepictionStackView",
+      "views": [
+        {
+          "class": "DepictionLayerView",
+          "views": [
+            {
+              "alignment": 0,
+              "useBoldText": true,
+              "title": "1.3",
+              "class": "DepictionSubheaderView"
+            },
+            {
+              "title": "12/07/2025",
+              "alignment": 2,
+              "class": "DepictionSubheaderView"
+            }
+          ]
+        },
+        {
+          "useSpacing": true,
+          "markdown": "Initial release",
+          "class": "DepictionMarkdownView"
+        },
+        {
+          "class": "DepictionSpacerView",
+          "spacing": 12
+        }
+      ]
+    },
+    {
+      "views": [
+        {
+          "action": "https://discord.gg/BhdUyCbgkZ",
+          "title": "Join my Discord server",
+          "class": "DepictionTableButtonView"
+        },
+        {
+          "action": "https://x.com/GinsuDev",
+          "title": "Follow me on X",
+          "class": "DepictionTableButtonView"
+        }
+      ],
+      "class": "DepictionStackView",
+      "tabname": "Contact"
+    }
+  ],
+  "tintColor": "#47afd1"
+}

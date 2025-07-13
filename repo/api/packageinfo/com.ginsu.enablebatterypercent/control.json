@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.enablebatterypercent", "Name": "EnableBatteryPercent", "Version": "2.1.2", "Architecture": "iphoneos-arm", "Description": "Enable Apple's Secret Battery Percentage.", "Maintainer": "ginsu", "Author": "ginsu", "Section": "Tweaks", "Depends": "mobilesubstrate" }

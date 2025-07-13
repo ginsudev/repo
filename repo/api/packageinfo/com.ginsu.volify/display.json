@@ -1,7 +1,0 @@
-{
-	"contact": { "twitter": "GinsuDev", "discord": "https://discord.gg/BhdUyCbgkZ" },
-	"information": { "description": "Volify (Volume + Spotify) adds a volume bar to the Spotify now playing page!", "source_code_link": "" },
-	"changelog": [
-		{ "date": "2023-04-15", "version_number": "2.0.2", "changes": "- Make the volume bar only show on the full screen player (For iPads)." }
-	]
-}

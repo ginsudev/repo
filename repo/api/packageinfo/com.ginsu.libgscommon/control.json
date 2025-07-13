@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.libgscommon", "Name": "libgscommon", "Version": "1.2.6-2", "Architecture": "iphoneos-arm", "Description": "A library for Ginsu's tweaks!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Development", "Depends": "" }

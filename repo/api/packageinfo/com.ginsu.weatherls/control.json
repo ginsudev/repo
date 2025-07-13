@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.weatherls", "Name": "WeatherLS", "Version": "2.0.1", "Architecture": "iphoneos-arm", "Description": "Show the weather on the lock screen!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.peterdev.libpddokdo" }

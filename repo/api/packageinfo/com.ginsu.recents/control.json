@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.recents", "Name": "Recents", "Version": "1.1.7", "Architecture": "iphoneos-arm", "Description": "Show recently opened apps on the Home Screen!", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "Tweaks", "Depends": "dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, preferenceloader" }

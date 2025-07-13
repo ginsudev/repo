@@ -1,1 +1,0 @@
-{ "Package": "com.ginsu.libgsweather", "Name": "libgsweather", "Version": "1.0.1-1", "Architecture": "iphoneos-arm", "Description": "A weather library for Ginsu's tweaks.", "Maintainer": "Ginsu", "Author": "Ginsu", "Section": "System", "Depends": "" }
