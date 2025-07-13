@@ -80,7 +80,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/repo/depiction/com.ginsu.lockapps",
+          "action": "https://ginsu.dev/depiction/com.ginsu.lockapps",
           "title": "View web depiction"
         }
       ],

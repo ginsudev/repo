@@ -65,7 +65,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/repo/depiction/com.ginsu.protectedbrowser",
+          "action": "https://ginsu.dev/depiction/com.ginsu.protectedbrowser",
           "title": "View web depiction"
         }
       ],
