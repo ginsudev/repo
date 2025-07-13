@@ -3,7 +3,7 @@ import { existsSync, readFileSync, statSync, writeFileSync } from 'fs'
 import { archiveDebPackage, extractDebPackage, parseControlFile, removeDirectory, writeControlFile } from '../common/utils.ts'
 import { createPackage } from '../common/package.ts'
 import { input } from '@inquirer/prompts'
-import { DEBS_PATH, PACKAGES_DIR, REPO_URL } from '../../constant.ts'
+import { DEBS_PATH, PACKAGES_DIR, BASE_URL } from '../../constant.ts'
 
 export default async function (debPath?: string) {
   const inputDebPath = debPath ?? (await input({ message: 'Enter the path to the deb file', required: true }))
@@ -33,9 +33,9 @@ export default async function (debPath?: string) {
 
     // Append custom fields to the control file
     console.log(`⌛ Processing control file`)
-    controlFile['Depiction'] = `${REPO_URL}/depiction/${packageId}`
-    controlFile['SileoDepiction'] = `${REPO_URL}/packageInfo/${packageId}/sileo.json`
-    controlFile['Icon'] = `${REPO_URL}/packageInfo/${packageId}/icon.png`
+    controlFile['Depiction'] = `${BASE_URL}/depiction/${packageId}`
+    controlFile['SileoDepiction'] = `${BASE_URL}/repo/packageInfo/${packageId}/sileo.json`
+    controlFile['Icon'] = `${BASE_URL}/repo/packageInfo/${packageId}/icon.png`
     writeControlFile(path.join(tmpExtractPath, 'DEBIAN', 'control'), controlFile)
 
     console.log(`⌛ Re-archiving ${inputDebName}`)

@@ -1,18 +1,18 @@
 import { writeFileSync } from 'fs'
 import path from 'path'
 import type { PackageInfo } from './package.ts'
-import { PACKAGES_DIR, REPO_URL } from '../../constant.ts'
+import { BASE_URL, PACKAGES_DIR } from '../../constant.ts'
 
 interface CreateSileoDepictionOptions {
   packageInfo: PackageInfo
 }
 
 export function createSileoDepiction(options: CreateSileoDepictionOptions) {
-  const headerImage = `${REPO_URL}/packageInfo/${options.packageInfo.id}/banner.png`
+  const headerImage = `${BASE_URL}/repo/packageInfo/${options.packageInfo.id}/banner.png`
 
   const screenshots = options.packageInfo.screenshots.map((screenshot) => ({
-    fullSizeURL: `${REPO_URL}/packageInfo/${options.packageInfo.id}/screenshots/${screenshot}`,
-    url: `${REPO_URL}/packageInfo/${options.packageInfo.id}/screenshots/${screenshot}`,
+    fullSizeURL: `${BASE_URL}/repo/packageInfo/${options.packageInfo.id}/screenshots/${screenshot}`,
+    url: `${BASE_URL}/repo/packageInfo/${options.packageInfo.id}/screenshots/${screenshot}`,
     accessibilityText: 'Screenshot'
   }))
 
@@ -69,7 +69,7 @@ export function createSileoDepiction(options: CreateSileoDepictionOptions) {
           },
           {
             class: 'DepictionTableButtonView',
-            action: `${REPO_URL}/depiction/${options.packageInfo.id}`,
+            action: `${BASE_URL}/depiction/${options.packageInfo.id}`,
             title: 'View web depiction'
           }
         ],

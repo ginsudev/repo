@@ -7,4 +7,4 @@ const __dirname = path.dirname(__filename)
 export const DEBS_PATH = path.join(__dirname, '../../public/repo/debs')
 export const PACKAGES_DIR = path.join(__dirname, '../../public/repo/packageInfo')
 
-export const REPO_URL = 'https://ginsu.dev/repo'
+export const BASE_URL = 'https://ginsu.dev'

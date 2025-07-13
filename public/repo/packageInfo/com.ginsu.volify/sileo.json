@@ -55,7 +55,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/repo/depiction/com.ginsu.volify",
+          "action": "https://ginsu.dev/depiction/com.ginsu.volify",
           "title": "View web depiction"
         }
       ],

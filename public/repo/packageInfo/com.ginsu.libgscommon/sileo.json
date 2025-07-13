@@ -49,7 +49,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/repo/depiction/com.ginsu.libgscommon",
+          "action": "https://ginsu.dev/depiction/com.ginsu.libgscommon",
           "title": "View web depiction"
         }
       ],

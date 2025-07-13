@@ -60,7 +60,7 @@
         },
         {
           "class": "DepictionTableButtonView",
-          "action": "https://ginsu.dev/repo/depiction/com.ginsu.dockls",
+          "action": "https://ginsu.dev/depiction/com.ginsu.dockls",
           "title": "View web depiction"
         }
       ],
