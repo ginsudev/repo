@@ -89,6 +89,9 @@ async function handleExistingPackage(options: CreatePackageOptions) {
   const screenshots = getScreenshotNames(options)
   existingPackageInfo.screenshots = screenshots
 
+  // Sync icon
+  existingPackageInfo.icon = options.control['Icon'] as string
+
   const packageInfoPath = path.join(packageDir, 'info.json')
   removeFile(packageInfoPath)
   writeFileSync(packageInfoPath, JSON.stringify(existingPackageInfo, null, 2))
