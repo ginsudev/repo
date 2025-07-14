@@ -4,7 +4,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: public/repo/debs/com.ginsu.4ders_1.0.3_iphoneos-arm.deb
+Filename: debs/com.ginsu.4ders_1.0.3_iphoneos-arm.deb
 Size: 8180
 MD5sum: ae4675cd3c9eb290c69c154aedaf1b01
 SHA1: dc36d82934684bd4f4584bfb158bf2c4e4bfaf40
@@ -23,7 +23,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 900
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: public/repo/debs/com.ginsu.acies_1.0.3_iphoneos-arm.deb
+Filename: debs/com.ginsu.acies_1.0.3_iphoneos-arm.deb
 Size: 194344
 MD5sum: a506c96b06ed088a75d8af4d0880f017
 SHA1: e5302045d9c655140965c26dbc24919bd7094d74
@@ -42,7 +42,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 2192
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
-Filename: public/repo/debs/com.ginsu.analog_1.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.analog_1.1_iphoneos-arm.deb
 Size: 331408
 MD5sum: fe27033d529f375bbfad11eb4a3450b4
 SHA1: 41ea04a81cbbeb0a91c463c809f30a2acc48518f
@@ -61,7 +61,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 1484
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.analog_2.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.analog_2.0_iphoneos-arm64.deb
 Size: 267944
 MD5sum: de785c0a27d3e0739bbfba6446d42088
 SHA1: 3922d7137df69da198966089a1c0f4eacfad75a5
@@ -80,7 +80,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1484
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.analog_2.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.analog_2.0_iphoneos-arm.deb
 Size: 268304
 MD5sum: 11612f5c014f17b99ac8ec7953a42c48
 SHA1: fcd6b421c6f64d9e6c63bc275f09e86d21dc5132
@@ -99,7 +99,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1480
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.analog_2.0.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.analog_2.0.1_iphoneos-arm.deb
 Size: 266252
 MD5sum: c31dc25b9590dd6e12a437901c63db27
 SHA1: bbec26146bb3d19eff2021031e657eec14b9803d
@@ -118,7 +118,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 1480
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.analog_2.0.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.analog_2.0.1_iphoneos-arm64.deb
 Size: 266612
 MD5sum: fe1ce6e0034c52184a48ec1de92a805b
 SHA1: ed91205a27559c89cf041947296efa9935241b6a
@@ -137,7 +137,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1488
 Depends: dev.theos.orion14, firmware (>= 16.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.analog_2.0.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.analog_2.0.2_iphoneos-arm.deb
 Size: 268592
 MD5sum: 3fd29f3a8e7313da0fa9919ea49a8aa0
 SHA1: 8c62d66a6ebfc310d8b946df4f39e7ab92450858
@@ -156,7 +156,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 1488
 Depends: dev.theos.orion14, firmware (>= 16.0), com.ginsu.gscore, preferenceloader, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.analog_2.0.2_iphoneos-arm64.deb
+Filename: debs/com.ginsu.analog_2.0.2_iphoneos-arm64.deb
 Size: 268324
 MD5sum: 66df97af9cba0775b73e51b9ef9d3af9
 SHA1: 16fa68bb089ca83f9a62323df4a5e6042fec6202
@@ -175,7 +175,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 2820
 Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.altlist, preferenceloader, com.ginsu.libgscommon
-Filename: public/repo/debs/com.ginsu.androbar_3.2.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.androbar_3.2.1_iphoneos-arm.deb
 Size: 288224
 MD5sum: aceffb2a9e3f16628cb34b345581be7f
 SHA1: 745288619eaea6e740d4bd3d128b8b7000c083a2
@@ -194,7 +194,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 136
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: public/repo/debs/com.ginsu.classicalerts.deb
+Filename: debs/com.ginsu.classicalerts.deb
 Size: 3296
 MD5sum: 09232e89edfbe9663c357c20287c40ff
 SHA1: ef490e82d9c333068c25c810efdfe69b044d2c25
@@ -213,7 +213,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 2148
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.comet-_1.0.5_iphoneos-arm.deb
+Filename: debs/com.ginsu.comet-_1.0.5_iphoneos-arm.deb
 Size: 229508
 MD5sum: 4e958731eaa087c98908df9a68f48888
 SHA1: 9350b2dde1748ccb16a1b966bef6427e19c173d0
@@ -232,7 +232,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 2148
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.comet-_1.0.5_iphoneos-arm64.deb
+Filename: debs/com.ginsu.comet-_1.0.5_iphoneos-arm64.deb
 Size: 228820
 MD5sum: fca7280af4a8f666caaaeae9945cb484
 SHA1: ea3b80d4220ed1355099e0c09b5a74603167b636
@@ -251,7 +251,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 2136
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.comet_1.1.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.comet_1.1.0_iphoneos-arm64.deb
 Size: 227472
 MD5sum: 2eb22b3c4bdcb891cfa4ecf49ade9ba9
 SHA1: a5dd5d5258b78e55592d419df5bbd0046051bf82
@@ -270,7 +270,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 2136
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.comet_1.1.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.comet_1.1.0_iphoneos-arm.deb
 Size: 226748
 MD5sum: b979a093dd2a187b8e600affeb70e2f6
 SHA1: 2862f3b310564a499b7251220fc75ffc47460e3d
@@ -289,7 +289,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1364
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
-Filename: public/repo/debs/com.ginsu.dockls_2.0.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.dockls_2.0.2_iphoneos-arm.deb
 Size: 130356
 MD5sum: 77e24702ddc00c254da0497d8abf0150
 SHA1: f673ce1b1b2ce01e493bf28c49d8bb905ae67417
@@ -308,7 +308,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1248
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, preferenceloader
-Filename: public/repo/debs/com.ginsu.docksearch_2.1.3_iphoneos-arm.deb
+Filename: debs/com.ginsu.docksearch_2.1.3_iphoneos-arm.deb
 Size: 117416
 MD5sum: dfb69cb9b778f43ed157e03a7bc84390
 SHA1: 7a0d615e3479dd56448c38819eb2fc360ca3e192
@@ -327,7 +327,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 6484
 Depends: dev.theos.orion14, firmware (>= 14.0), com.opa334.altlist, preferenceloader, com.ginsu.libgscommon, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_3.4.9_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_3.4.9_iphoneos-arm.deb
 Size: 700572
 MD5sum: 66a9d7c3ccf985e361c6103b3d0646dc
 SHA1: 16e1242c3688cda77f48a3e8e887bfad55c84677
@@ -346,7 +346,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8104
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.0_iphoneos-arm.deb
 Size: 842232
 MD5sum: 4bd411a69c54bf69f1f2216ccb302d9c
 SHA1: 5bce13613ff83dfffc7670830ec0174d8419fac3
@@ -365,7 +365,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8104
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.1_iphoneos-arm.deb
 Size: 842360
 MD5sum: 0daf76501f70169fc7dccb5c9f927be2
 SHA1: 732d2d36a8f31494c7e30b5c91096f916d49387e
@@ -384,7 +384,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8092
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.2_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.2_iphoneos-arm64.deb
 Size: 840276
 MD5sum: ba95ec3db4b047386af7af65e10e4bee
 SHA1: a59ec3c5f5f8f0f55a0605f18627a09b2d3d7a83
@@ -403,7 +403,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8128
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.2_iphoneos-arm.deb
 Size: 843412
 MD5sum: 4150d058ffbb5a479150a55f195b72eb
 SHA1: 4dc66b903d0b436d288e28ce54462c236fe89ccd
@@ -422,7 +422,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8188
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.3_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.3_iphoneos-arm64.deb
 Size: 847416
 MD5sum: ee776a22e4ac88a4d7c55a4d33c38771
 SHA1: 97f3fc7fe64611e2d51f2c09ad697b1e6b96652f
@@ -441,7 +441,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8188
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.3_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.3_iphoneos-arm.deb
 Size: 849208
 MD5sum: 34c2f01f8b18731a247197b9ed5668c7
 SHA1: 5420ae379b962b3341948885a8f7e53a3e68685e
@@ -460,7 +460,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8188
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.3-1_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.3-1_iphoneos-arm.deb
 Size: 850852
 MD5sum: 9e52ff9dafd502994407f958a1a9fbdf
 SHA1: 81f7eaf2b08ad39aa7e597fd3219d526f7ebeafc
@@ -479,7 +479,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8188
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.3-1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.3-1_iphoneos-arm64.deb
 Size: 847944
 MD5sum: 9569aca22a6c710982818a89e71b7662
 SHA1: 26706446eb572afc0b6449d0b9a5b9e85f9e3723
@@ -498,7 +498,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8196
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.4_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.4_iphoneos-arm.deb
 Size: 851696
 MD5sum: 74e8fdc4d746bbf23364b5002e89534c
 SHA1: 93956fb95c3b21f9add231ba11960d201f80f1e2
@@ -517,7 +517,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8196
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.4_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.4_iphoneos-arm64.deb
 Size: 846004
 MD5sum: 67566dbd3c096dbb93d0cd2045b75b76
 SHA1: f9a4818b1de55433748931c19b18d768623ed197
@@ -536,7 +536,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8200
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.5_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.5_iphoneos-arm64.deb
 Size: 847356
 MD5sum: 28ddd480289f3c7664acfb5c54665fa0
 SHA1: 28e589a923d0944a17b0c030e2bbf10311b90eb4
@@ -555,7 +555,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8220
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.5_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.5_iphoneos-arm.deb
 Size: 851832
 MD5sum: 287794e8acbefa5c3e15c2f02163b3ae
 SHA1: 91b120c4ede7ff1a84019def1b40b21bdaa6067c
@@ -574,7 +574,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8344
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.6_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.6_iphoneos-arm64.deb
 Size: 852660
 MD5sum: 0eb3eb1db742530228550138c29635c1
 SHA1: 170c348de84d0bc8021a7864e07d18b2dc67baf4
@@ -593,7 +593,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8344
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.6_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.6_iphoneos-arm.deb
 Size: 852820
 MD5sum: a45f15cfaa3459e9cf4747597113ae08
 SHA1: 49677ce71b6bb2138e8fde16ea1d82f16ed5c856
@@ -612,7 +612,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8324
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.7_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.7_iphoneos-arm.deb
 Size: 852836
 MD5sum: f77e817a1940b55c8069cddfd8c1faed
 SHA1: 8b8308eb138038fec59b6197389870eee41a7c6d
@@ -631,7 +631,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8324
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.7_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.7_iphoneos-arm64.deb
 Size: 848984
 MD5sum: 612bf92a97094fd0a14e5aaa196ae46a
 SHA1: 5a7943f89dfd6359d2f4be880ec4500f23ec0a46
@@ -650,7 +650,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8432
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.8_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.8_iphoneos-arm64.deb
 Size: 858616
 MD5sum: e55f4c1ea0bbcbe4dcc89fdc25e4775b
 SHA1: c85da3084d443b312f8f47256d415eb27bb09823
@@ -669,7 +669,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8432
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.8_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.8_iphoneos-arm.deb
 Size: 857964
 MD5sum: 81ec83c18b06074d6245086bdf3e8dec
 SHA1: 82825f2d515be6bc2127b98949d1c32cb49fb548
@@ -688,7 +688,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 8488
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.8.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.8.1_iphoneos-arm64.deb
 Size: 861064
 MD5sum: d0b85359ec72cb293ace89a7ced7a595
 SHA1: f52e4ad67c1cc694ff992aeda80cb58168d2d5c7
@@ -707,7 +707,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 8508
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.8.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.8.1_iphoneos-arm.deb
 Size: 856876
 MD5sum: 27c43882e182b0a7c3661c279d2b7656
 SHA1: 606e9f1caddad6a58bd82f8dc52cd19599ff8667
@@ -726,7 +726,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 9052
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.9_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.9_iphoneos-arm.deb
 Size: 936264
 MD5sum: dbe4a8f4571a57b1a65f309fa0466cc1
 SHA1: e1b0fa49befc102f076ca709cfcd65642d877497
@@ -745,7 +745,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 9036
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.9_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.9_iphoneos-arm64.deb
 Size: 937300
 MD5sum: 09753b8a4f84d361c685521c32b90760
 SHA1: 861acc9ab24f269a8f380931819c1a0ef24d8f5b
@@ -764,7 +764,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 9056
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.9.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.9.1_iphoneos-arm.deb
 Size: 939552
 MD5sum: ba02e18949c608817b82e9fc302d31c7
 SHA1: 15d456c32e4a9b718c1732f661472ab961c63de1
@@ -783,7 +783,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 9056
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.9.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.9.1_iphoneos-arm64.deb
 Size: 937860
 MD5sum: 6aad8ed3d104b658e39366ae50ba0473
 SHA1: 052f7f113c9f96e8b864d7ce8a37d06f912172c7
@@ -802,7 +802,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 9056
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm.deb
 Size: 938124
 MD5sum: cd3898ac131d4a6752a59974af557bfd
 SHA1: 781ee80f0781c926f81ff02298ec6f4e01a09399
@@ -821,7 +821,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 9056
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.0.9.2_iphoneos-arm64.deb
 Size: 939096
 MD5sum: 6e632861fe2d31c997828e0c281f6b6a
 SHA1: bb8f367ec8ecb119f19ac251b8e211f31645b323
@@ -840,7 +840,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 9548
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore
-Filename: public/repo/debs/com.ginsu.dodo_4.1.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.1.0_iphoneos-arm64.deb
 Size: 989164
 MD5sum: 83f1acd0d5339ac349baa07ea6d8993f
 SHA1: 55be296d4c1d02d2ec962fc4328946529bf92816
@@ -859,7 +859,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 9548
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.dodo_4.1.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.1.0_iphoneos-arm.deb
 Size: 990332
 MD5sum: 8ec36e4270a49ee459a4e3ae5460c11d
 SHA1: 3f025da2cce9a6cb3308fb965b55f337004ee6b5
@@ -878,7 +878,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 9728
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
-Filename: public/repo/debs/com.ginsu.dodo_4.2.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.2.0_iphoneos-arm.deb
 Size: 998120
 MD5sum: eebc06bcdc0914a5789b47fa54ea15ba
 SHA1: 40b6485e28d252334be2e423e5db010e4abdb054
@@ -897,7 +897,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 9728
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
-Filename: public/repo/debs/com.ginsu.dodo_4.2.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.2.0_iphoneos-arm64.deb
 Size: 1002592
 MD5sum: 57643b4de3b04bbdccb10add48d987a1
 SHA1: 761ac87a10ee43ab3de7cc7bdad5bf9a0d23a6ce
@@ -916,7 +916,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 9936
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
-Filename: public/repo/debs/com.ginsu.dodo_4.2.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.2.1_iphoneos-arm64.deb
 Size: 1027320
 MD5sum: 1150aa216105944a3c56ba8756ec4567
 SHA1: f18ba38422b14d92a8ac79e4a7f96588de160bd6
@@ -935,7 +935,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 9936
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
-Filename: public/repo/debs/com.ginsu.dodo_4.2.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.2.1_iphoneos-arm.deb
 Size: 1024356
 MD5sum: a6d812c6ca67c954d655549621084fc8
 SHA1: d1574d5856a57f4f3d1af715b338a0d52336ea37
@@ -954,7 +954,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 7592
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
-Filename: public/repo/debs/com.ginsu.dodo_4.2.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.dodo_4.2.2_iphoneos-arm.deb
 Size: 959096
 MD5sum: 56bfc9a8bca9a3ce298825a7ec621935
 SHA1: 18486cfdc7e2f2b83a249f56263011455aa7ef81
@@ -973,7 +973,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 7592
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.comet, com.ginsu.gscore, com.ginsu.gsweather
-Filename: public/repo/debs/com.ginsu.dodo_4.2.2_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dodo_4.2.2_iphoneos-arm64.deb
 Size: 958188
 MD5sum: 9abed1d4c6724a1d34ca6e839cfdbd9a
 SHA1: a361c14c0870783970510e2e2bd338fa4f757026
@@ -992,7 +992,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 3156
 Depends: com.cokepokes.libnotifications, com.opa334.ccsupport, dev.theos.orion14, preferenceloader, com.ginsu.libgscommon (>= 1.2.4), firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.draincheck_3.0.8_iphoneos-arm.deb
+Filename: debs/com.ginsu.draincheck_3.0.8_iphoneos-arm.deb
 Size: 1052376
 MD5sum: 371faec7853e4495da8aabf969b1f3e4
 SHA1: bd184b57f7ed2724266b3ce9ccd3030f286d536b
@@ -1012,7 +1012,7 @@ Maintainer: Ginsu
 Installed-Size: 1884
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.ginsu.libgscommon
 Conflicts: com.exodia9610.dualclock
-Filename: public/repo/debs/com.ginsu.dualclock2_1.1.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.dualclock2_1.1.2_iphoneos-arm.deb
 Size: 209876
 MD5sum: 5a11922afb3432ed48ca48f26bc4f48b
 SHA1: 82525ba4fb8a5ff97900b3a7f8be50f7a992021e
@@ -1031,7 +1031,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 3784
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm64.deb
 Size: 400220
 MD5sum: 51d8cdd30f47c9851fd3165dce8509f9
 SHA1: 2f7627d297a81f52bbd14a9ca90acc2ca67e2be9
@@ -1050,7 +1050,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 3784
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.dualclock2_2.0.0_iphoneos-arm.deb
 Size: 399692
 MD5sum: 1a0e309d67dba4933ba29fc54cdbbc9d
 SHA1: de657972b1a73a2b8db4aaedd0de3939892224e1
@@ -1069,7 +1069,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 3832
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.dualclock2_2.0.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dualclock2_2.0.1_iphoneos-arm64.deb
 Size: 397676
 MD5sum: c83ea9479244703088ce63cddfe3bb05
 SHA1: 6a7c59d1487436403efec384c7f8e673d06d8294
@@ -1088,7 +1088,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 3832
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.dualclock2_2.0.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.dualclock2_2.0.1_iphoneos-arm.deb
 Size: 396968
 MD5sum: b20d32a03c1e8ab4c0722d090c63cc6f
 SHA1: ed576bfea7dbda2c285f44b39518d9afaf10bdd5
@@ -1107,7 +1107,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 3832
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.dualclock2_2.0.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.dualclock2_2.0.2_iphoneos-arm.deb
 Size: 395872
 MD5sum: a551cb46e73e440dc871e9be476e5260
 SHA1: fb10a5569f04dfed5ae9013fd76736afce30e04f
@@ -1126,7 +1126,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 3832
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), preferenceloader, com.ginsu.gscore, com.ginsu.comet
-Filename: public/repo/debs/com.ginsu.dualclock2_2.0.2_iphoneos-arm64.deb
+Filename: debs/com.ginsu.dualclock2_2.0.2_iphoneos-arm64.deb
 Size: 397032
 MD5sum: c1bd0c8a621ccc80306bb932dc180cdd
 SHA1: 7c02374fd59eeca5266c420d64af51fa28293257
@@ -1145,7 +1145,7 @@ Architecture: iphoneos-arm
 Maintainer: ginsu
 Installed-Size: 1108
 Depends: mobilesubstrate
-Filename: public/repo/debs/com.ginsu.enablebatterypercent_2.1.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.enablebatterypercent_2.1.2_iphoneos-arm.deb
 Size: 693700
 MD5sum: 290b04646a98d4dafb29b9036cb11918
 SHA1: 29c91a349253a37973f8f229ca3b09a1a8235f00
@@ -1164,7 +1164,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 2912
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
-Filename: public/repo/debs/com.ginsu.gradi_2.2.3_iphoneos-arm.deb
+Filename: debs/com.ginsu.gradi_2.2.3_iphoneos-arm.deb
 Size: 325208
 MD5sum: cff1084debbacbf3baf3162f7608a1ac
 SHA1: a95cf345b30e7392cba7e38f3768d0e535b99bb9
@@ -1183,7 +1183,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore-iphoneos-arm_1.0.0_.deb
+Filename: debs/com.ginsu.gscore-iphoneos-arm_1.0.0_.deb
 Size: 391412
 MD5sum: 7cf86ce70f31a98819254b84fd138a78
 SHA1: eda65929fd7685278baac6c5317323bdae36fbb6
@@ -1202,7 +1202,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore-iphoneos-arm64_1.0.0_.deb
+Filename: debs/com.ginsu.gscore-iphoneos-arm64_1.0.0_.deb
 Size: 390816
 MD5sum: 61876418e15ac64219e2fc72d3c2fbff
 SHA1: 4629e75e073c76099f5c1c07ea5b3682ffc2221c
@@ -1221,7 +1221,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.gscore_1.0.1_iphoneos-arm.deb
 Size: 390984
 MD5sum: 987c5d479242221b73a317ac33c8f88b
 SHA1: 52ee0a1afe471126524cb0235609dec2f6160afc
@@ -1240,7 +1240,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gscore_1.0.1_iphoneos-arm64.deb
 Size: 391272
 MD5sum: 005a87481f5fca20d3fce4bc68ab57f6
 SHA1: 0593becfea481be73e3254f662debf00c780fa3d
@@ -1259,7 +1259,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.2_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gscore_1.0.2_iphoneos-arm64.deb
 Size: 449748
 MD5sum: 83b873f26110eb9af91f20fe88657dd0
 SHA1: fc3a48c9585d607af8898df0fed86f4e87fad42b
@@ -1278,7 +1278,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.gscore_1.0.2_iphoneos-arm.deb
 Size: 446672
 MD5sum: 22a2b1a1ed20178101f21090758baa39
 SHA1: 8b494922a97ccea277dccfe5d97c4e6cdbc78e3b
@@ -1297,7 +1297,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.3_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gscore_1.0.3_iphoneos-arm64.deb
 Size: 450324
 MD5sum: 6865be727cec04a6f360fd6af80d8b34
 SHA1: 1134b177de6e069ccb678853e2f92061c3626ac8
@@ -1316,7 +1316,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.3_iphoneos-arm.deb
+Filename: debs/com.ginsu.gscore_1.0.3_iphoneos-arm.deb
 Size: 448444
 MD5sum: eb74e85f0e26544fad156033f62492cb
 SHA1: 01918e3d8116edd300b6e606b97e5313d7ec2ad5
@@ -1335,7 +1335,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 4272
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.4_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gscore_1.0.4_iphoneos-arm64.deb
 Size: 437380
 MD5sum: 86eeeaf0af0991de6bd8f70470bb1b16
 SHA1: dbbf21ffb0ac7291dc7d8ce0db96b82826a0d9fc
@@ -1354,7 +1354,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 4268
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.0.4_iphoneos-arm.deb
+Filename: debs/com.ginsu.gscore_1.0.4_iphoneos-arm.deb
 Size: 435880
 MD5sum: 3faf002a88a253450c7bc23dd947aaed
 SHA1: ed90476e3e96c5865da9ed9fa01a29b312402a56
@@ -1373,7 +1373,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 4380
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.1.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.gscore_1.1.0_iphoneos-arm.deb
 Size: 447300
 MD5sum: 94ea91dc51e4e562af33f2f9e03b2e33
 SHA1: 638072037c917d896b784a82fb840b3cd90a7fc0
@@ -1392,7 +1392,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 4380
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.1.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gscore_1.1.0_iphoneos-arm64.deb
 Size: 448952
 MD5sum: 87d98904f9ac7b0810cf30c993ec80cb
 SHA1: 33013398c14f72cc5b8fe94c5111dbce8434a7a4
@@ -1411,7 +1411,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 4340
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.1.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gscore_1.1.1_iphoneos-arm64.deb
 Size: 443684
 MD5sum: e8eca1444d531a9e868ecc29a7b0083c
 SHA1: 905ae7d163ccb63503c8b07a8735a604aeeeb28b
@@ -1430,7 +1430,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 4336
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gscore_1.1.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.gscore_1.1.1_iphoneos-arm.deb
 Size: 442024
 MD5sum: 554bb4a1c16c6b3bacabbf6d08622a4b
 SHA1: 1598afa3d3c26dd1bc91d6bb26db5cc192912699
@@ -1449,7 +1449,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gsweather-_1.0.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.gsweather-_1.0.0_iphoneos-arm.deb
 Size: 88516
 MD5sum: 96f8e06b8d8269902728c706426f0e0a
 SHA1: 68b9c07fedb4e29558d1080fcf3cfd1346dba86e
@@ -1468,7 +1468,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gsweather-_1.0.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gsweather-_1.0.0_iphoneos-arm64.deb
 Size: 88700
 MD5sum: a351c60af1b2d2121e16a4c3cdc12979
 SHA1: 5cbc252d18d19e29b2ef85c39f933b25bfcca9a9
@@ -1487,7 +1487,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gsweather-_1.1.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gsweather-_1.1.0_iphoneos-arm64.deb
 Size: 124744
 MD5sum: fbddfb15177160f9f0c551ae3ca03503
 SHA1: 09357f36b16d3510cf71d661d69e8a19f4666185
@@ -1506,7 +1506,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 0
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gsweather-_1.1.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.gsweather-_1.1.0_iphoneos-arm.deb
 Size: 124904
 MD5sum: 4bb7c211893983b0780d0c1366da242f
 SHA1: a78e160cb55984a3cdcc5751cff3d9b3c2b0e9cd
@@ -1525,7 +1525,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1216
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm.deb
 Size: 120844
 MD5sum: ebb7308a9acbe797f105d96392d917ed
 SHA1: eec65c125588c1b5ddb93e038cf0f89e49adee3d
@@ -1544,7 +1544,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 1216
 Depends: dev.theos.orion14, firmware (>= 14.0)
-Filename: public/repo/debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm64.deb
+Filename: debs/com.ginsu.gsweather-_1.1.1_iphoneos-arm64.deb
 Size: 120364
 MD5sum: 2ceffc83cfbf7eb2a26c4292df0fdd15
 SHA1: 1157741bc79635f5429db0c116f333d9e01800be
@@ -1563,7 +1563,7 @@ Architecture: iphoneos-arm
 Maintainer: ginsu
 Installed-Size: 372
 Depends: mobilesubstrate (>= 0.9.5000), com.opa334.ccsupport
-Filename: public/repo/debs/com.ginsu.ipcarrier_1.3_iphoneos-arm.deb
+Filename: debs/com.ginsu.ipcarrier_1.3_iphoneos-arm.deb
 Size: 29868
 MD5sum: 63a78f3aaa2f139ea3c81e5d81e2900c
 SHA1: 0c38904f953fbe157d3809e786daa945e368e1be
@@ -1582,7 +1582,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 980
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, ws.hbang.alderis (>= 1.1), preferenceloader
-Filename: public/repo/debs/com.ginsu.kbpro_2.1.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.kbpro_2.1.1_iphoneos-arm.deb
 Size: 107124
 MD5sum: 5793904b0bfc85a4fcb9e2b86582de3e
 SHA1: b359d0b8867d171824cfbecafffc7ae2db9b44c5
@@ -1601,7 +1601,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1520
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, com.opa334.altlist, preferenceloader
-Filename: public/repo/debs/com.ginsu.killcontrol_1.2.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.killcontrol_1.2.2_iphoneos-arm.deb
 Size: 162648
 MD5sum: ad5465f1bdabbc5677091336046ab367
 SHA1: 31dce4b861bbdfea8614b8ca7458c7dc8aa90ee0
@@ -1619,7 +1619,7 @@ Version: 1.2.6-2
 Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 564
-Filename: public/repo/debs/com.ginsu.libgscommon_1.2.6-2_iphoneos-arm.deb
+Filename: debs/com.ginsu.libgscommon_1.2.6-2_iphoneos-arm.deb
 Size: 75988
 MD5sum: 7c67af9b78914ea3fae4640deb56b4b9
 SHA1: 2a83f079b8d4e5939346d1978705260cd61e8413
@@ -1637,7 +1637,7 @@ Version: 1.0.1-1
 Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 172
-Filename: public/repo/debs/com.ginsu.libgsweather_1.0.1-1_iphoneos-arm.deb
+Filename: debs/com.ginsu.libgsweather_1.0.1-1_iphoneos-arm.deb
 Size: 8804
 MD5sum: 5cf11f95bca19f0c2c8263aafa32f13c
 SHA1: a51aac1e9f2f808629891184bf19e0b73e980e19
@@ -1657,7 +1657,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1808
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, com.opa334.altlist, preferenceloader
-Filename: public/repo/debs/com.ginsu.lockapps_1.0.5_iphoneos-arm.deb
+Filename: debs/com.ginsu.lockapps_1.0.5_iphoneos-arm.deb
 Size: 194564
 MD5sum: c38d52d0a15528cc93344b9a6d9b0f0f
 SHA1: 9dd72822eb933b9a699f2852ad051ed1d2fa57bb
@@ -1676,7 +1676,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 172
 Depends: mobilesubstrate (>= 0.9.5000)
-Filename: public/repo/debs/com.ginsu.nointerruptwhenplayingmusic_1.0.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.nointerruptwhenplayingmusic_1.0.1_iphoneos-arm.deb
 Size: 5344
 MD5sum: aaf6b3c1a64309530207894e424fec5f
 SHA1: a4cb96367a51b828779fcd1207cc4859e1b31943
@@ -1695,7 +1695,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 2016
 Depends: dev.theos.orion14, firmware (>= 14.0), preferenceloader, com.ginsu.libgscommon
-Filename: public/repo/debs/com.ginsu.notchbanners_2.2.5_iphoneos-arm.deb
+Filename: debs/com.ginsu.notchbanners_2.2.5_iphoneos-arm.deb
 Size: 233088
 MD5sum: 8a462119c12907703ffe88e00eb0b938
 SHA1: a7a5b3ecc4bec31e987d14d143d0e97eb382c01b
@@ -1714,7 +1714,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1208
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: public/repo/debs/com.ginsu.pockettranslator_2.0.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.pockettranslator_2.0.2_iphoneos-arm.deb
 Size: 133464
 MD5sum: cc656e4f20230983fd280591bb0ab37c
 SHA1: 92b4e10707245a663476276e48677a9dd5376faa
@@ -1733,7 +1733,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1140
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport
-Filename: public/repo/debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm.deb
+Filename: debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm.deb
 Size: 128476
 MD5sum: ce33d62369b1d5f8fedfb519f1c63509
 SHA1: 297d08de2461dfa9c78bf70f2d1edd93facf69b4
@@ -1752,7 +1752,7 @@ Architecture: iphoneos-arm64
 Maintainer: Ginsu
 Installed-Size: 1140
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 14.0), com.opa334.ccsupport
-Filename: public/repo/debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm64.deb
+Filename: debs/com.ginsu.pockettranslator_2.1.0_iphoneos-arm64.deb
 Size: 128816
 MD5sum: 31eede19c0a76c27bfaa40c0fd3b4148
 SHA1: 1a7a9f677298db537a958c8850348d258c938c65
@@ -1771,7 +1771,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 1056
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 13.0), preferenceloader, com.ginsu.libgscommon, com.opa334.altlist
-Filename: public/repo/debs/com.ginsu.protectedbrowser_1.2.4_iphoneos-arm.deb
+Filename: debs/com.ginsu.protectedbrowser_1.2.4_iphoneos-arm.deb
 Size: 113332
 MD5sum: 8a05a6e790501348ebba66b3d2ace9e2
 SHA1: f7e7cd21e492006ba39b46928fc92a08a082d3f0
@@ -1790,7 +1790,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 528
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: public/repo/debs/com.ginsu.ramundertime_3.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.ramundertime_3.2_iphoneos-arm.deb
 Size: 43492
 MD5sum: ab14153e3baed1ac3dccc2a3a8935e9a
 SHA1: 25084e61a17137f6a06fc16b7554854000053753
@@ -1809,7 +1809,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 2924
 Depends: dev.theos.orion14, firmware (>= 14.0), com.ginsu.libgscommon, preferenceloader
-Filename: public/repo/debs/com.ginsu.recents_1.1.7_iphoneos-arm.deb
+Filename: debs/com.ginsu.recents_1.1.7_iphoneos-arm.deb
 Size: 1109088
 MD5sum: 8d97a7576f2d59d0704e5162233d83cd
 SHA1: bceff771e14b0d3523dd458382c896acce7337b6
@@ -1828,7 +1828,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 712
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.ccsupport
-Filename: public/repo/debs/com.ginsu.routeconfigurator_1.0.1-1_iphoneos-arm.deb
+Filename: debs/com.ginsu.routeconfigurator_1.0.1-1_iphoneos-arm.deb
 Size: 147536
 MD5sum: 255624f51c3a1cdc8e77aafb255276ae
 SHA1: be26d04ce12d416f66809a57ee30374517fecc29
@@ -1847,7 +1847,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 468
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2)
-Filename: public/repo/debs/com.ginsu.volify_2.0.2_iphoneos-arm.deb
+Filename: debs/com.ginsu.volify_2.0.2_iphoneos-arm.deb
 Size: 43720
 MD5sum: 3eff2c9ba13b85433367802fb8318855
 SHA1: 2241266d5bb89f7b0986477a67aa6f0ccd764460
@@ -1866,7 +1866,7 @@ Architecture: iphoneos-arm
 Maintainer: Ginsu
 Installed-Size: 468
 Depends: dev.theos.orion (>= 1.0.0), firmware (>= 12.2), com.peterdev.libpddokdo
-Filename: public/repo/debs/com.ginsu.weatherls_2.0.1_iphoneos-arm.deb
+Filename: debs/com.ginsu.weatherls_2.0.1_iphoneos-arm.deb
 Size: 46820
 MD5sum: 1ea81e63ee6b34c7834770689f1589bb
 SHA1: 279410d71ca2adf07cb3b31e206320ccab4ca212
