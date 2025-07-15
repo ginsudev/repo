@@ -9,7 +9,7 @@
     "build": "tsc -b && vite build && npm run packages",
     "lint": "eslint .",
     "preview": "vite preview",
-    "packages": "bash bin/packages.sh public/repo/debs dist/repo",
+    "packages": "bash bin/packages.sh",
     "packages:menu": "node -r ts-node/register bin/packages/index.ts && npm run packages",
     "deploy": "npm run build && gh-pages -d dist"
   },
