@@ -158,7 +158,4 @@ export default function PackageDepictionPage() {
   )
 }
 
-const newestVersion = (versions: PackageInfo['versions']) =>
-  Object.keys(versions)
-    .sort((a, b) => (a > b ? -1 : 1))
-    .at(0)
+const newestVersion = (versions: PackageInfo['versions']) => Object.keys(versions).sort((a, b) => (a > b ? -1 : 1))[0]
